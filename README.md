@@ -1,2 +1,2 @@
 # Guushu
-Guushu is a greate clothing brand!
+Guushu is a great clothing brand!
