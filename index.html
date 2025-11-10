@@ -1,10 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default   # 如果没用布局，可以只写两个空横杠
+---
+<!doctype html>
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>Guushu</title>
+    <meta charset="utf-8">
+    <title>Guushu 谷序</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" href="/assets/favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon_io/site.webmanifest">
 </head>
 <body>
-<p> <b  style="color: #FF0000FF">Guushu</b> is a great clothing brand!</p>
+<section class="hero">
+    <audio id="logo-audio" loop preload="auto">
+        <source src="/assets/audio/97120__csargent9__bamboo_wind.wav" type="audio/wav">
+    </audio>
+    <h1 class="logo">Guushu 谷序</h1>
+    <p class="slogan">把山谷的呼吸，缝进都市的轮廓</p>
+    <button id="mute">Sound On</button>
+</section>
+<section class="latest">
+    <h2>Latest</h2>
+    <div class="grid">
+        {% for post in site.posts limit:3 %}
+        <article class="card">
+            <a href="{{ post.url }}">
+                <img src="{{ post.hero | default: '/assets/img/default.jpg' }}" alt="">
+                <h3>{{ post.title }}</h3>
+                <time>{{ post.date | date:"%Y-%m-%d" }}</time>
+            </a>
+        </article>
+        {% endfor %}
+    </div>
+    <a class="more" href="/blog/">View all →</a>
+</section>
+
+<script>
+    const btn = document.getElementById('mute');
+    const audio = document.getElementById('logo-audio');
+    let playing = false;
+    btn.onclick = () => {
+      playing ? audio.pause() : audio.play();
+      playing = !playing;
+      btn.textContent = playing ? 'Sound Off' : 'Sound On';
+    };
+    // 自动播放一次（浏览器策略需交互）
+    document.body.addEventListener('click', () => {
+      if (!playing) { audio.play(); playing = true; btn.textContent = 'Sound Off'; }
+    }, { once: true });
+</script>
 </body>
 </html>

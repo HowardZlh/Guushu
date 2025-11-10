@@ -1,0 +1,10 @@
+title: Guushu 谷序
+description: 前言女装 · Forward-looking womenswear
+url: "https://guushu.com"
+baseurl: ""
+markdown: kramdown
+plugins:
+  - jekyll-feed
+github: [metadata: false]
+paginate: 5
+paginate_path: "/blog/page:num/"
