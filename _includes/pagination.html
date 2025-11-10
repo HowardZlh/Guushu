@@ -1,0 +1,23 @@
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="pagination-link">
+        {% if page.lang == 'zh' or page.lang == nil %}上一页{% else %}Previous{% endif %}
+    </a>
+    {% endif %}
+
+    <span class="pagination-info">
+        {% if page.lang == 'zh' or page.lang == nil %}
+            第 {{ paginator.page }} 页，共 {{ paginator.total_pages }} 页
+        {% else %}
+            Page {{ paginator.page }} of {{ paginator.total_pages }}
+        {% endif %}
+    </span>
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="pagination-link">
+        {% if page.lang == 'zh' or page.lang == nil %}下一页{% else %}Next{% endif %}
+    </a>
+    {% endif %}
+</div>
+{% endif %}

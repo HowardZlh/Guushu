@@ -1,57 +1,85 @@
 ---
-layout: default   # 如果没用布局，可以只写两个空横杠
+layout: default
+title: "谷序 | 当代女性时尚品牌"
+description: "谷序(Guushu) - 发现当代女性时尚，分享最新时装资讯，探索品牌故事与时尚哲学。"
 ---
-<!doctype html>
-<html lang="zh-CN">
-<head>
-    <meta charset="utf-8">
-    <title>Guushu 谷序</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
-    <link rel="icon" href="/assets/favicon_io/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicon_io/site.webmanifest">
-</head>
-<body>
+
 <section class="hero">
-    <audio id="logo-audio" loop preload="auto">
-        <source src="/assets/audio/97120__csargent9__bamboo_wind.wav" type="audio/wav">
-    </audio>
-    <h1 class="logo">Guushu 谷序</h1>
-    <p class="slogan">把山谷的呼吸，缝进都市的轮廓</p>
-    <button id="mute">Sound On</button>
-</section>
-<section class="latest">
-    <h2>Latest</h2>
-    <div class="grid">
-        {% for post in site.posts limit:3 %}
-        <article class="card">
-            <a href="{{ post.url }}">
-                <img src="{{ post.hero | default: '/assets/img/default.jpg' }}" alt="">
-                <h3>{{ post.title }}</h3>
-                <time>{{ post.date | date:"%Y-%m-%d" }}</time>
-            </a>
-        </article>
-        {% endfor %}
+    <div class="hero-content">
+        <h1>GUUSHU 谷序</h1>
+        <p>{{ site.data.translations.hero.zh.subtitle }}</p>
+        <a href="/fashion-news/" class="btn">{{ site.data.translations.hero.zh.cta }}</a>
     </div>
-    <a class="more" href="/blog/">View all →</a>
+</section>
+
+<section class="container">
+    <h2 style="text-align: center; margin-bottom: 2rem;">最新时尚洞察</h2>
+
+    <div class="fashion-grid">
+        <div class="fashion-card">
+            <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=400" alt="波西米亚风">
+            <div class="fashion-card-content">
+                <h3>波西米亚风复兴</h3>
+                <p>麂皮纹理和飘逸廓形主导2025春夏系列，展现松弛而精致的美感。</p>
+                <a href="#" class="btn btn-outline">了解更多</a>
+            </div>
+        </div>
+        <div class="fashion-card">
+            <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400" alt="黄色调">
+            <div class="fashion-card-content">
+                <h3>黄色调美学</h3>
+                <p>从香草黄到藏红花黄，黄色成为2025年乐观与能量的象征色彩。</p>
+                <a href="#" class="btn btn-outline">了解更多</a>
+            </div>
+        </div>
+        <div class="fashion-card">
+            <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400" alt="精致运动风">
+            <div class="fashion-card-content">
+                <h3>精致运动风</h3>
+                <p>舒适与精致并存，瑜伽灵感设计与奢华运动面料完美融合。</p>
+                <a href="#" class="btn btn-outline">了解更多</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="brand-story">
+    <div class="container">
+        <div class="brand-story-content">
+            <div>
+                <h2>品牌故事</h2>
+                <p>"谷序"代表着时尚元素在时光山谷中的和谐流动。我们相信创造超越季节的作品，将现代美学与永恒精致完美融合。</p>
+                <p>我们的系列为重视风格与内涵的现代女性精心策划，拥抱可持续发展和道德时尚实践。</p>
+                <a href="/about/index.html" class="btn">探索更多</a>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=500" alt="谷序时尚" style="width: 100%; border-radius: 8px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <h2 style="text-align: center; margin-bottom: 2rem;">订阅时尚资讯</h2>
+    <div class="newsletter-section">
+        <p>获取最新的时尚趋势和独家优惠</p>
+        <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+            <input type="email" placeholder="请输入您的邮箱" required>
+            <button type="submit" class="btn">订阅</button>
+        </form>
+    </div>
 </section>
 
 <script>
-    const btn = document.getElementById('mute');
-    const audio = document.getElementById('logo-audio');
-    let playing = false;
-    btn.onclick = () => {
-      playing ? audio.pause() : audio.play();
-      playing = !playing;
-      btn.textContent = playing ? 'Sound Off' : 'Sound On';
-    };
-    // 自动播放一次（浏览器策略需交互）
-    document.body.addEventListener('click', () => {
-      if (!playing) { audio.play(); playing = true; btn.textContent = 'Sound Off'; }
-    }, { once: true });
+    function handleNewsletter(event) {
+        event.preventDefault();
+        const email = event.target.querySelector('input[type="email"]').value;
+
+        if (email && email.includes('@')) {
+            alert('感谢订阅！您将收到最新的时尚资讯。');
+            event.target.reset();
+        } else {
+            alert('请输入有效的邮箱地址。');
+        }
+    }
 </script>
-</body>
-</html>

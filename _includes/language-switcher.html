@@ -1,0 +1,7 @@
+<div class="language-switcher">
+    {% if page.lang == 'zh' or page.lang == nil %}
+    <a href="/en{{ page.url | replace: 'index.html', '' }}" class="lang-link">English</a>
+    {% else %}
+    <a href="{{ page.url | replace: '/en', '' | replace: 'index.html', '' }}" class="lang-link">中文</a>
+    {% endif %}
+</div>

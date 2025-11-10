@@ -1,0 +1,62 @@
+# 中英文翻译数据
+nav:
+  zh:
+    home: "首页"
+    fashion_news: "时尚资讯"
+    about: "关于我们"
+    contact: "联系我们"
+  en:
+    home: "Home"
+    fashion_news: "Fashion News"
+    about: "About"
+    contact: "Contact"
+
+hero:
+  zh:
+    title: "谷序 Guushu"
+    subtitle: "当代时尚邂逅永恒优雅"
+    cta: "探索最新趋势"
+  en:
+    title: "Guushu 谷序"
+    subtitle: "Where Contemporary Fashion Meets Timeless Elegance"
+    cta: "Explore Latest Trends"
+
+footer:
+  zh:
+    copyright: "&copy; 2025 谷序. 版权所有."
+    follow: "关注我们获取最新时尚资讯"
+  en:
+    copyright: "&copy; 2025 Guushu. All rights reserved."
+    follow: "Follow us for the latest fashion updates"
+
+404:
+  zh:
+    title: "页面未找到"
+    message: "哎呀！您似乎进入了一个空山谷。您要找的页面已经移动或不存在。"
+    home: "返回首页"
+    browse: "浏览时尚资讯"
+  en:
+    title: "Page Not Found"
+    message: "Oops! It seems you've wandered into an empty valley. The page you're looking for has moved or doesn't exist."
+    home: "Return Home"
+    browse: "Browse Fashion News"
+
+about:
+  zh:
+    title: "关于谷序"
+    subtitle: "谷序 - 传统与创新的完美融合"
+    philosophy: "品牌哲学"
+    meaning: "谷序的含义"
+    mission: "我们的使命"
+    sustainability: "可持续发展承诺"
+    design: "设计理念"
+    values: "我们的价值观"
+  en:
+    title: "About Guushu"
+    subtitle: "谷序 - Where Tradition Meets Innovation"
+    philosophy: "Our Philosophy"
+    meaning: "The Meaning of Guushu 谷序"
+    mission: "Our Mission"
+    sustainability: "Sustainability Commitment"
+    design: "Design Philosophy"
+    values: "Our Values"

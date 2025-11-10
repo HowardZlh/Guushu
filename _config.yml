@@ -1,10 +1,59 @@
-title: Guushu 谷序
-description: 前言女装 · Forward-looking womenswear
-url: "https://guushu.com"
+# Site settings
+title: "Guushu 谷序"
+description: "Contemporary Fashion for the Modern Woman"
 baseurl: ""
+url: "https://howardzlh.github.io"
+
+# Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Pagination
+paginate: 6
+paginate_path: "/page:num/"
+
+# Plugins
 plugins:
+  - jekyll-paginate
   - jekyll-feed
-github: [metadata: false]
-paginate: 5
-paginate_path: "/blog/page:num/"
+  - jekyll-seo-tag
+
+# Language settings
+languages: ["zh", "en"]
+default_language: "zh"
+
+# Collections
+collections:
+  fashion_news:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Guushu Team"
+  - scope:
+      path: ""
+      type: "fashion_news"
+    values:
+      layout: "post"

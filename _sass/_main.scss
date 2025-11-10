@@ -1,0 +1,439 @@
+// 主要样式文件
+:root {
+    --primary-color: #2C2C2C;
+    --secondary-color: #F5F5F5;
+    --accent-color: #D4AF37;
+    --text-dark: #1A1A1A;
+    --text-light: #666666;
+    --border-color: #E5E5E5;
+    --hover-color: #B8860B;
+    --error-color: #E74C3C;
+    --success-color: #27AE60;
+    --warning-color: #F39C12;
+    --info-color: #3498DB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: #FFFFFF;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.125rem; }
+h6 { font-size: 1rem; }
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    text-align: center;
+
+    &:hover {
+        background: var(--hover-color);
+        transform: translateY(-2px);
+        color: white;
+    }
+
+    &.btn-outline {
+        background: transparent;
+        border: 2px solid var(--primary-color);
+        color: var(--primary-color);
+
+        &:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+    }
+}
+
+// Header & Navigation
+header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+    a {
+        color: var(--text-dark);
+        font-weight: 400;
+        transition: color 0.3s ease;
+
+        &:hover,
+        &.active {
+            color: var(--accent-color);
+        }
+    }
+}
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-dark);
+}
+
+// Main Content
+main {
+    margin-top: 80px;
+    min-height: calc(100vh - 80px);
+}
+
+// Hero Section
+.hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, var(--secondary-color) 0%, white 100%);
+    margin-bottom: 3rem;
+
+    .hero-content {
+        max-width: 800px;
+        padding: 0 2rem;
+
+        h1 {
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+// Fashion Grid
+.fashion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.fashion-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .fashion-card-content {
+        padding: 1.5rem;
+
+        h3 {
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+// Brand Story
+.brand-story {
+    padding: 4rem 0;
+    background: var(--secondary-color);
+
+    .brand-story-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    }
+}
+
+// Footer
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+
+    p {
+        margin-bottom: 0.5rem;
+    }
+
+    .social-links {
+        margin-top: 1rem;
+
+        a {
+            color: white;
+            margin: 0 0.5rem;
+
+            &:hover {
+                color: var(--accent-color);
+            }
+        }
+    }
+}
+
+// Post Styles
+.post-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+
+    .post-title {
+        margin-bottom: 1rem;
+    }
+
+    .post-date {
+        color: var(--text-light);
+        font-size: 0.9rem;
+    }
+
+    .post-author {
+        color: var(--text-light);
+        font-size: 0.9rem;
+        margin-left: 1rem;
+    }
+}
+
+.post-content {
+    line-height: 1.8;
+    margin-bottom: 3rem;
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        margin: 2rem 0;
+        border-radius: 8px;
+    }
+
+    blockquote {
+        border-left: 4px solid var(--accent-color);
+        padding-left: 1.5rem;
+        margin: 2rem 0;
+        font-style: italic;
+        color: var(--text-light);
+    }
+
+    code {
+        background: var(--secondary-color);
+        padding: 0.2rem 0.4rem;
+        border-radius: 3px;
+        font-family: 'Monaco', 'Consolas', monospace;
+    }
+
+    pre {
+        background: var(--secondary-color);
+        padding: 1rem;
+        border-radius: 8px;
+        overflow-x: auto;
+        margin: 2rem 0;
+
+        code {
+            background: none;
+            padding: 0;
+        }
+    }
+}
+
+.post-tags {
+    margin-top: 2rem;
+
+    .tag {
+        display: inline-block;
+        background: var(--secondary-color);
+        padding: 0.25rem 0.75rem;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+// Pagination
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0;
+
+    .pagination-link {
+        padding: 0.75rem 1.5rem;
+        background: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background: var(--hover-color);
+            transform: translateY(-2px);
+        }
+    }
+
+    .pagination-info {
+        color: var(--text-light);
+        font-size: 0.9rem;
+    }
+}
+
+// Trend Items
+.trend-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-left: 4px solid var(--accent-color);
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+    h3 {
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+
+    small {
+        color: var(--text-light);
+        font-size: 0.8rem;
+
+        strong {
+            color: var(--text-dark);
+        }
+    }
+}
+
+// Error Page
+.error-container {
+    text-align: center;
+    padding: 4rem 0;
+
+    .error-code {
+        font-size: 8rem;
+        font-weight: 100;
+        color: var(--accent-color);
+        margin-bottom: 1rem;
+    }
+}
+
+// Utility Classes
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mt-3 { margin-top: 3rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 2rem; }
+.mb-3 { margin-bottom: 3rem; }

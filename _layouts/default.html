@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'zh' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    {% seo %}
+    {% feed_meta %}
+
+    <!-- Language Detection Script -->
+    <script>
+        // Auto language detection and redirect
+        (function() {
+            const savedLang = localStorage.getItem('guushu_language');
+            const browserLang = navigator.language || navigator.userLanguage;
+            const primaryLang = browserLang.split('-')[0].toLowerCase();
+
+            let targetLang = savedLang || (primaryLang === 'en' ? 'en' : 'zh');
+
+            const currentPath = window.location.pathname;
+            const isEnglishPage = currentPath.startsWith('/en/');
+            const isRootPage = currentPath === '/' || currentPath === '/index.html';
+
+            // Only redirect on first visit or language preference change
+            if (targetLang === 'en' && !isEnglishPage && !isRootPage && !savedLang) {
+                window.location.href = '/en' + currentPath;
+            } else if (targetLang === 'zh' && isEnglishPage && !savedLang) {
+                window.location.href = currentPath.replace('/en/', '/');
+            }
+        })();
+    </script>
+</head>
+<body>
+<!-- Language Switcher -->
+<div class="language-switcher">
+    {% if page.lang == 'zh' or page.lang == nil %}
+    <a href="/en{{ page.url | replace: 'index.html', '' }}" class="lang-link">English</a>
+    {% else %}
+    <a href="{{ page.url | replace: '/en', '' | replace: 'index.html', '' }}" class="lang-link">中文</a>
+    {% endif %}
+</div>
+
+<!-- Header -->
+{% include header.html %}
+
+<!-- Main Content -->
+<main>
+    {{ content }}
+</main>
+
+<!-- Footer -->
+{% include footer.html %}
+
+<!-- Scripts -->
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/components.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+
+    .lang-link {
+        display: inline-block;
+        padding: 8px 16px;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border: 1px solid var(--border-color);
+        border-radius: 20px;
+        text-decoration: none;
+        color: var(--text-dark);
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+        &:hover {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        &:active {
+            transform: translateY(0);
+        }
+    }
+}
+
+// 移动端适配
+@media (max-width: 768px) {
+    .language-switcher {
+        top: 15px;
+        right: 15px;
+
+        .lang-link {
+            padding: 6px 12px;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .language-switcher {
+        top: 10px;
+        right: 10px;
+
+        .lang-link {
+            padding: 5px 10px;
+            font-size: 0.75rem;
+        }
+    }
+
+    header nav {
+        padding-right: 80px; // 为语言切换器留出空间
+    }
+}
