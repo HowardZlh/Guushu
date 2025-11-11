@@ -1,7 +1,7 @@
 # Site settings
 title: "Guushu 谷序"
 description: "Contemporary Fashion for the Modern Woman"
-baseurl: "https://www.guushu.com"
+baseurl: ""
 url: "https://www.guushu.com"
 
 # Build settings
