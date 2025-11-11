@@ -1,8 +1,8 @@
 # Site settings
 title: "Guushu 谷序"
 description: "Contemporary Fashion for the Modern Woman"
-baseurl: ""
-url: "https://howardzlh.github.io"
+baseurl: "https://www.guushu.com"
+url: "https://www.guushu.com"
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ permalink: pretty
 
 # Pagination
 paginate: 6
-paginate_path: "/page:num/"
+paginate_path: "/blog/page:num/"
 
 # Plugins
 plugins:

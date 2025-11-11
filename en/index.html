@@ -14,34 +14,35 @@ lang: en
 </section>
 
 <section class="container">
-    <h2 style="text-align: center; margin-bottom: 2rem;">Latest Fashion Insights</h2>
+    <h2 style="text-align: center; margin-bottom: 2rem;">最新时尚洞察</h2>
 
+    <!-- 最新文章网格（显示前6篇文章） -->
     <div class="fashion-grid">
+        {% assign english_posts = site.posts | where: "lang", "en" %}
+        {% for post in english_posts limit:6 %}
+
         <div class="fashion-card">
-            <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=400" alt="Boho Chic">
-            <div class="fashion-card-content">
-                <h3>Boho Chic Revival</h3>
-                <p>Suede textures and flowing silhouettes dominate Spring/Summer 2025 collections with relaxed sophistication.</p>
-                <a href="#" class="btn btn-outline">Read More</a>
+            {% if post.image %}
+            <img src="{{ post.image | post.hero | relative_url }}" alt="{{ post.title }}"
+                 onerror="this.style.display='none';">
+            {% else %}
+            <!-- 默认图片 -->
+            <img src="{{ '/assets/img/default-fashion.jpg' | relative_url }}" alt="{{ post.title }}">
+            {% endif %}
+            <div class="fashion-card-content" >
+                <h3>{{ post.title }}</h3>
+                <p>{{ post.description | strip_html | truncatewords: 15 }}</p>
+                <a href="{{ post.url | relative_url }}" class="btn btn-outline">Read More</a>
             </div>
         </div>
-        <div class="fashion-card">
-            <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400" alt="Yellow Tones">
-            <div class="fashion-card-content">
-                <h3>Shades of Yellow</h3>
-                <p>From vanilla to saffron, yellow emerges as the color of optimism and energy for 2025.</p>
-                <a href="#" class="btn btn-outline">Read More</a>
-            </div>
-        </div>
-        <div class="fashion-card">
-            <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400" alt="Elevated Sportswear">
-            <div class="fashion-card-content">
-                <h3>Elevated Sportswear</h3>
-                <p>Where comfort meets sophistication in contemporary activewear with yoga-inspired designs.</p>
-                <a href="#" class="btn btn-outline">Read More</a>
-            </div>
-        </div>
+        {% endfor %}
     </div>
+    <!-- 查看更多按钮 -->
+    {% if site.posts.size > 6 %}
+    <div style="text-align: center; margin-top: 3rem;">
+        <a href="{{ site.baseurl }}/blog" class="btn btn-primary">Read More Blogs</a>
+    </div>
+    {% endif %}
 </section>
 
 <section class="brand-story">

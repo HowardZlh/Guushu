@@ -90,7 +90,9 @@ img {
         background: transparent;
         border: 2px solid var(--primary-color);
         color: var(--primary-color);
-
+        position: relative;
+        z-index: 1;
+        pointer-events: auto;
         &:hover {
             background: var(--primary-color);
             color: white;

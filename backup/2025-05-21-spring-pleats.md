@@ -1,10 +1,11 @@
 ---
+layout: post
 title:  "Spring Pleats 2025｜竹影新褶"
 date:   2025-05-21 10:00:00 +0800
-hero:   /post/2025-05-21-spring-pleats/hero.jpg
+image:   /assets/post/2025-05-21-spring-pleats/hero.jpg
 lookbook:
-  - /post/2025-05-21-spring-pleats/01.jpg
-  - /post/2025-05-21-spring-pleats/02.jpg
+  - /assets/post/2025-05-21-spring-pleats/01.jpg
+  - /assets/post/2025-05-21-spring-pleats/02.jpg
 ---
 
 本季我们把「竹影褶」缩小到 0.8 cm 微褶，用 60% 竹纤维 + 40% 长绒棉织成 180 g/m² 的府绸，做成 3 款衬衫裙、2 件风衣、1 条可正反两穿的半裙。  
