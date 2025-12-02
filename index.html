@@ -2,6 +2,7 @@
 layout: default
 title: "谷序 | 当代女性时尚品牌"
 description: "谷序(Guushu) - 发现当代女性时尚，分享最新时装资讯，探索品牌故事与时尚哲学。"
+lang: zh
 ---
 
 <section class="hero">
@@ -23,7 +24,7 @@ description: "谷序(Guushu) - 发现当代女性时尚，分享最新时装资�
 
         <div class="fashion-card">
             {% if post.image %}
-            <img src="{{ post.image | post.hero | relative_url }}" alt="{{ post.title }}"
+            <img src="{{ post.image | default: post.hero | relative_url }}" alt="{{ post.title }}"
                  onerror="this.style.display='none';">
             {% else %}
             <!-- 默认图片 -->

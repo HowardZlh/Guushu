@@ -23,7 +23,7 @@ lang: en
 
         <div class="fashion-card">
             {% if post.image %}
-            <img src="{{ post.image | post.hero | relative_url }}" alt="{{ post.title }}"
+            <img src="{{ post.image | default: post.hero | relative_url }}" alt="{{ post.title }}"
                  onerror="this.style.display='none';">
             {% else %}
             <!-- 默认图片 -->
