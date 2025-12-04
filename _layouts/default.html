@@ -15,7 +15,7 @@
     <script>
         // Auto language detection and redirect
         (function() {
-            const savedLang = localStorage.getItem('guushu_language');
+            const savedLang = '{{ page.lang }}'
             const browserLang = navigator.language || navigator.userLanguage;
             const primaryLang = browserLang.split('-')[0].toLowerCase();
 
