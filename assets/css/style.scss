@@ -1,10 +1,11 @@
 ---
 ---
+@charset "UTF-8";
 // 导入所有样式表
-@import "main";
-@import "responsive";
-@import "components";
-@import "language-switcher";
+@use "main";
+@use "responsive";
+@use "components";
+@use "language-switcher";
 
 // Jekyll 特定样式
 .site-header {
