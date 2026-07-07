@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Pleats: A Craft Guide from Knife to Fortuny"
 description: "Knife, box, accordion, Fortuny — an introductory guide to the types and history of pleating"
-image: "https://commons.wikimedia.org/wiki/Special:FilePath/Conde_nast_fortuny.jpg?width=800"
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Pleats_with_seam.jpg?width=800"
 tags: [pleats, craftsmanship, textile, history]
 date: 2025-03-06
 author: "Guushu Team"
@@ -27,7 +27,7 @@ A variation of the knife pleat with tighter, zigzag folds that expand with movem
 **Cartridge pleat**
 Used to gather a large amount of fabric into a small waistband or armscye without bulking up the seam. Popular in 15th- and 16th-century menswear and womenswear, it returned in the 1840s to support full bell-shaped skirts.
 
-![Pleated fabric detail](https://commons.wikimedia.org/wiki/Special:FilePath/Conde_nast_fortuny.jpg?width=800)
+![Pleated fabric detail](https://commons.wikimedia.org/wiki/Special:FilePath/Pleats_with_seam.jpg?width=800)
 
 ### A Legend: The Fortuny Pleat
 
