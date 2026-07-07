@@ -2,7 +2,7 @@
 layout: post
 title: "Boho Chic Revival: Spring/Summer 2025 Essential Trend"
 description: "Discover how suede textures and flowing silhouettes dominate Spring/Summer 2025 fashion collections"
-image: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=800"
+image: "https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800"
 tags: [boho, suede, spring-summer, trends]
 date: 2025-01-15
 author: "Guushu Team"
@@ -30,7 +30,7 @@ The 2025 boho chic color palette is richer than ever:
 - **Warm Neutrals**: Cream, beige, light khaki
 - **Accent Colors**: Rust red, deep orange
 
-![Boho Chic Style](https://images.unsplash.com/photo-1445205170230-053b83016050?w=800)
+![Boho Chic Style](https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800)
 
 ### Celebrity Inspiration
 

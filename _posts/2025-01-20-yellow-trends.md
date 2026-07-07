@@ -4,7 +4,7 @@ title: "黄色调美学：2025年度色彩趋势解析"
 title_en: "Shades of Yellow: 2025 Color Trend Analysis"
 description: "探索从香草黄到藏红花黄的黄色色谱如何主导2025年时尚色彩趋势"
 description_en: "Discover how the yellow color spectrum from vanilla to saffron dominates 2025 fashion color trends"
-image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800"
+image: "https://images.unsplash.com/photo-1590343104492-972a3169bc98?w=800"
 tags: [yellow, color trends, 2025, fashion]
 date: 2025-01-20
 author: "Guushu Team"
@@ -34,7 +34,7 @@ author: "Guushu Team"
 
 黄色象征着阳光、希望和活力，在不确定的时代背景下，时尚界选择黄色作为主导色彩，传递乐观向上的生活态度。
 
-![Yellow Fashion Trends](https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800)
+![Yellow Fashion Trends](https://images.unsplash.com/photo-1590343104492-972a3169bc98?w=800)
 
 ### 穿搭建议
 

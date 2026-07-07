@@ -4,7 +4,7 @@ title: "波西米亚风复兴：2025春夏必备趋势"
 title_en: "Boho Chic Revival: Spring/Summer 2025 Essential Trend"
 description: "探索麂皮纹理和飘逸廓形如何主导2025春夏时尚系列"
 description_en: "Discover how suede textures and flowing silhouettes dominate Spring/Summer 2025 fashion collections"
-image: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=800"
+image: "https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800"
 tags: [boho, suede, spring-summer, trends]
 date: 2025-01-15
 author: "Guushu Team"
@@ -31,7 +31,7 @@ author: "Guushu Team"
 - **暖调中性色**：奶油白、米色、浅卡其
 - **点缀色彩**：锈红色、深橙色
 
-![Boho Chic Style](https://images.unsplash.com/photo-1445205170230-053b83016050?w=800)
+![Boho Chic Style](https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800)
 
 ### 明星示范
 
