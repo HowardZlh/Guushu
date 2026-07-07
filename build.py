@@ -79,6 +79,19 @@ def strip_html(text):
     return re.sub(r"<[^>]+>", "", text or "")
 
 
+def extract_excerpt(content_html):
+    """First real paragraph of the rendered post, as plain text.
+
+    Skips leading headings/other block elements so the blog card shows a
+    readable sentence instead of raw Markdown (e.g. "## 标题")."""
+    for m in re.finditer(r"<p[^>]*>(.*?)</p>", content_html, re.DOTALL):
+        text = strip_html(m.group(1)).strip()
+        if text:
+            return text
+    # Fall back to any text content if there are no <p> blocks.
+    return strip_html(content_html).strip()
+
+
 def truncate_words(text, n):
     words = text.split()
     return " ".join(words[:n])
@@ -133,7 +146,7 @@ def load_posts():
                 "date_xml": date.isoformat(),
                 "url": url,
                 "content": content_html,
-                "excerpt": strip_html(body.strip().split("\n\n")[0]) if body.strip() else "",
+                "excerpt": extract_excerpt(content_html),
                 "slug": slug,
             })
     # Newest first (matches Jekyll's site.posts ordering)
