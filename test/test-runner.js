@@ -60,6 +60,47 @@ function assertNotIncludes(haystack, needle, msg) {
     }
 }
 
+function assertMatch(haystack, regex, msg) {
+    const str = String(haystack);
+    if (!regex.test(str)) {
+        throw new Error(
+            (msg || 'Assertion failed') +
+            `:\n  haystack: ${JSON.stringify(str)}\n  should match: ${regex}`
+        );
+    }
+}
+
+function assertThrows(fn, msg) {
+    let threw = false;
+    try {
+        fn();
+    } catch (e) {
+        threw = true;
+    }
+    if (!threw) {
+        throw new Error((msg || 'Assertion failed') + ': expected function to throw, but it did not');
+    }
+}
+
+function assertDoesNotThrow(fn, msg) {
+    try {
+        fn();
+    } catch (e) {
+        throw new Error((msg || 'Assertion failed') + `: expected function not to throw, but it threw: ${e.message}`);
+    }
+}
+
+function assertDeepEqual(actual, expected, msg) {
+    const a = JSON.stringify(actual);
+    const b = JSON.stringify(expected);
+    if (a !== b) {
+        throw new Error(
+            (msg || 'Assertion failed') +
+            `:\n  expected: ${b}\n  actual:   ${a}`
+        );
+    }
+}
+
 function runTests(testFiles) {
     const path = require('path');
     testFiles.forEach(file => {
@@ -76,4 +117,4 @@ function runTests(testFiles) {
     }
 }
 
-module.exports = { describe, it, assertEqual, assertTrue, assertFalse, assertIncludes, assertNotIncludes, runTests };
+module.exports = { describe, it, assertEqual, assertTrue, assertFalse, assertIncludes, assertNotIncludes, assertMatch, assertThrows, assertDoesNotThrow, assertDeepEqual, runTests };

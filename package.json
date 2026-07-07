@@ -1,0 +1,15 @@
+{
+  "name": "guushu",
+  "version": "1.0.0",
+  "description": "Guushu 谷序 — contemporary fashion brand website (Python static build)",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "python3 build.py",
+    "test": "node test/run-all.js",
+    "test:build": "python3 build.py && node test/run-build.js"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}

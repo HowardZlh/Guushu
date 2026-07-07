@@ -1,16 +1,17 @@
-# Jekyll build output
+# Build output
 _site/
 .sass-cache/
-.jekyll-cache/
-.jekyll-metadata
 
-# Bundler / Ruby gems
-vendor/bundle/
-.bundle/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.eggs/
+*.egg-info/
 
-# Gemfile.lock is environment-specific; GitHub Actions regenerates it.
-# Uncomment the next line if you want to commit it for reproducible builds.
-Gemfile.lock
+# Transient SCSS build file
+assets/css/.style.build.scss
 
 # IDE / Editor
 .idea/
@@ -36,7 +37,7 @@ Desktop.ini
 *.backup
 *.bak
 
-# Node.js (if ever added)
+# Node.js (dart-sass toolchain)
 node_modules/
 npm-debug.log*
 yarn-debug.log*

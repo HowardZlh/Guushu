@@ -149,14 +149,8 @@ const MainJS = {
     }
 };
 
-// Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', function() {
-    MainJS.init();
-});
-
-// Add CSS animations
-const style = document.createElement('style');
-style.textContent = `
+// Injected animation styles (browser only)
+const ANIMATION_STYLES = `
     .fashion-card, .trend-item, .brand-story-content {
         opacity: 0;
         transform: translateY(30px);
@@ -177,4 +171,27 @@ style.textContent = `
         opacity: 1;
     }
 `;
-document.head.appendChild(style);
+
+// Bootstrap in browser environment only.
+// Guarded so the module can be safely required in Node.js for testing.
+if (typeof document !== 'undefined' && typeof document.addEventListener === 'function') {
+    // Initialize when DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+        MainJS.init();
+    });
+
+    // Add CSS animations
+    const style = document.createElement('style');
+    style.textContent = ANIMATION_STYLES;
+    document.head.appendChild(style);
+}
+
+// Browser global
+if (typeof window !== 'undefined') {
+    window.MainJS = MainJS;
+}
+
+// Node.js / CommonJS compatibility for tests
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { MainJS, ANIMATION_STYLES };
+}
