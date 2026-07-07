@@ -4,7 +4,7 @@ title: "褶皱风潮：2025春夏廓形关键词"
 title_en: "The Pleats Movement: The Silhouette Keyword of Spring/Summer 2025"
 description: "从压褶到软褶，解析褶皱工艺如何成为2025春夏最具流动感的廓形语言"
 description_en: "From pressed to unpressed folds, exploring how pleating became the most fluid silhouette language of Spring/Summer 2025"
-image: "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=800"
+image: "https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800"
 tags: [pleats, silhouette, spring-summer, texture, trends]
 date: 2025-05-21
 author: "Guushu Team"
@@ -27,7 +27,7 @@ author: "Guushu Team"
 
 褶皱的魅力在于它同时满足功能与美学两种诉求：既为穿着者提供活动余量，又在静止与走动之间制造视觉变化。在强调轻盈与流动的春夏语境里，这种"会呼吸的结构"自然成为焦点。
 
-![Pleated silhouette](https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=800)
+![Pleated silhouette](https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800)
 
 ### 关键单品
 

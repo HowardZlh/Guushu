@@ -2,7 +2,7 @@
 layout: post
 title: "Crochet and Slow Fashion: Sustainability in Every Stitch"
 description: "From Irish crochet to the contemporary catwalk, how this handcraft meets sustainable fashion"
-image: "https://commons.wikimedia.org/wiki/Special:FilePath/Irish_crochet.jpg?width=800"
+image: "https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800"
 tags: [crochet, craftsmanship, sustainability, summer]
 date: 2025-06-26
 author: "Guushu Team"
@@ -17,7 +17,7 @@ Crochet is the craft of interlocking loops of yarn, thread, or other materials i
 
 Substantive physical evidence of crocheted fabric only emerges in Europe in the 19th century. One of its most moving chapters came during the Great Irish Famine (1845–1849), when crochet lace was introduced as a form of famine relief — impoverished workers made a living from it as co-operatives formed, schools opened, and teachers were trained and sent across Ireland to pass on the craft. When the Irish emigrated to the Americas, they took crochet with them. Irish crochet lace became popular across Europe and America, produced in quantity until the First World War.
 
-![Crochet detail](https://commons.wikimedia.org/wiki/Special:FilePath/Irish_crochet.jpg?width=800)
+![Crochet detail](https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800)
 
 ### Why Crochet Is Naturally Sustainable
 

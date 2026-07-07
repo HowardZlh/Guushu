@@ -4,7 +4,7 @@ title: "钩针工艺与慢时尚：一针一线里的可持续"
 title_en: "Crochet and Slow Fashion: Sustainability in Every Stitch"
 description: "从爱尔兰钩针到当代T台，看这门手工技艺如何与可持续时尚相遇"
 description_en: "From Irish crochet to the contemporary catwalk, how this handcraft meets sustainable fashion"
-image: "https://commons.wikimedia.org/wiki/Special:FilePath/Irish_crochet.jpg?width=800"
+image: "https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800"
 tags: [crochet, craftsmanship, sustainability, summer]
 date: 2025-06-26
 author: "Guushu Team"
@@ -18,7 +18,7 @@ author: "Guushu Team"
 
 钩针编织作为一种技艺，直到 19 世纪才在欧洲留下确凿的实物证据。其中最动人的一段，是 19 世纪爱尔兰大饥荒（1845–1849）期间，钩针蕾丝被引入作为赈灾手段——贫困的工人借此谋生，人们成立合作社、开办学校、培训教师并派往爱尔兰各地传授这门手艺。当爱尔兰人移民美洲时，也把钩针技艺一并带走。爱尔兰钩针蕾丝一度风靡欧美，直到第一次世界大战前仍大量生产。
 
-![Crochet detail](https://commons.wikimedia.org/wiki/Special:FilePath/Irish_crochet.jpg?width=800)
+![Crochet detail](https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800)
 
 ### 为什么钩针天然可持续
 

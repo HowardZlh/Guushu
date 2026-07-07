@@ -2,7 +2,7 @@
 layout: post
 title: "The Pleats Movement: The Silhouette Keyword of Spring/Summer 2025"
 description: "From pressed to unpressed folds, exploring how pleating became the most fluid silhouette language of Spring/Summer 2025"
-image: "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=800"
+image: "https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800"
 tags: [pleats, silhouette, spring-summer, texture, trends]
 date: 2025-05-21
 author: "Guushu Team"
@@ -26,7 +26,7 @@ Understanding these two languages is where reading this season's pleating begins
 
 The appeal of the pleat is that it satisfies both function and aesthetics: it grants the wearer freedom of movement while creating visual change between stillness and motion. In a spring/summer mood that prizes lightness and flow, this "breathing structure" naturally takes centre stage.
 
-![Pleated silhouette](https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=800)
+![Pleated silhouette](https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800)
 
 ### Key Pieces
 

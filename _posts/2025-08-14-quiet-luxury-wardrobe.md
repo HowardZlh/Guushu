@@ -4,7 +4,7 @@ title: "构建静奢风衣橱：投资比拥有更重要"
 title_en: "Building a Quiet Luxury Wardrobe: Investing Over Owning"
 description: "面料、剪裁与克制的配色——一份关于如何搭建低调高级衣橱的实用指南"
 description_en: "Fabric, cut, and a restrained palette — a practical guide to building an understated, elevated wardrobe"
-image: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800"
+image: "https://images.unsplash.com/photo-1641642231157-0849081598a2?w=800"
 tags: [quiet-luxury, wardrobe, investment, minimalism]
 date: 2025-08-14
 author: "Guushu Team"
@@ -25,7 +25,7 @@ author: "Guushu Team"
 **配色克制**
 以米色、白色、灰色、藏青、鼠尾草绿等中性、低饱和色调为主。克制的配色让单品之间天然协调，也更容易长期搭配。
 
-![Understated wardrobe](https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800)
+![Understated wardrobe](https://images.unsplash.com/photo-1641642231157-0849081598a2?w=800)
 
 ### 值得投资的基础单品
 

@@ -4,7 +4,7 @@ title: "钩针单品夏日穿搭：手工感的清凉表达"
 title_en: "Styling Crochet in Summer: A Cool, Handmade Statement"
 description: "从海边到城市，解锁钩针单品在盛夏的多种穿搭思路"
 description_en: "From the beach to the city, unlocking summer styling ideas for crochet pieces"
-image: "https://commons.wikimedia.org/wiki/Special:FilePath/Table-cloth_2008-1.jpg?width=800"
+image: "https://images.unsplash.com/photo-1752133953101-572b52d578b5?w=800"
 tags: [crochet, styling, summer, wardrobe]
 date: 2025-07-17
 author: "Guushu Team"
@@ -34,7 +34,7 @@ author: "Guushu Team"
 - 钩针连衣裙 + 细带凉鞋 + 精致耳饰
 - 手工纹理在灯光下别有韵味，无需繁复配饰。
 
-![Crochet summer look](https://commons.wikimedia.org/wiki/Special:FilePath/Table-cloth_2008-1.jpg?width=800)
+![Crochet summer look](https://images.unsplash.com/photo-1752133953101-572b52d578b5?w=800)
 
 ### 叠穿与打底
 

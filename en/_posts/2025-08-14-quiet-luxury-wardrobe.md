@@ -2,7 +2,7 @@
 layout: post
 title: "Building a Quiet Luxury Wardrobe: Investing Over Owning"
 description: "Fabric, cut, and a restrained palette — a practical guide to building an understated, elevated wardrobe"
-image: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800"
+image: "https://images.unsplash.com/photo-1641642231157-0849081598a2?w=800"
 tags: [quiet-luxury, wardrobe, investment, minimalism]
 date: 2025-08-14
 author: "Guushu Team"
@@ -24,7 +24,7 @@ Choose trend-resistant styles and clean fits. A classic cut means a longer lifes
 **Restrained Palette**
 Lead with neutral, low-saturation tones: beige, white, grey, navy, sage. A restrained palette lets pieces coordinate naturally and makes them easier to wear over the long term.
 
-![Understated wardrobe](https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800)
+![Understated wardrobe](https://images.unsplash.com/photo-1641642231157-0849081598a2?w=800)
 
 ### Foundation Pieces Worth Investing In
 

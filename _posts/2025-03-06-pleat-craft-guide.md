@@ -4,7 +4,7 @@ title: "读懂褶皱：从刀褶到Fortuny褶的工艺图鉴"
 title_en: "Understanding Pleats: A Craft Guide from Knife to Fortuny"
 description: "刀褶、箱褶、手风琴褶、Fortuny褶——一份关于褶皱工艺类型与历史的入门图鉴"
 description_en: "Knife, box, accordion, Fortuny — an introductory guide to the types and history of pleating"
-image: "https://commons.wikimedia.org/wiki/Special:FilePath/Pleats_with_seam.jpg?width=800"
+image: "https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800"
 tags: [pleats, craftsmanship, textile, history]
 date: 2025-03-06
 author: "Guushu Team"
@@ -28,7 +28,7 @@ author: "Guushu Team"
 **筒褶（Cartridge pleat）**
 用于把大量布料收进小小的腰头或袖窿而不增加接缝厚度，15、16 世纪的男女服装中很流行，19 世纪 40 年代再度回归以承托钟形大裙摆。
 
-![Pleated fabric detail](https://commons.wikimedia.org/wiki/Special:FilePath/Pleats_with_seam.jpg?width=800)
+![手风琴褶长裙](https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800)
 
 ### 一个传奇：Fortuny 褶
 

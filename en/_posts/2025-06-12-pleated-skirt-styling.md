@@ -2,7 +2,7 @@
 layout: post
 title: "Styling the Pleated Skirt: Let Movement Lead the Look"
 description: "From commute to weekend, unlocking multiple summer styling ideas for the pleated skirt"
-image: "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800"
+image: "https://images.unsplash.com/photo-1762342676026-09e25daaf607?w=800"
 tags: [pleated-skirt, styling, summer, wardrobe]
 date: 2025-06-12
 author: "Guushu Team"
@@ -27,7 +27,7 @@ The charm of the pleated skirt is that it is "crisp when still, flying when movi
 - Sheeny pleated skirt + slip top + heeled sandals
 - The flow of pleats under light naturally lends a touch of occasion.
 
-![Pleated skirt look](https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800)
+![Pleated skirt look](https://images.unsplash.com/photo-1762342676026-09e25daaf607?w=800)
 
 ### The Key to Balance: Simple Top, Rich Bottom
 

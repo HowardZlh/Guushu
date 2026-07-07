@@ -2,7 +2,7 @@
 layout: post
 title: "Everyday Sequins: Wearing Festive Shine into Daily Life"
 description: "Daytime sparkle, toning it down, and a light touch — three ways to make sequins feel effortless"
-image: "https://commons.wikimedia.org/wiki/Special:FilePath/Pink_Sequins_Fabric-6871045279.jpg?width=800"
+image: "https://images.unsplash.com/photo-1779406273746-8aef6abde6de?w=800"
 tags: [sequins, styling, party, winter]
 date: 2025-12-11
 author: "Guushu Team"
@@ -29,7 +29,7 @@ You don't need to shine head to toe. A single sequin piece — or even just a se
 - A plain suit + sequin clutch
 - A basic knit + sequin earrings
 
-![Sequins in daylight](https://commons.wikimedia.org/wiki/Special:FilePath/Pink_Sequins_Fabric-6871045279.jpg?width=800)
+![Sequins in daylight](https://images.unsplash.com/photo-1779406273746-8aef6abde6de?w=800)
 
 ### Idea Three: Sequins in Daylight
 

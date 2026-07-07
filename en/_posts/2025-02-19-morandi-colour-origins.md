@@ -2,7 +2,7 @@
 layout: post
 title: "The Origins of Morandi Colours: From Still Life to Wardrobe"
 description: "From the still-life palette of Italian painter Giorgio Morandi to the rise of muted greyed tones in fashion"
-image: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800"
+image: "https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800"
 tags: [morandi, color, muted-tones, aesthetics]
 date: 2025-02-19
 author: "Guushu Team"
@@ -21,7 +21,7 @@ The name "Morandi colours" comes from the Italian painter Giorgio Morandi (1890â
 
 The temperament of these colours is quiet, reserved, and easy to live with â€” very much in tune with the understated aesthetic of recent years.
 
-![Muted still-life palette](https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800)
+![Knitwear in Morandi tones](https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800)
 
 ### Why They Wear So Well
 

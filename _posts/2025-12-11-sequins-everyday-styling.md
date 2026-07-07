@@ -4,7 +4,7 @@ title: "亮片日常化：把节庆闪耀穿进日常"
 title_en: "Everyday Sequins: Wearing Festive Shine into Daily Life"
 description: "白天穿亮片、降调搭配、点到为止——三种让闪耀不显浮夸的穿搭思路"
 description_en: "Daytime sparkle, toning it down, and a light touch — three ways to make sequins feel effortless"
-image: "https://commons.wikimedia.org/wiki/Special:FilePath/Pink_Sequins_Fabric-6871045279.jpg?width=800"
+image: "https://images.unsplash.com/photo-1779406273746-8aef6abde6de?w=800"
 tags: [sequins, styling, party, winter]
 date: 2025-12-11
 author: "Guushu Team"
@@ -30,7 +30,7 @@ author: "Guushu Team"
 - 素色套装 + 亮片手包
 - 基础针织 + 亮片耳饰
 
-![Sequins in daylight](https://commons.wikimedia.org/wiki/Special:FilePath/Pink_Sequins_Fabric-6871045279.jpg?width=800)
+![Sequins in daylight](https://images.unsplash.com/photo-1779406273746-8aef6abde6de?w=800)
 
 ### 思路三：白天穿亮片
 

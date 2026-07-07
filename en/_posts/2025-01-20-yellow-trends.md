@@ -2,7 +2,7 @@
 layout: post
 title: "Shades of Yellow: 2025 Color Trend Analysis"
 description: "Discover how the yellow color spectrum from vanilla to saffron dominates 2025 fashion color trends"
-image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800"
+image: "https://images.unsplash.com/photo-1590343104492-972a3169bc98?w=800"
 tags: [yellow, color trends, 2025, fashion]
 date: 2025-01-20
 author: "Guushu Team"
@@ -33,7 +33,7 @@ In 2025, yellow tones are sweeping the fashion world like never before. From sof
 
 Yellow symbolizes sunshine, hope and vitality. Against the backdrop of uncertain times, the fashion industry has chosen yellow as the dominant color to convey an optimistic and upward-looking attitude to life.
 
-![Yellow Fashion Trends](https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800)
+![Yellow Fashion Trends](https://images.unsplash.com/photo-1590343104492-972a3169bc98?w=800)
 
 ### Styling Tips
 

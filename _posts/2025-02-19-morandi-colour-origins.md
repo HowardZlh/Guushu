@@ -4,7 +4,7 @@ title: "莫兰迪色的源流：从静物画到衣橱"
 title_en: "The Origins of Morandi Colours: From Still Life to Wardrobe"
 description: "从意大利画家莫兰迪的静物调色板，看低饱和灰调色系如何走进时尚"
 description_en: "From the still-life palette of Italian painter Giorgio Morandi to the rise of muted greyed tones in fashion"
-image: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800"
+image: "https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800"
 tags: [morandi, color, muted-tones, aesthetics]
 date: 2025-02-19
 author: "Guushu Team"
@@ -22,7 +22,7 @@ author: "Guushu Team"
 
 这种色彩的气质是安静、内敛、耐看的，与近年流行的低调审美不谋而合。
 
-![Muted still-life palette](https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800)
+![莫兰迪色调的针织穿搭](https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800)
 
 ### 为什么它如此耐看
 

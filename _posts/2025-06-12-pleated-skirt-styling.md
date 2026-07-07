@@ -4,7 +4,7 @@ title: "百褶裙穿搭：让流动成为造型主角"
 title_en: "Styling the Pleated Skirt: Let Movement Lead the Look"
 description: "从通勤到周末，解锁百褶裙在夏季的多种穿搭思路"
 description_en: "From commute to weekend, unlocking multiple summer styling ideas for the pleated skirt"
-image: "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800"
+image: "https://images.unsplash.com/photo-1762342676026-09e25daaf607?w=800"
 tags: [pleated-skirt, styling, summer, wardrobe]
 date: 2025-06-12
 author: "Guushu Team"
@@ -28,7 +28,7 @@ author: "Guushu Team"
 - 光泽面料百褶裙 + 细肩带上衣 + 高跟凉鞋
 - 褶皱在灯光下的流动，天然带来一点隆重感。
 
-![Pleated skirt look](https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800)
+![Pleated skirt look](https://images.unsplash.com/photo-1762342676026-09e25daaf607?w=800)
 
 ### 平衡的关键：上简下繁
 

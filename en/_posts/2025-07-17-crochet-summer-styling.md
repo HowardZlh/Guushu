@@ -2,7 +2,7 @@
 layout: post
 title: "Styling Crochet in Summer: A Cool, Handmade Statement"
 description: "From the beach to the city, unlocking summer styling ideas for crochet pieces"
-image: "https://commons.wikimedia.org/wiki/Special:FilePath/Table-cloth_2008-1.jpg?width=800"
+image: "https://images.unsplash.com/photo-1752133953101-572b52d578b5?w=800"
 tags: [crochet, styling, summer, wardrobe]
 date: 2025-07-17
 author: "Guushu Team"
@@ -33,7 +33,7 @@ Crocheted fabric is made of interlocked loops, giving it a naturally breathable,
 - Crochet dress + strappy sandals + refined earrings
 - The handmade texture has a special charm under light, needing no elaborate accessories.
 
-![Crochet summer look](https://commons.wikimedia.org/wiki/Special:FilePath/Table-cloth_2008-1.jpg?width=800)
+![Crochet summer look](https://images.unsplash.com/photo-1752133953101-572b52d578b5?w=800)
 
 ### Layering and Base Layers
 

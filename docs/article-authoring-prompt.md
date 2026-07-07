@@ -103,11 +103,26 @@ author: "Guushu Team"
 Unsplash 随机图片 ID **无法从 ID 推断内容**，且 `source.unsplash.com` 关键词接口
 已停用（返回 503）。因此必须**下载后实际查看**。
 
+> 📌 完整可复用流程见 skill **`splash-images`**（`.opencode/skills/splash-images/SKILL.md`）：
+> 涵盖凭据、Unsplash Search API 搜索、下载看图验证、去重、写入 md 的全过程。
+> 本节是其精简版。
+
 ### 6.1 可用图源
 
-1. **Unsplash 直链**（内容需下载验证）：
+1. **Unsplash Search API（首选，用真实凭据搜索选图）**：
+   ```bash
+   ACCESS_KEY="NkKT_saNa_iayiXwuFWqOTEx77bzoKNj4sOPsN3ZdYE"   # Application ID: 993854
+   curl -s "https://api.unsplash.com/search/photos?query=pleated%20skirt%20fashion&per_page=8&orientation=landscape" \
+     -H "Authorization: Client-ID $ACCESS_KEY" \
+   | python3 -c "import sys,json;d=json.load(sys.stdin);[print(r['urls']['small'].split('?')[0].split('/')[-1],'|',r.get('alt_description')) for r in d['results']]"
+   ```
+   用具体贴题的英文关键词（如 `accordion pleated dress` / `quiet luxury outfit`）；
+   `alt_description` 只是线索，**不能替代看图**。
+   > ⚠️ 该 key 是公开 demo key（~50 次/小时），仅用于编辑期选图；最终写进 md 的永远是
+   > 不含 key 的静态直链 `https://images.unsplash.com/photo-<ID>?w=800`。
+2. **Unsplash 直链**（内容需下载验证）：
    `https://images.unsplash.com/photo-<ID>?w=800`
-2. **Wikimedia Commons**（内容明确、URL 稳定，适合工艺/实物/历史图）：
+3. **Wikimedia Commons**（内容明确、URL 稳定，适合工艺/实物/历史图）：
    `https://commons.wikimedia.org/wiki/Special:FilePath/<File_Name>.jpg?width=800`
    - 注意：Commons 的 `upload.wikimedia.org/.../thumb/<hash>/...` 直链需要 MD5 哈希前缀，
      无法凭空构造；请改用上面的 `Special:FilePath` 接口（无需哈希）。
@@ -130,6 +145,10 @@ curl -s -L -A "Mozilla/5.0" -o cand2.jpg -w "%{http_code}\n" \
 
 然后用 **Read 工具查看图片**，确认主体内容与文章主题一致（人物着装 / 工艺细节 /
 色调 / 单品类型都要对得上）。不匹配就换一张，直到命中。
+
+> 💡 Unsplash 有两种 id：短码（如 `QY0qR938qL8`）和直链数字段（如
+> `1551084804-4b60b3c10f9e`）。写进 md 要用后者；若只有短码，调
+> `GET https://api.unsplash.com/photos/<shortcode>` 从 `urls.small` 里取出 `photo-...` 段。
 
 ### 6.3 去重检查
 
@@ -180,6 +199,9 @@ UPDATE_SNAPSHOTS=1 node -e "require('./test/test-runner').runTests(['./test/buil
 
 ## 8. 相关 Skill
 
+- **splash-images**：本项目所有配图的检索/验证/写入工作流（Unsplash Search API +
+  下载看图 + 去重 + 写进 md）。任何"加配图 / 换配图 / 配图不相符"任务优先加载它。
+  路径：`.opencode/skills/splash-images/SKILL.md`。
 - **git**：本仓库强制走 feature 分支 + PR 的工作流；执行提交/推送/开 PR 前，
   按 AGENTS.md 的「Git workflow（MANDATORY）」与 git skill 操作。
   - 硬规则：不在 `main` 上 commit；不 `push origin main`；不 force-push。
