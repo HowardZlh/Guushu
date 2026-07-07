@@ -2,7 +2,7 @@
 layout: post
 title: "Morandi Colour Formulas: How to Wear Elevated Greyed Tones"
 description: "Tonal shades, adjacent transitions, and neutral balance — three practical Morandi colour formulas"
-image: "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?w=800"
+image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800"
 tags: [morandi, color, styling, spring]
 date: 2025-04-10
 author: "Guushu Team"
@@ -25,7 +25,7 @@ Colours that sit next to each other on the wheel and share a similar greyness ha
 
 **Best for**: occasions where you want a little colour variation while keeping things calm.
 
-![Morandi tonal outfit](https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?w=800)
+![Morandi tonal outfit](https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800)
 
 ### Formula Three: Neutral Balance
 

@@ -4,7 +4,7 @@ title: "莫兰迪色搭配公式：如何穿出高级灰调"
 title_en: "Morandi Colour Formulas: How to Wear Elevated Greyed Tones"
 description: "同色深浅、邻近色过渡与中性平衡——三套实用的莫兰迪色搭配思路"
 description_en: "Tonal shades, adjacent transitions, and neutral balance — three practical Morandi colour formulas"
-image: "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?w=800"
+image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800"
 tags: [morandi, color, styling, spring]
 date: 2025-04-10
 author: "Guushu Team"
@@ -26,7 +26,7 @@ author: "Guushu Team"
 
 **适合**：想要一点色彩变化，但仍保持整体宁静的场合。
 
-![Morandi tonal outfit](https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?w=800)
+![Morandi tonal outfit](https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800)
 
 ### 公式三：中性色平衡
 

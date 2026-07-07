@@ -4,7 +4,7 @@ title: "精致运动风：当舒适遇见奢华"
 title_en: "Elevated Sportswear: Where Comfort Meets Luxury"
 description: "探索2025年运动服装如何升级为奢华时尚单品，重新定义舒适与风格的边界"
 description_en: "Explore how sportswear evolves into luxury fashion pieces in 2025, redefining the boundaries of comfort and style"
-image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800"
+image: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800"
 tags: [sportswear, luxury, comfort, 2025, athleisure]
 date: 2025-01-25
 author: "Guushu Team"
@@ -39,7 +39,7 @@ author: "Guushu Team"
 
 ### 材质革新
 
-![Elevated Sportswear](https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800)
+![Elevated Sportswear](https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800)
 
 **高科技面料**
 - 吸湿排汗，保持干爽

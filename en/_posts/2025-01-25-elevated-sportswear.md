@@ -2,7 +2,7 @@
 layout: post
 title: "Elevated Sportswear: Where Comfort Meets Luxury"
 description: "Explore how sportswear evolves into luxury fashion pieces in 2025, redefining the boundaries of comfort and style"
-image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800"
+image: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800"
 tags: [sportswear, luxury, comfort, 2025, athleisure]
 date: 2025-01-25
 author: "Guushu Team"
@@ -38,7 +38,7 @@ In 2025, sportswear is undergoing an unprecedented luxury upgrade. From gyms to 
 
 ### Material Innovation
 
-![Elevated Sportswear](https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800)
+![Elevated Sportswear](https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800)
 
 **High-Tech Fabrics**
 - Moisture-wicking to keep dry
