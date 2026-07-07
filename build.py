@@ -238,11 +238,24 @@ def liquid_to_jinja(body):
 # ---------------------------------------------------------------------------
 # Posts + blog
 # ---------------------------------------------------------------------------
-def build_posts(env, posts):
+def localize_tags(tags, lang, translations):
+    """Map tag slugs to {slug, label} pairs in the given language.
+
+    Falls back to the raw slug when no translation exists so nothing is lost."""
+    table = (translations.get("tags", {}) or {}).get(lang, {})
+    result = []
+    for tag in tags or []:
+        key = str(tag)
+        result.append({"slug": key, "label": table.get(key, key)})
+    return result
+
+
+def build_posts(env, translations, posts):
     tpl = env.get_template("post.html")
     for p in posts:
         page = dict(p)
         page["lang_explicit"] = True
+        page["tags"] = localize_tags(p["tags"], p["lang"], translations)
         out_rel = p["url"].strip("/") + "/index.html"
         html = tpl.render(site=SITE, page=page)
         write_page(out_rel, html)
@@ -250,32 +263,48 @@ def build_posts(env, posts):
 
 BLOG_TEMPLATE = """{% extends "base.html" %}
 {% block content %}
-<section class="blog-list">
-    <h1>All Posts</h1>
-    <div class="grid">
+<section class="container">
+    <h2 style="text-align: center; margin-bottom: 2rem;">{{ heading }}</h2>
+    <div class="fashion-grid">
         {% for post in posts %}
-        <article class="card">
-            <a href="{{ post.url }}">
-                <img src="{{ post.image }}" alt="{{ post.title }}">
+        <div class="fashion-card">
+            {% if post.image %}
+            <img src="{{ post.image }}" alt="{{ post.title }}" onerror="this.style.display='none';">
+            {% endif %}
+            <div class="fashion-card-content">
                 <h3>{{ post.title }}</h3>
                 <time datetime="{{ post.date_xml }}">{{ post.date.strftime('%Y-%m-%d') }}</time>
                 <p>{{ truncate_words(strip_html(post.excerpt), 20) }}</p>
-            </a>
-        </article>
+                <a href="{{ post.url }}" class="btn btn-outline">{{ learn_more }}</a>
+            </div>
+        </div>
         {% endfor %}
     </div>
 </section>
 {% endblock %}
 """
 
+# (lang, output path, page url, heading) — mirrors the bilingual directory scheme.
+BLOG_VARIANTS = [
+    ("zh", "blog/index.html",    "/blog/index.html",    "所有文章"),
+    ("en", "en/blog/index.html", "/en/blog/index.html", "All Posts"),
+]
 
-def build_blog(env, posts):
+
+def build_blog(env, translations, posts):
     tpl = env.from_string(BLOG_TEMPLATE)
-    page = {"title": "Blog", "description": SITE["description"],
-            "lang": "zh", "lang_explicit": False, "url": "/blog/index.html"}
-    html = tpl.render(site=SITE, page=page, posts=posts,
-                      strip_html=strip_html, truncate_words=truncate_words)
-    write_page("blog/index.html", html)
+    for lang, out_rel, url, heading in BLOG_VARIANTS:
+        lang_posts = [p for p in posts if p["lang"] == lang]
+        learn_more = (translations.get("cta", {}).get(lang, {})
+                      .get("learn_more", "了解更多"))
+        # lang_explicit=True disables the auto language-detection redirect in
+        # base.html so the manual language switch (English/中文) is not undone.
+        page = {"title": "Blog", "description": SITE["description"],
+                "lang": lang, "lang_explicit": True, "url": url}
+        html = tpl.render(site=SITE, page=page, posts=lang_posts,
+                          heading=heading, learn_more=learn_more,
+                          strip_html=strip_html, truncate_words=truncate_words)
+        write_page(out_rel, html)
 
 
 # ---------------------------------------------------------------------------
@@ -374,8 +403,8 @@ def main():
     posts = load_posts()
 
     build_html_pages(env, translations, posts)
-    build_posts(env, posts)
-    build_blog(env, posts)
+    build_posts(env, translations, posts)
+    build_blog(env, translations, posts)
     build_feed(posts)
     compile_scss()
     copy_assets()

@@ -17,7 +17,7 @@
         {% if page.tags %}
         <div class="post-tags">
             {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
+            <span class="tag" data-tag="{{ tag.slug }}">{{ tag.label }}</span>
             {% endfor %}
         </div>
         {% endif %}
