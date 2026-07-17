@@ -62,26 +62,26 @@ lang: en
 </section>
 
 <section class="container">
-    <h2 style="text-align: center; margin-bottom: 2rem;">Subscribe to Fashion Updates</h2>
-    <div class="newsletter-section">
-        <p>Get the latest fashion trends and exclusive offers</p>
-        <form class="newsletter-form" onsubmit="handleNewsletter(event)">
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit" class="btn">Subscribe</button>
-        </form>
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">Editor's Picks</h2>
+    <p style="text-align: center; color: var(--text-light); margin-bottom: 2.5rem;">From the color of the year to fabric and craft — a few places to start reading</p>
+    <div class="picks-grid">
+        <div class="pick-card">
+            <span class="pick-kicker">Color of the Year</span>
+            <h3>2026 Color: Cloud Dancer</h3>
+            <p>Pantone named a soft off-white its 2026 Color of the Year. Where it comes from, and why a quiet color is easier to wear.</p>
+            <a href="/en/2026/01/16/pantone-2026-cloud-dancer/" class="pick-link">Read the article</a>
+        </div>
+        <div class="pick-card">
+            <span class="pick-kicker">Fabric & Craft</span>
+            <h3>Linen Season</h3>
+            <p>From 30,000 years of history to the slow craft of retting, scutching, and heckling — why this ancient fabric keeps returning each summer.</p>
+            <a href="/en/2026/06/19/linen-summer-fabric/" class="pick-link">Read the article</a>
+        </div>
+        <div class="pick-card">
+            <span class="pick-kicker">Styling Guide</span>
+            <h3>Four Rules for Off-White</h3>
+            <p>How to wear all off-white without looking flat — using texture, silhouette, and neighboring pales to take the color of the year into daily life.</p>
+            <a href="/en/2026/03/19/off-white-styling-2026/" class="pick-link">Read the article</a>
+        </div>
     </div>
 </section>
-
-<script>
-    function handleNewsletter(event) {
-        event.preventDefault();
-        const email = event.target.querySelector('input[type="email"]').value;
-
-        if (email && email.includes('@')) {
-            alert('Thank you for subscribing! You will receive the latest fashion updates.');
-            event.target.reset();
-        } else {
-            alert('Please enter a valid email address.');
-        }
-    }
-</script>
