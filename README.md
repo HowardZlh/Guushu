@@ -85,6 +85,8 @@ Guushu/
 git clone https://github.com/HowardZlh/Guushu.git
 cd Guushu
 
+python3 -m venv venv && source venv/bin/activate
+
 # Install dependencies
 pip install -r requirements.txt   # Jinja2, Markdown, PyYAML
 npm install                       # dart-sass
