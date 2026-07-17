@@ -63,26 +63,26 @@ lang: zh
 </section>
 
 <section class="container">
-    <h2 style="text-align: center; margin-bottom: 2rem;">订阅时尚资讯</h2>
-    <div class="newsletter-section">
-        <p>获取最新的时尚趋势和独家优惠</p>
-        <form class="newsletter-form" onsubmit="handleNewsletter(event)">
-            <input type="email" placeholder="请输入您的邮箱" required>
-            <button type="submit" class="btn">订阅</button>
-        </form>
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">编辑精选</h2>
+    <p style="text-align: center; color: var(--text-light); margin-bottom: 2.5rem;">从年度色到面料工艺，从这几个入口开始读起</p>
+    <div class="picks-grid">
+        <div class="pick-card">
+            <span class="pick-kicker">年度色报告</span>
+            <h3>2026 年度色 Cloud Dancer</h3>
+            <p>潘通把一抹柔和的米白定为 2026 年度代表色。读懂它的来历，以及为什么"安静的颜色"更耐穿。</p>
+            <a href="/2026/01/16/pantone-2026-cloud-dancer/" class="pick-link">阅读文章</a>
+        </div>
+        <div class="pick-card">
+            <span class="pick-kicker">面料与工艺</span>
+            <h3>亚麻正当时</h3>
+            <p>从三万年的历史到沤麻、打麻、梳麻的慢工艺——读懂这块古老面料为何总在夏天回来。</p>
+            <a href="/2026/06/19/linen-summer-fabric/" class="pick-link">阅读文章</a>
+        </div>
+        <div class="pick-card">
+            <span class="pick-kicker">穿搭指南</span>
+            <h3>米白造型的四条法则</h3>
+            <p>一身米白怎么穿得高级而不寡淡？用面料层次、廓形与近邻浅色，把年度色穿进日常。</p>
+            <a href="/2026/03/19/off-white-styling-2026/" class="pick-link">阅读文章</a>
+        </div>
     </div>
 </section>
-
-<script>
-    function handleNewsletter(event) {
-        event.preventDefault();
-        const email = event.target.querySelector('input[type="email"]').value;
-
-        if (email && email.includes('@')) {
-            alert('感谢订阅！您将收到最新的时尚资讯。');
-            event.target.reset();
-        } else {
-            alert('请输入有效的邮箱地址。');
-        }
-    }
-</script>

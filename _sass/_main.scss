@@ -542,6 +542,72 @@ footer {
     }
 }
 
+// Editor's Picks (home page)
+.picks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.pick-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2.25rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    border-top: 3px solid var(--accent-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.1);
+    }
+
+    .pick-kicker {
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--accent-color);
+        margin-bottom: 0.75rem;
+    }
+
+    h3 {
+        color: var(--primary-color);
+        margin-bottom: 0.75rem;
+    }
+
+    p {
+        color: var(--text-light);
+        font-size: 0.95rem;
+        line-height: 1.7;
+        margin-bottom: 1.5rem;
+    }
+
+    .pick-link {
+        margin-top: auto;
+        align-self: flex-start;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: var(--primary-color);
+        transition: color 0.3s ease, gap 0.3s ease;
+
+        &::after {
+            content: ' \2192';
+            transition: margin-left 0.3s ease;
+        }
+
+        &:hover {
+            color: var(--accent-color);
+
+            &::after {
+                margin-left: 0.35rem;
+            }
+        }
+    }
+}
+
 // Error Page
 .error-container {
     text-align: center;
