@@ -25,9 +25,13 @@ footer:
   zh:
     copyright: "&copy; 2025 谷序. 版权所有."
     follow: "关注我们获取最新时尚资讯"
+    contact_label: "联系我们："
+    contact_email: "support@guushu.com"
   en:
     copyright: "&copy; 2025 Guushu. All rights reserved."
     follow: "Follow us for the latest fashion updates"
+    contact_label: "Contact: "
+    contact_email: "support@guushu.com"
 
 404:
   zh:

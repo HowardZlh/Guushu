@@ -267,6 +267,15 @@ footer {
         margin-bottom: 0.5rem;
     }
 
+    .contact-email a {
+        color: white;
+        text-decoration: underline;
+
+        &:hover {
+            color: var(--accent-color);
+        }
+    }
+
     .social-links {
         margin-top: 1rem;
 
