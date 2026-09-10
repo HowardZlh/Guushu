@@ -41,7 +41,7 @@ TEMPLATES = os.path.join(ROOT, "templates")
 SITE = {
     "title": "Guushu 谷序",
     "description": "Contemporary Fashion for the Modern Woman",
-    "url": "https://www.guushu.com",
+    "url": "https://fashion.guushu.com",
     "paginate": 6,
 }
 
@@ -326,7 +326,7 @@ def build_feed(posts):
     feed = (
         '<?xml version="1.0" encoding="utf-8"?>'
         '<feed xmlns="http://www.w3.org/2005/Atom">'
-        '<generator uri="https://www.guushu.com/">guushu-build</generator>'
+        '<generator uri="https://fashion.guushu.com/">guushu-build</generator>'
         f'<link href="{SITE["url"]}/feed.xml" rel="self" type="application/atom+xml" />'
         f'<link href="{SITE["url"]}/" rel="alternate" type="text/html" />'
         f'<updated>{updated}</updated>'

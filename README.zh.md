@@ -136,6 +136,8 @@ UPDATE_SNAPSHOTS=1 node -e "require('./test/test-runner').runTests(['./test/buil
 
 每次推送到 `main` 分支时，GitHub Actions 自动构建（Python + dart-sass）并部署到 GitHub Pages。公开仓库的 Actions 免费且无分钟限制。
 
+生产地址：**https://fashion.guushu.com**（自定义域名在仓库 Pages 设置中配置；`CNAME` 文件与 `build.py` 的 `SITE["url"]` 必须与之一致）。`guushu.com` 的 DNS 托管在 Cloudflare：`fashion` 为指向 `howardzlh.github.io` 的 CNAME，且为 DNS-only（不代理），以便 GitHub 签发 TLS 证书；旧地址 `www.guushu.com` 301 跳转到本站。
+
 工作流配置见 `.github/workflows/deploy.yml`。
 
 ---
