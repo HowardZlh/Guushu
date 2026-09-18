@@ -18,7 +18,7 @@ Earlier, on September 27, 2024, Issey Miyake's spring 2025 show in Paris twisted
 
 ### Pressed and unpressed: the two basic languages
 
-Pleats sort by how they're set. Pressed pleats are ironed or heat-set into a sharp crease and hold structure. Unpressed pleats are left alone and fall in soft rounded folds. Pleats sewn down are tucks. This season designers often let both happen on one garment. The structural logic of each fold is in [pleats explained](/en/2025/03/06/pleat-craft-guide/).
+Pleats sort by how they're set. Pressed pleats are ironed or heat-set into a sharp crease and hold structure. Unpressed pleats are left alone and fall in soft rounded folds. Pleats sewn down are tucks. For spring 2025, designers often let both happen on one garment. The structural logic of each fold is in [pleats explained](/en/2025/03/06/pleat-craft-guide/).
 
 ### Why pleats come back in spring
 

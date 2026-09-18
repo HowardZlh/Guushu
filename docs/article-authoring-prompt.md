@@ -98,6 +98,8 @@ author: "Guushu Team"
 - **日期与引用一致**：文章日期不得早于它引用的报道发布日。
 - 模板层已自动处理：文章页 `<title>` 追加站名、hreflang 中英互指、Article JSON-LD、
   `og:image` / `og:type=article`、`sitemap.xml`。新增文章无需额外操作。
+- **提交前跑两道机器检查**：de-AI 门禁（中英各一条命令，见 §7）须 0 违规；
+  `seo.test.js` 默认阻塞模式须通过。两者任一不过就不要开 PR。
 
 ## 4. 全年日期分布与季节匹配
 
@@ -216,8 +218,13 @@ node test/run-all.js
 python3 build.py && node test/run-build.js
 
 # 文章 SEO 规则（description/title 长度、站内链接、图片 alt、&gt; 残留）
-# 默认只打印报告；加 SEO_STRICT=1 变为阻塞，新文章提交前应在此模式下通过
-SEO_STRICT=1 node -e "require('./test/test-runner').runTests(['./test/build/seo.test.js'])"
+# 默认阻塞（run-build.js 也会跑它）；本地起草期间可加 SEO_STRICT=0 只看报告不失败
+node -e "require('./test/test-runner').runTests(['./test/build/seo.test.js'])"
+SEO_STRICT=0 node -e "require('./test/test-runner').runTests(['./test/build/seo.test.js'])"   # 仅报告
+
+# de-AI 门禁（全局 skill de-ai-copy-zh / de-ai-copy-en 共用一个脚本），中英各跑一次，须 0 违规
+node ~/.config/opencode/skills/de-ai-copy-en/scripts/check-ai-tells.mjs --profile copy --lang zh _posts/<file>.md
+node ~/.config/opencode/skills/de-ai-copy-en/scripts/check-ai-tells.mjs --profile copy --lang en en/_posts/<file>.md
 ```
 
 ### 内容变更后更新快照基线
@@ -251,6 +258,8 @@ UPDATE_SNAPSHOTS=1 node -e "require('./test/test-runner').runTests(['./test/buil
 - [ ] 日期覆盖目标年度且契合季节流行趋势。
 - [ ] 每张配图已**下载查看**确认与内容相符；无跨文章重复图。
 - [ ] `python3 build.py` 成功；`run-all.js` 与 `run-build.js` 全绿。
+- [ ] de-AI 门禁 `check-ai-tells.mjs --profile copy` 中英两条命令均 0 违规。
+- [ ] `seo.test.js` 在默认阻塞模式下通过（不加 `SEO_STRICT=0`）。
 - [ ] 若首页/列表变化，已用 `UPDATE_SNAPSHOTS=1` 更新快照并复测通过。
 - [ ] 清理无用资产（如废弃的占位图、生成脚本、backup 草稿）。
 - [ ] 走 feature 分支提交并开 PR 到 `main`，返回 PR 链接。

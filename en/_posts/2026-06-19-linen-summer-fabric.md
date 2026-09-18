@@ -1,50 +1,57 @@
 ---
 layout: post
-title: "Linen Season: How One Fabric Became Summer's Answer"
-description: "From its ancient history to its craft and breathability, why linen keeps returning every summer"
+title: "Linen Explained: 30,000-Year Fibers and a 5,000-Year Dress"
+description: "Why linen feels cool, wrinkles and softens with washing; 30,000-year-old dyed flax from a Georgian cave; the Tarkhan dress of 3482 BC; France's 75% of the crop."
 image: "https://images.unsplash.com/photo-1705290304455-35ffb433f560?w=800"
 tags: [linen, textile, craftsmanship, summer]
 date: 2026-06-19
+updated: 2026-09-18
 author: "Guushu Team"
 lang: en
 ---
 
-## When Summer Arrives, So Does Linen
+## Linen explained: why it feels cold, why it creases, and who grows it
 
-Every summer, the wardrobe remembers linen. With its natural creases, coarse texture, and a hint of ease, it is almost the default language of the season. Yet this seemingly casual fabric holds one of humankind's oldest textile histories.
+Linen is cloth woven from the bast fibers in the stem of the flax plant. It feels cold to the touch for the same reason metal does: high thermal conductivity pulls heat off the skin fast. What follows is the physics, the history and the fieldwork, drawn from the Wikipedia entries on linen, on flax and on the Tarkhan dress, plus two Vogue pieces.
 
-### A Cloth That Spans Tens of Thousands of Years
+### Cool, strong, creased: the physics of linen
 
-Linen is woven from the **bast fibers of the flax plant**. In a cave in Georgia (the South Caucasus), archaeologists found dyed wild flax fibers dating back around 30,000 years — considered some of the earliest evidence of humans using linen-like fabrics.
+Flax fibers run 25 to 150 mm long, far longer than cotton's, and the finished cloth can be up to three times as strong. Wet, it gains about 20% more tensile strength. It absorbs moisture and dries faster than cotton, which is the whole case for wearing it in heat.
 
-In ancient Egypt, white linen was both everyday clothing and the material for mummy wrappings and priests' garments, regarded as a symbol of purity and light. The Tarkhan dress, considered among the oldest woven garments in the world, is made of linen.
+The crease is the flip side. Flax has poor elasticity, so linen wrinkles the moment you sit down. Wikipedia adds a warning worth keeping: fold it sharply in the same place over and over and the threads will break. It doesn't pill or shed lint, softens with every wash, and irons most easily while still damp.
 
-### Why It Is Born for Summer
+The flaw people used to mind was the slub, a short thick stretch in the yarn. Slubs once marked low-grade linen. Many current linens sell them as texture.
 
-Linen's coolness is no illusion; it has a physical basis:
+### Dyed fibers from 30,000 years ago, a dress from 3482 BC
 
-- **High thermal conductivity:** linen feels cool to the touch precisely because it conducts heat well, carrying warmth away from the skin.
-- **Strong and absorbent:** flax fibers are very strong, highly absorbent, and dry faster than cotton, which makes wearing it more comfortable in the heat.
-- **Softer with every wash:** linen doesn't pill or shed, and grows softer the more it is washed.
+The oldest trace is in Dzudzuana Cave in Georgia: wild flax fibers that had been spun and dyed, more than 30,000 years old. The study appeared in Science on September 11, 2009, under the title "30,000-Year-Old Wild Flax Fibers."
 
-As for its signature creases — those come from flax's poor elasticity and tendency to wrinkle. Once dismissed as a mark of "low quality," that wrinkle is now a natural beauty many people love.
+Egyptians wore white linen by day and were wrapped in it after death. Plutarch wrote that the priests of Isis wore it for purity. The oldest surviving woven garment, the Tarkhan dress, is linen. Flinders Petrie dug it out of the Tarkhan cemetery south of Cairo in 1913, after which it sat in a University College London storeroom for 65 years.
 
-![The texture of natural linen fabric](https://images.unsplash.com/photo-1705290304455-35ffb433f560?w=800)
+In 1977, conservators from the V&A recognized it while sorting a pile of "funerary rags." Radiocarbon dating in 1978 put it at about 2362 BC; a 2015 Oxford test moved it back to between 3482 and 3102 BC. The weave counts 22 to 23 warps and 13 to 14 wefts per centimeter.
 
-### The Slow Craft Behind the Cloth
+![The texture of natural linen fabric: slubs and creases in a summer linen](https://images.unsplash.com/photo-1705290304455-35ffb433f560?w=800)
 
-Linen's preciousness owes much to its laborious making. To get long, soft fibers, the flax is pulled up whole or cut close to the root, dried, then put through a series of steps:
+### Retting, scutching, heckling: why linen costs more than cotton
 
-- **Retting:** bacteria break down the pectin that binds the fibers together.
-- **Scutching:** the woody stalk is crushed and separated away.
-- **Heckling:** combs remove the short fibers, leaving only the long, soft ones.
+For long fibers, flax is pulled up whole or cut right at the root. After the seeds come off, three steps follow. Retting lets bacteria dissolve the pectin that glues the fibers together; dew retting in the field takes a month or more and gives the best fiber. Scutching, done from August to December, crushes the woody stalk between two metal rollers. Heckling combs out the short fibers and keeps the long soft ones.
 
-This is why linen's output is far smaller than cotton's, and its price higher. Today, Belgium and Italy remain important sources of high-quality linen fabric.
+Wikipedia's verdict is "laborious to manufacture," made in relatively small quantities and priced accordingly. The plant itself needs about 100 days from sowing to harvest.
 
-### How to Make Peace with Its Creases
+### Who grows it and who weaves it: France's 75%
 
-- **Don't fight the wrinkles:** linen's crease is a feature, not a failure. Choose cuts designed for a "natural drape."
-- **Iron when slightly damp:** if you want it smooth, ironing while half-dry takes the least effort.
-- **Better with wear:** a good linen grows softer and more comfortable over time — worth raising slowly.
+FAO figures for 2022 put world output of raw or retted flax at 875,995 tonnes. France grew 652,680 of them, 75% of the total, with Normandy alone close to a third of the world's crop. Belgium came second at 77,910 tonnes.
 
-> "Linen doesn't chase perfect smoothness; it wears the marks of time and use into its own character." —— Guushu Design Team
+Woven cloth is a different map. In 2018 UN trade data, China was the top exporter of woven linen fabric at $732.3 million, followed by Italy at $173.0 million, Belgium at $68.9 million and the UK at $51.7 million.
+
+The end use shifted too. In the 1970s about 5% of linen went into fashion fabric. By the 1990s the share was about 70%.
+
+### On the runway and the rail, 2025 to 2026
+
+On June 29, 2025, Simon Porte Jacquemus showed Spring 2026 at the Orangerie of Versailles. Vogue Runway's Sarah Mower reported that he called the collection "humble," meaning cotton and linen and the world of embroidered tablecloths, aprons, headscarves, in honor of his farming family.
+
+On June 1, 2026, Vogue's Kristina Rutkowski, rounding up linen trousers, noted two shapes on the rise for summer 2026: fisherman pants and, once again, capris.
+
+For summer's other handmade fabric, see [crochet and slow fashion](/en/2025/06/26/crochet-craft-sustainability/). For the shoe that goes with all this linen, see also [the espadrille's history](/en/2026/07/17/espadrille-summer-shoe/).
+
+> "The Tarkhan dress spent 65 years filed under rags. That is one way to prove a fabric lasts." — Guushu Design Team
