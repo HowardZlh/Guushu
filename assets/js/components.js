@@ -170,12 +170,12 @@
         const mockResults = [
             {
                 title: '波西米亚风复兴',
-                url: '/fashion-news/index.html#boho',
+                url: '/2025/01/15/boho-chic-revival/',
                 excerpt: '麂皮纹理和飘逸廓形正在2025春夏系列中掀起一场时尚革命...'
             },
             {
                 title: '黄色调美学',
-                url: '/fashion-news/index.html#yellow',
+                url: '/2025/01/20/yellow-trends/',
                 excerpt: '从柔和的香草黄到浓郁的藏红花黄，黄色正在主导2025年时尚...'
             }
         ];
