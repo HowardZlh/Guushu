@@ -50,7 +50,7 @@ The end use shifted too. In the 1970s about 5% of linen went into fashion fabric
 
 On June 29, 2025, Simon Porte Jacquemus showed Spring 2026 at the Orangerie of Versailles. Vogue Runway's Sarah Mower reported that he called the collection "humble," meaning cotton and linen and the world of embroidered tablecloths, aprons, headscarves, in honor of his farming family.
 
-On June 1, 2026, Vogue's Kristina Rutkowski, rounding up linen trousers, noted two shapes on the rise this summer: fisherman pants and, once again, capris.
+On June 1, 2026, Vogue's Kristina Rutkowski, rounding up linen trousers, noted two shapes on the rise for summer 2026: fisherman pants and, once again, capris.
 
 For summer's other handmade fabric, see [crochet and slow fashion](/en/2025/06/26/crochet-craft-sustainability/). For the shoe that goes with all this linen, see also [the espadrille's history](/en/2026/07/17/espadrille-summer-shoe/).
 

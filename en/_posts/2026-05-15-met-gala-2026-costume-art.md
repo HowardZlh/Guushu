@@ -18,7 +18,7 @@ The Met Gala 2026 took place on May 4 under the theme "Costume Art," with "Fashi
 
 Per Wikipedia's Met Gala entry, the publicist Eleanor Lambert started the gala in 1948 to raise money for the newly founded Costume Institute. The first one was a dinner with $50 tickets. Themes arrived with Diana Vreeland, who became the Institute's consultant in 1972; the first themed gala, "The World of Balenciaga," ran on March 21, 1973, at $85 a ticket.
 
-Anna Wintour has chaired or co-chaired every gala since 1995 except 1996, and Vogue runs the event under her direction. She stepped down as editor-in-chief of American Vogue in June 2025 and now holds the title of Condé Nast's global chief content officer.
+Anna Wintour has chaired or co-chaired every gala since 1995 except 1996, and Vogue runs the event under her direction. She stepped down as editor-in-chief of American Vogue in June 2025 and moved to the role of Condé Nast's global chief content officer.
 
 Ticket prices track the scale: $30,000 in 2014, $50,000 in 2023, $75,000 in 2024 and 2025, $100,000 in 2026. The guest list runs to roughly 450 to 600 people, and the museum closes to the public for the day.
 

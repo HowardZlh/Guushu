@@ -41,7 +41,7 @@ Paraffection 这个名字意思是「出于爱」。Chanel 1985 年设立它，2
 
 ### 2026 春季高定季：Dior 工坊里没有缝纫机
 
-1 月 26 日，Vogue Runway 的 Nicole Phelps 写 Jonathan Anderson 的 Dior 高定首秀，引了他一句话：这是一门濒危的手艺，「你走进工坊，那里没有缝纫机」。这一季针织出现在第 4、8 套，毛衣在第 42、43 套。
+1 月 26 日，Vogue Runway 的 Nicole Phelps 写 Jonathan Anderson 的 Dior 高定首秀，引了他一句话：这是一门濒危的手艺，「你走进工坊，那里没有缝纫机」。这场秀上针织出现在第 4、8 套，毛衣在第 42、43 套。
 
 1 月 27 日，同一位作者写 Matthieu Blazy 的 Chanel 首场高定：开场是一件透明的粉色薄纱套装，纽扣是粉水晶，下摆链条换成了小颗天然珍珠。客人下单时可以要求加绣自己的首字母、星座或一颗心。同一天，Tiziana Cardini 写 Silvana Armani 的 Armani Privé 首秀：60 套，惯例是一百套。
 

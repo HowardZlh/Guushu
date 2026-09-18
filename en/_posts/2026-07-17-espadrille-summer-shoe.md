@@ -30,7 +30,7 @@ The classic upper is a single piece of canvas with toe and vamp cut together, se
 
 ### From esparto to jute: the Bangladesh production line
 
-Most espadrille soles today are jute rather than esparto, for reasons of cost and supply. Jute's natural bright white has become a design signature of the modern shoe.
+Most espadrille soles are now jute rather than esparto, for reasons of cost and supply. Jute's natural bright white has become a design signature of the modern shoe.
 
 The geography needs care. By FAO figures for 2020, India is the largest jute grower at 1,807,264 tonnes, with Bangladesh second at 804,520; Bangladeshis call it the "golden fiber." Wikipedia's espadrille entry says Bangladesh produces high-quality jute and has become a center for premium jute soles and finished espadrilles, with some makers in Spain, in France and in Italy importing soles from there to finish at home.
 
@@ -48,6 +48,6 @@ The 1980s revival in America came through Miami Vice, on the feet of Don Johnson
 
 Wedges go with wide-leg and linen trousers, canvas against linen. Flats are the easy answer for a summer dress. Judge a pair by the sole: the density of the jute braid and the finish of the vulcanized edge tell you most of what you need about the make.
 
-For the fabric it usually sits under, see [linen explained](/en/2026/06/19/linen-summer-fabric/). For what the resort collections shown this summer are wearing, see also [Resort 2027 trends](/en/2026/07/31/resort-2027-trends-little-black-dress/).
+For the fabric it usually sits under, see [linen explained](/en/2026/06/19/linen-summer-fabric/). For what the Resort 2027 collections shown in summer 2026 are wearing, see also [Resort 2027 trends](/en/2026/07/31/resort-2027-trends-little-black-dress/).
 
 > "A peasant shoe waited 648 years for its wedge. Some designs don't need rushing." — Guushu Design Team

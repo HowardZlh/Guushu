@@ -51,7 +51,7 @@ author: "Guushu Team"
 
 2025 年 6 月 29 日，Simon Porte Jacquemus 在凡尔赛橘园发布 2026 春夏系列，Vogue Runway 的 Sarah Mower 写道，他想用一个「谦卑」的系列致敬自己务农的家族，具体就是棉、亚麻，和绣花桌布、围裙、头巾这些东西。
 
-2026 年 6 月 1 日，Vogue 的 Kristina Rutkowski 整理亚麻长裤选购时提到两条趋势：渔夫裤这个夏天走俏，卡普里裤又一次回来。
+2026 年 6 月 1 日，Vogue 的 Kristina Rutkowski 整理亚麻长裤选购时提到两条趋势：渔夫裤在 2026 年夏天走俏，卡普里裤又一次回来。
 
 另一种夏天的手工面料，另见 [钩针工艺与慢时尚](/2025/06/26/crochet-craft-sustainability/)；配这身亚麻的鞋，另见 [麻底鞋的历史](/2026/07/17/espadrille-summer-shoe/)。
 
