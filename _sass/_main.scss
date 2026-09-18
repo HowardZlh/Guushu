@@ -191,9 +191,12 @@ main {
         height: auto;
         min-height: 0;
         padding: 5rem 0 4.5rem;
-        margin-bottom: 0;
 
-        .hero-content p {
+        &:has(+ .section-nav-bar) {
+            margin-bottom: 0;
+        }
+
+        .hero-content p:last-child {
             margin-bottom: 0;
         }
     }
@@ -519,9 +522,14 @@ h2[id] {
             color: var(--text-dark);
         }
 
+        .read-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25rem 1.5rem;
+            margin-top: 0.5rem;
+        }
+
         .read-more {
-            display: inline-block;
-            margin: 0.5rem 1.5rem 0 0;
             color: var(--primary-color);
             font-weight: 500;
             letter-spacing: 0.5px;
