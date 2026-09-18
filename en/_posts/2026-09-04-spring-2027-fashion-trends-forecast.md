@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Before the Shows: The Four Directions WGSN Drew for Spring 2027"
-description: "A week before fashion month, WGSN published four directions it expects to see on the spring 2027 womenswear runways: rock glamour, self-styled expression, city dressing and romantic vintage"
+title: "Spring 2027 Fashion Trends Forecast: WGSN's Four Directions"
+description: "Spring 2027 fashion trends forecast: WGSN's four runway directions, from New Glam rock glamour to Romantic Vintage, and what each means in clothes."
 image: "https://images.unsplash.com/photo-1650409408977-8719ff494c4f?w=800"
 tags: [trends, forecast, 2027, wgsn]
 date: 2026-09-04
@@ -9,21 +9,21 @@ author: "Guushu Team"
 lang: en
 ---
 
-## Writing the answer before the exam
+## WGSN's four calls for the spring 2027 runways
 
-On 25 August 2026, three weeks before New York opened the spring 2027 season, WGSN's Catwalks Senior Strategist Kim Cupido published a short piece naming four directions she expects to dominate the womenswear runways. Think of it as a forecaster showing her working in public.
+The first spring 2027 fashion trends forecast arrived before a single show. On 25 August 2026, three weeks before New York opened the season, WGSN's Catwalks Senior Strategist Kim Cupido published a short piece naming four directions she expects to dominate the womenswear runways. Think of it as a forecaster showing her working in public.
 
-The evidence behind each call is what has been building on previous runways and in street style. Once the big four are done, checking which of the four landed and which didn't is the useful part.
+The evidence behind each call is what has been building on previous runways and in street style. [Copenhagen had already offered one set of answers in August.](/en/2026/08/28/copenhagen-fashion-week-spring-2027-trends/) Once the big four are done, checking which of the four landed and which didn't is the useful part.
 
-### New Glam: rock references, slimmer bodies
+### New Glam: leather, animal print and rock glamour
 
 WGSN describes this as an edgy shift on the runway, where a rebellious counterculture mood meets sleek, high-octane glamour. The reference points are Saint Laurent's aesthetic, 2010s supermodels and rock culture.
 
 In clothes that means slimmer, body-conscious silhouettes, low-rise cuts, and leather outerwear and separates. Animal prints return, with cheetah spots and snakeskin on dark slinky satin and lace-trimmed slip dresses. WGSN calls the mood "disheveled yet sophisticated" and reads it as an early signal for darker, more opulent stories to come.
 
-![Leather jacket, animal print and a bra top](https://images.unsplash.com/photo-1650409408977-8719ff494c4f?w=800)
+![Spring 2027 trend New Glam: leather jacket, animal print and a bra top](https://images.unsplash.com/photo-1650409408977-8719ff494c4f?w=800)
 
-### Free-Style Expression: the suburban living room, worn outside
+### Free-Style Expression: pastels and clashing patterns
 
 This one has been gaining from runway to street style. It plays with suburban dress codes through a self-styled lens: kitsch nostalgia, home-comfort references and interior-inspired palettes mixed with loungewear.
 
@@ -35,7 +35,7 @@ Preppy and sartorial codes are reworked into a soft, adaptable way of dressing f
 
 The prints are perennials: polka dots, plaids, foulards, layered pattern on pattern. WGSN's case for it is commercial longevity: it sells for a long time without looking dated.
 
-### Romantic Vintage: heirloom delicacy with rough edges
+### Romantic Vintage: sheer slips with rough edges
 
 Romance keeps its commercial pull for spring 2027. Sheer slip dresses, lacy sets and fluid maxis carry barely-there tonal prints, soft-focus florals and fine freckled textures.
 

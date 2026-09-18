@@ -102,6 +102,60 @@ describe('Build output: SEO & metadata', () => {
         assertIncludes(html, 'components.js');
         assertIncludes(html, 'main.js');
     });
+
+    it('post <title> carries the site name; hand-written pages do not double it', () => {
+        assertMatch(read('2025/01/15/boho-chic-revival/index.html'), /<title>[^<]+ \| Guushu 谷序<\/title>/);
+        assertMatch(read('about/index.html'), /<title>关于谷序 \| 品牌故事与时尚哲学<\/title>/);
+    });
+
+    it('zh/en pages declare hreflang alternates pointing at each other', () => {
+        const zh = read('2025/01/15/boho-chic-revival/index.html');
+        const en = read('en/2025/01/15/boho-chic-revival/index.html');
+        assertIncludes(zh, 'hreflang="en" href="https://fashion.guushu.com/en/2025/01/15/boho-chic-revival/"');
+        assertIncludes(en, 'hreflang="zh" href="https://fashion.guushu.com/2025/01/15/boho-chic-revival/"');
+        assertIncludes(en, 'hreflang="x-default" href="https://fashion.guushu.com/2025/01/15/boho-chic-revival/"');
+    });
+
+    it('hand-written pages use clean canonical URLs (no index.html)', () => {
+        assertIncludes(read('about/index.html'), 'rel="canonical" href="https://fashion.guushu.com/about/"');
+        assertIncludes(read('en/fashion-news/index.html'), 'rel="canonical" href="https://fashion.guushu.com/en/fashion-news/"');
+    });
+
+    it('posts emit Article JSON-LD and article Open Graph tags', () => {
+        const html = read('2025/01/15/boho-chic-revival/index.html');
+        assertIncludes(html, '<script type="application/ld+json">');
+        const ld = JSON.parse(html.match(/<script type="application\/ld\+json">\s*([\s\S]*?)\s*<\/script>/)[1]);
+        assertEqual(ld['@type'], 'Article');
+        assertTrue(ld.headline.length > 0);
+        assertMatch(ld.datePublished, /^2025-01-15T/);
+        assertIncludes(html, '<meta property="og:type" content="article" />');
+        assertIncludes(html, '<meta property="og:image" content="https://images.unsplash.com/');
+    });
+
+    it('language redirect only fires from the site root', () => {
+        const html = read('fashion-news/index.html');
+        assertIncludes(html, "var isRoot = path === '/' || path === '/index.html';");
+        assertTrue(!html.includes("window.location.href = '/en' + currentPath"), 'old deep-link redirect must be gone');
+    });
+});
+
+describe('Build output: sitemap & robots', () => {
+    it('sitemap.xml lists pages and posts in both languages with hreflang alternates', () => {
+        const xml = read('sitemap.xml');
+        assertMatch(xml, /<urlset[^>]*xmlns="http:\/\/www\.sitemaps\.org\/schemas\/sitemap\/0\.9"/);
+        assertIncludes(xml, '<loc>https://fashion.guushu.com/</loc>');
+        assertIncludes(xml, '<loc>https://fashion.guushu.com/en/</loc>');
+        assertIncludes(xml, '<loc>https://fashion.guushu.com/2025/01/15/boho-chic-revival/</loc>');
+        assertIncludes(xml, '<loc>https://fashion.guushu.com/en/2025/01/15/boho-chic-revival/</loc>');
+        assertIncludes(xml, 'hreflang="x-default"');
+        assertTrue(!xml.includes('/404'), 'sitemap must not list 404 pages');
+    });
+
+    it('robots.txt allows crawling and points at the sitemap', () => {
+        const txt = read('robots.txt');
+        assertIncludes(txt, 'Allow: /');
+        assertIncludes(txt, 'Sitemap: https://fashion.guushu.com/sitemap.xml');
+    });
 });
 
 describe('Build output: posts content', () => {

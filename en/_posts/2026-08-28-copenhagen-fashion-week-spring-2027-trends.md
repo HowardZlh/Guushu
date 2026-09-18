@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Copenhagen Goes First: Long Shorts, Basket Weave and Rococo for Spring 2027"
-description: "A month before the big four, Copenhagen Fashion Week had already shown spring 2027. What carried over and what's new, read through Vogue's trend report"
+title: "Copenhagen Spring 2027 Trends: Long Shorts to Rococo"
+description: "Copenhagen Fashion Week spring 2027 trends: polka dots and lingerie dressing carry over, long shorts lead daywear, panniers bring rococo, basket weave is new."
 image: "https://images.unsplash.com/photo-1601982321967-62e214d48552?w=800"
 tags: [fashion-week, trends, 2027, spring-summer, copenhagen]
 date: 2026-08-28
@@ -9,27 +9,27 @@ author: "Guushu Team"
 lang: en
 ---
 
-## The spring season opens in August, in Denmark
+## Copenhagen Fashion Week spring 2027: a month ahead of the big four
 
-The big four don't start until September. Copenhagen Fashion Week wrapped its spring 2027 shows in early August, its 20th edition. Bikes and pastries filled everyone's feeds, but as Vogue's Laird Borrelli-Persson pointed out in her 12 August trend report, fashion is a serious export for Denmark: 45.4 billion kroner in 2025, about 7.1 billion dollars.
+Copenhagen Fashion Week showed its spring 2027 collections in early August, a month before [the big four, New York through Paris,](/en/2026/02/13/fall-winter-2026-fashion-month/) open the season. It was the event's 20th edition. Bikes and pastries filled everyone's feeds, but as Vogue's Laird Borrelli-Persson pointed out in her 12 August trend report, fashion is a serious export for Denmark: 45.4 billion kroner in 2025, about 7.1 billion dollars.
 
 The week has another reputation to keep. It has led on sustainability requirements and on body diversity on the runway for years.
 
-### What carried over from 2026
+### Carried over from 2026: polka dots and lingerie dressing
 
 Spring 2027 in Copenhagen didn't tear up last season. Polka dots stayed. So did lingerie dressing: bra tops, bloomers, tap pants all moved from the innermost layer to the outermost. Vogue's reading is that a summer of wearing less made these pieces the natural next step.
 
 The most theatrical strand was historical romance. Panniers walked. So did crinolines and corsets. Trailing fabrics and soft textures sat alongside them, which kept the season from turning into a costume drama.
 
-![A polka-dot skirt on a summer street](https://images.unsplash.com/photo-1601982321967-62e214d48552?w=800)
+![Copenhagen spring 2027 trends: a polka-dot skirt on a summer street](https://images.unsplash.com/photo-1601982321967-62e214d48552?w=800)
 
-### The part you could cycle in
+### Long shorts and a crisp shirt: the everyday pairing of spring 2027
 
 Long shorts were the practical headline. Call them culottes if you prefer; either way, shorts are not getting shorter next spring. Paired with a crisp button-down shirt, they were one of the week's most repeated combinations.
 
 On trouser width, Copenhagen split from menswear. Skinny jeans made news at the spring 2027 men's shows. The women's collections here stayed between slim and full, with one exception: legging-tight capris. Vogue's advice on those was to proceed with caution.
 
-### Ideas that could only come from this city
+### Basket weave, swim references and plush: Copenhagen's own additions
 
 - **Basket weave.** Designers wove textiles with the over-under technique of basketry, then cut garments from them.
 - **Water.** Splash rides at Tivoli, mid-city harbour baths and the Little Mermaid fed swim-inspired daywear.

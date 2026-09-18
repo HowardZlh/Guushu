@@ -161,12 +161,12 @@ def load_posts():
 HTML_PAGES = [
     # (source, output_rel, lang, lang_explicit, url)
     ("index.html",         "index.html",                 "zh", True,  "/"),
-    ("about.html",         "about/index.html",           "zh", False, "/about/index.html"),
-    ("fashion-news.html",  "fashion-news/index.html",    "zh", False, "/fashion-news/index.html"),
+    ("about.html",         "about/index.html",           "zh", False, "/about/"),
+    ("fashion-news.html",  "fashion-news/index.html",    "zh", False, "/fashion-news/"),
     ("404.html",           "404/index.html",             "zh", False, "/404.html"),
     ("en/index.html",      "en/index.html",              "en", True,  "/en/"),
-    ("en/about.html",      "en/about/index.html",        "en", False, "/en/about/index.html"),
-    ("en/fashion-news.html","en/fashion-news/index.html","en", False, "/en/fashion-news/index.html"),
+    ("en/about.html",      "en/about/index.html",        "en", False, "/en/about/"),
+    ("en/fashion-news.html","en/fashion-news/index.html","en", False, "/en/fashion-news/"),
     ("en/404.html",        "en/404/index.html",          "en", False, "/en/404.html"),
 ]
 
@@ -286,8 +286,8 @@ BLOG_TEMPLATE = """{% extends "base.html" %}
 
 # (lang, output path, page url, heading) — mirrors the bilingual directory scheme.
 BLOG_VARIANTS = [
-    ("zh", "blog/index.html",    "/blog/index.html",    "所有文章"),
-    ("en", "en/blog/index.html", "/en/blog/index.html", "All Posts"),
+    ("zh", "blog/index.html",    "/blog/",    "所有文章"),
+    ("en", "en/blog/index.html", "/en/blog/", "All Posts"),
 ]
 
 
@@ -337,6 +337,53 @@ def build_feed(posts):
         '</feed>'
     )
     write_page("feed.xml", feed)
+
+
+# ---------------------------------------------------------------------------
+# Sitemap + robots
+# ---------------------------------------------------------------------------
+def build_sitemap(posts):
+    """sitemap.xml listing every indexable page in both languages.
+
+    Each zh/en pair is cross-referenced with xhtml:link hreflang alternates so
+    search engines treat them as translations, not duplicates. 404 pages are
+    left out on purpose."""
+    def esc(u):
+        return u.replace("&", "&amp;")
+
+    def alternates(zh_url):
+        en_url = "/en" + zh_url
+        return (
+            f'<xhtml:link rel="alternate" hreflang="zh" href="{esc(SITE["url"] + zh_url)}" />'
+            f'<xhtml:link rel="alternate" hreflang="en" href="{esc(SITE["url"] + en_url)}" />'
+            f'<xhtml:link rel="alternate" hreflang="x-default" href="{esc(SITE["url"] + zh_url)}" />'
+        )
+
+    entries = []
+    # Hand-written pages (skip 404) and the blog listings.
+    page_urls = [u for (_s, _o, lang, _e, u) in HTML_PAGES if "404" not in u]
+    page_urls += [u for (_lang, _o, u, _h) in BLOG_VARIANTS]
+    for u in page_urls:
+        zh_url = u[3:] if u.startswith("/en/") else u
+        entries.append(
+            f"<url><loc>{esc(SITE['url'] + u)}</loc>{alternates(zh_url)}</url>"
+        )
+    for p in posts:
+        zh_url = p["url"][3:] if p["lang"] == "en" else p["url"]
+        entries.append(
+            f"<url><loc>{esc(SITE['url'] + p['url'])}</loc>"
+            f"<lastmod>{p['date'].date().isoformat()}</lastmod>"
+            f"{alternates(zh_url)}</url>"
+        )
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+        + "\n".join(entries) +
+        "\n</urlset>\n"
+    )
+    write_page("sitemap.xml", xml)
+    write_page("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE['url']}/sitemap.xml\n")
 
 
 # ---------------------------------------------------------------------------
@@ -398,6 +445,8 @@ def main():
         trim_blocks=False,
         lstrip_blocks=False,
     )
+    # JSON-LD blocks: keep CJK readable instead of \\uXXXX escapes.
+    env.policies["json.dumps_kwargs"] = {"sort_keys": True, "ensure_ascii": False}
 
     translations = load_translations()
     posts = load_posts()
@@ -406,6 +455,7 @@ def main():
     build_posts(env, translations, posts)
     build_blog(env, translations, posts)
     build_feed(posts)
+    build_sitemap(posts)
     compile_scss()
     copy_assets()
 
