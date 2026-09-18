@@ -2,7 +2,7 @@
 layout: post
 title: "Morandi Colour Formulas: Three Ways to Wear Greyed Tones"
 description: "Morandi colour formulas: tone on tone, analogous neighbours, neutrals as a base. One rule underneath them all, plus why a grey wall beside a red sofa looks green."
-image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800"
+image: "/assets/img/posts/morandi-colour-formulas.jpg"
 tags: [morandi, color, styling, spring]
 date: 2025-04-10
 updated: 2026-09-18
@@ -28,7 +28,7 @@ Colours next to each other on the wheel are analogous; one leads, the others sup
 
 For when you want a little movement without breaking the calm.
 
-![Morandi colour formulas: a greyed pink coat over beige](https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800)
+![Morandi colour formulas: a greyed pink coat over beige](/assets/img/posts/morandi-colour-formulas.jpg)
 
 ### Formula three: neutrals as the base
 

@@ -4,7 +4,7 @@ title: "纽约时装周 2027 春夏趋势：柱形裙、铅笔裙与鲜亮基本
 title_en: "New York Fashion Week Spring 2027 Trends, by the Numbers"
 description: "纽约时装周 2027 春夏趋势：WGSN 统计 3,120 套造型，柱形裙涨 1.7 个百分点、铅笔裙涨 1.4、蓝色涨 2.4，#BrightBasics 鲜亮基本款是最热标签。"
 description_en: "New York Fashion Week spring 2027 trends from WGSN's count of 3,120 looks: column dresses up 1.7 points, pencil skirts up 1.4, blue up 2.4, #BrightBasics on top."
-image: "https://images.unsplash.com/photo-1733322992706-1210ca79f4df?w=800"
+image: "/assets/img/posts/new-york-fashion-week-spring-2027-trends.jpg"
 tags: [fashion-week, runway, trends, 2027, new-york]
 date: 2026-09-18
 author: "Guushu Team"
@@ -24,7 +24,7 @@ author: "Guushu Team"
 
 **铅笔裙**涨了 1.4 个百分点。大摆裙和 A 字裙仍是增长的主力，铅笔裙的回归靠的是别的手段：不同材质和肌理拼块、当季印花、饱和颜色。老版型，新做法。
 
-![纽约时装周 2027 春夏趋势：秀场上一组鲜亮色的连衣裙](https://images.unsplash.com/photo-1733322992706-1210ca79f4df?w=800)
+![纽约时装周 2027 春夏趋势：秀场上一组鲜亮色的连衣裙](/assets/img/posts/new-york-fashion-week-spring-2027-trends.jpg)
 
 ### 蓝色涨 2.4：年度色 Luminous Blue 带头
 

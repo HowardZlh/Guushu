@@ -4,7 +4,7 @@ title: "钩针夏日穿搭：海边、通勤、傍晚三套搭法"
 title_en: "Crochet Summer Outfits: Three Ways to Wear It in the Heat"
 description: "钩针夏日穿搭先看纱线：棉、麻、竹为什么比羊毛适合七月；1823 年第一份钩针图样就是镂空网；2024 年 9 月 Diotima 把钩针领口配亚麻裹裙。海边、通勤、傍晚三套搭法，打底、选购与洗护。"
 description_en: "Crochet summer outfits start with the yarn: cotton, linen or bamboo over wool in July, the 1823 openwork pattern, Diotima's crochet collar from 2024, three looks."
-image: "https://images.unsplash.com/photo-1752133953101-572b52d578b5?w=800"
+image: "/assets/img/posts/crochet-summer-styling.jpg"
 tags: [crochet, styling, summer, wardrobe]
 date: 2025-07-17
 updated: 2026-09-18
@@ -27,7 +27,7 @@ author: "Guushu Team"
 
 到 2025 年 3 月 7 日，Vogue 的春夏趋势清单里有一项「手工极简」，秀场出处点了 Khaite、Proenza Schouler、Diotima、Alaïa、Carven 五家。这就是 2025 年夏天钩针的位置：主角是一柜素色衣服，钩针是里面那件有肌理的东西。
 
-![钩针夏日穿搭：米白镂空钩针连衣裙叠在棕色打底外](https://images.unsplash.com/photo-1752133953101-572b52d578b5?w=800)
+![钩针夏日穿搭：米白镂空钩针连衣裙叠在棕色打底外](/assets/img/posts/crochet-summer-styling.jpg)
 
 ### 三个场合，一条原则：钩针只当一层
 

@@ -4,7 +4,7 @@ title: "Met Gala 2026 主题 Costume Art：近 400 件展品与 4,200 万美元"
 title_en: "Met Gala 2026 Costume Art: $42 Million, Nearly 400 Objects"
 description: "Met Gala 2026（5 月 4 日）主题 Costume Art：筹款 4,200 万美元、票价 10 万美元、四位联合主席；同名展览 5 月 10 日开幕，近 400 件展品。从 1948 年 50 美元一张的门票讲起。"
 description_en: "Met Gala 2026 (May 4) and the Costume Art exhibition: a record $42 million raised, $100,000 tickets, nearly 400 objects in a new gallery and the $50 dinner of 1948."
-image: "https://images.unsplash.com/photo-1541941702428-22609a10cb9e?w=800"
+image: "/assets/img/posts/met-gala-2026-costume-art.jpg"
 tags: [met-gala, exhibition, fashion, history]
 date: 2026-05-15
 updated: 2026-09-18
@@ -35,7 +35,7 @@ Vogue Business 的 Madeleine Schulz 5 月 7 日发了一篇「按数字看 2026 
 
 再早两天，5 月 5 日，Vogue 的 Christian Allaire 写 Nicole Kidman 的 Chanel 礼服：Matthieu Blazy 设计，工坊做了 800 小时。这些数字放在高定的语境里怎么看，另见 [高级定制是什么](/2026/04/17/spring-2026-couture-craft/)。
 
-![博物馆展柜里的时装：Met Gala 2026 主题 Costume Art 把服装当艺术品陈列](https://images.unsplash.com/photo-1541941702428-22609a10cb9e?w=800)
+![博物馆展柜里的时装：Met Gala 2026 主题 Costume Art 把服装当艺术品陈列](/assets/img/posts/met-gala-2026-costume-art.jpg)
 
 ### 展览「Costume Art」：近 400 件展品，礼服旁边是盔甲和花瓶
 

@@ -4,7 +4,7 @@ title: "精致运动风怎么穿：Athleisure 从健身房到办公室"
 title_en: "Athleisure Explained: How to Wear Sportswear to the Office"
 description: "精致运动风（athleisure）怎么穿进办公室？这个词 1976 年就有了，2014 年美国市场做到 350 亿美元，Chanel 同年把运动鞋送上高定秀。瑜伽裤、西装外套与平底鞋的三个场景搭法，和洗护要点。"
 description_en: "Athleisure explained: a word from 1976, a $35 billion US market by 2014, Chanel sneakers on the couture runway that same year. How to wear leggings to work."
-image: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800"
+image: "/assets/img/posts/elevated-sportswear.jpg"
 tags: [sportswear, luxury, comfort, 2025, athleisure]
 date: 2025-01-25
 updated: 2026-09-18
@@ -29,7 +29,7 @@ author: "Guushu Team"
 - **西装外套**：长版、微垫肩，是把运动裤「翻译」成通勤装的那一件。
 - **芭蕾平底鞋**：2005 到 2010 年火过一轮，2022 年又回来了。它是运动鞋之外最省力的选择。
 
-![精致运动风：瑜伽裤配长版西装外套](https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800)
+![精致运动风：瑜伽裤配长版西装外套](/assets/img/posts/elevated-sportswear.jpg)
 
 ### 三个场景
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Haute Couture Explained: 1945 Rules and a 600-Hour Jacket"
 description: "Haute couture explained: French legal protection, the 1945 rules (Paris atelier, 20 technicians, 50 looks a season) and Lesage's 600-hour Van Gogh jacket."
-image: "https://images.unsplash.com/photo-1671535108620-d169ce916f09?w=800"
+image: "/assets/img/posts/spring-2026-couture-craft.jpg"
 tags: [couture, embroidery, craftsmanship, history]
 date: 2026-04-17
 updated: 2026-09-18
@@ -28,7 +28,7 @@ The guild behind the rules is older. The Chambre Syndicale de la Couture Parisie
 
 Lesage descends from the Michonet workshop of 1858, which embroidered for the court of Napoleon III. The Lesage family took it over in 1924. Since 2002 it has belonged to Paraffection, a Chanel subsidiary.
 
-![Hand embroidery in a haute couture atelier, where the beadwork hours go](https://images.unsplash.com/photo-1671535108620-d169ce916f09?w=800)
+![Hand embroidery in a haute couture atelier, where the beadwork hours go](/assets/img/posts/spring-2026-couture-craft.jpg)
 
 ### The Paris ateliers: Lemarié for feathers, Lognon for pleats
 

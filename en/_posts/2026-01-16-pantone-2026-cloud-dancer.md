@@ -2,7 +2,7 @@
 layout: post
 title: "Pantone Color of the Year 2026: Cloud Dancer, a First White"
 description: "Pantone Color of the Year 2026 is Cloud Dancer, 11-4201, the first white since 2000. Announced December 4, 2025 as a natural white; how to wear it."
-image: "https://images.unsplash.com/photo-1762764919554-cfd608ffc1a0?w=800"
+image: "/assets/img/posts/pantone-2026-cloud-dancer.jpg"
 tags: [pantone, color, off-white, 2026, minimalism]
 date: 2026-01-16
 updated: 2026-09-18
@@ -33,7 +33,7 @@ Only two entries in the table are relatives: the pale beige of 2006 and the gray
 
 The selection process is worth knowing too. Twice a year Pantone gathers representatives of national color standards groups for a closed meeting in a European capital. Two days of presentations and debate, then one color.
 
-![Pantone 2026 Cloud Dancer: a soft all-white top and wide trousers](https://images.unsplash.com/photo-1762764919554-cfd608ffc1a0?w=800)
+![Pantone 2026 Cloud Dancer: a soft all-white top and wide trousers](/assets/img/posts/pantone-2026-cloud-dancer.jpg)
 
 ### The runways got there first
 

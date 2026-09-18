@@ -2,7 +2,7 @@
 layout: post
 title: "Morandi Colours: The Painter Behind Fashion's Greyed Palette"
 description: "Morandi colours: Giorgio Morandi (1890–1964) painted bottles on one Bologna street for 55 years. How that greyed palette became a fashion vocabulary."
-image: "https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800"
+image: "/assets/img/posts/morandi-colour-origins.jpg"
 tags: [morandi, color, muted-tones, aesthetics]
 date: 2025-02-19
 updated: 2026-09-18
@@ -24,7 +24,7 @@ Recognition arrived late: first prize for painting at the 1948 Venice Biennale, 
 
 According to the Phillips Collection, he altered his objects before painting them, coating their surfaces and removing labels and reflections. So the jars in his pictures have no brands and no highlights. What's left is shape and a matte film of grey shading into cream and brown. That film is where the fashion term comes from.
 
-![Knitwear in Morandi colours: greyed pink and oatmeal](https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800)
+![Knitwear in Morandi colours: greyed pink and oatmeal](/assets/img/posts/morandi-colour-origins.jpg)
 
 ### Three things all Morandi colours share
 

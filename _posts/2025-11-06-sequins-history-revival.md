@@ -4,7 +4,7 @@ title: "亮片的历史：从图坦卡蒙到 1922 年埃及热与派对季"
 title_en: "Sequin History: From Tutankhamun's Tomb to Party Season"
 description: "亮片的历史：印度河流域公元前 2500 年就用金亮片，图坦卡蒙墓里缝着纯金圆片，1485 年亨利七世加冕用银 spangle，1922 年陵墓被发现带来埃及热。材料从明胶到乙烯基，为什么总在年末回来。"
 description_en: "Sequin history: gold discs in the Indus Valley about 2500 BC, Tutankhamun's tomb, Henry VII's coronation in 1485, Egyptomania in 1922, gelatin that melted, vinyl."
-image: "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?w=800"
+image: "/assets/img/posts/sequins-history-revival.jpg"
 tags: [sequins, metallic, party, history]
 date: 2025-11-06
 updated: 2026-09-18
@@ -34,7 +34,7 @@ sequin 这个词源自威尼斯方言 zechin，指威尼斯的达克特金币，
 
 1922 年 11 月 4 日，Howard Carter 的团队在帝王谷挖到一级台阶，那是图坦卡蒙墓入口楼梯的顶端。11 月 26 日前厅打开。随之而来的「图坦热」让埃及纹样成了整个 1920 年代的装饰时尚，亮片跟着回潮，被 flapper 女郎穿成一种宣言。那时的亮片多半还是金属的。
 
-![亮片历史：两件酒红色亮片上衣配同色百褶裙](https://images.unsplash.com/photo-1550614000-4895a10e1bfd?w=800)
+![亮片历史：两件酒红色亮片上衣配同色百褶裙](/assets/img/posts/sequins-history-revival.jpg)
 
 ### 材料：从会融化的明胶到乙烯基
 

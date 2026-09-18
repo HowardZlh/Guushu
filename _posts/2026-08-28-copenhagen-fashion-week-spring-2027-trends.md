@@ -4,7 +4,7 @@ title: "哥本哈根时装周 2027 春夏趋势：长短裤、篓编与洛可可
 title_en: "Copenhagen Spring 2027 Trends: Long Shorts to Rococo"
 description: "哥本哈根时装周 2027 春夏趋势：波点与内衣外穿延续，长短裤配衬衫成日常答案，裙撑与紧身胸衣带来洛可可浪漫，篓编与毛绒是新灵感。"
 description_en: "Copenhagen Fashion Week spring 2027 trends: polka dots and lingerie dressing carry over, long shorts lead daywear, panniers bring rococo, basket weave is new."
-image: "https://images.unsplash.com/photo-1601982321967-62e214d48552?w=800"
+image: "/assets/img/posts/copenhagen-fashion-week-spring-2027-trends.jpg"
 tags: [fashion-week, trends, 2027, spring-summer, copenhagen]
 date: 2026-08-28
 author: "Guushu Team"
@@ -24,7 +24,7 @@ Vogue 的 Laird Borrelli-Persson 在 8 月 12 日的趋势报告里写道，这�
 
 洛可可式的浪漫是这一季最戏剧化的一支：裙撑（pannier）、衬裙架（crinoline）、紧身胸衣都上了秀场。飘动的轻薄面料和柔软质地在旁边帮衬，不至于全场都像历史剧。
 
-![哥本哈根时装周 2027 春夏趋势：夏日街头的波点裙](https://images.unsplash.com/photo-1601982321967-62e214d48552?w=800)
+![哥本哈根时装周 2027 春夏趋势：夏日街头的波点裙](/assets/img/posts/copenhagen-fashion-week-spring-2027-trends.jpg)
 
 ### 长短裤配衬衫：2027 春夏最日常的一组
 

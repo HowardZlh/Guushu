@@ -4,7 +4,7 @@ title: "米白穿搭 2026：一身 Cloud Dancer 怎么穿不寡淡"
 title_en: "Off-White Outfits 2026: Cloud Dancer Without Going Flat"
 description: "米白穿搭怎么不寡淡？2025 年 9 月 Toteme 秀场上「有些象牙色几乎像珍珠光」，Jil Sander 用反向省道给白裙做出体积。象牙、奶油、蛋壳差在哪，四条法则：面料叠层、廓形、邻近色、一件配饰。"
 description_en: "Off-white outfits 2026: Toteme's pearlescent ivories from September 2025, Jil Sander's darted white skirt, ivory vs cream by hex code, four rules for Cloud Dancer."
-image: "https://images.unsplash.com/photo-1713812964743-f5bc0e117154?w=800"
+image: "/assets/img/posts/off-white-styling-2026.jpg"
 tags: [off-white, styling, spring, minimalism]
 date: 2026-03-19
 updated: 2026-09-18
@@ -40,7 +40,7 @@ Toteme 2026 春夏，2025 年 9 月 15 日在纽约原四季酒店的 Pool Room 
 
 九天后的米兰，Simone Bellotti 的 Jil Sander 首秀由 Guinevere Van Seenus 开场。她那条白色 A 字裙用反向省道做出细微的几何体积，Bellotti 称之为「现代的骨架」。两场秀给米白的答案一致：表面要有变化，版型要有结构。
 
-![米白穿搭：白色亚麻衬衫配白色长裤，走在石砌拱廊下](https://images.unsplash.com/photo-1713812964743-f5bc0e117154?w=800)
+![米白穿搭：白色亚麻衬衫配白色长裤，走在石砌拱廊下](/assets/img/posts/off-white-styling-2026.jpg)
 
 ### 法则一：用面料叠层，别加颜色
 

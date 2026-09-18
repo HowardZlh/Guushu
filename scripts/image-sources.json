@@ -1,0 +1,54 @@
+{
+  "_comment": "Unsplash photo ids behind every self-hosted image. Regenerate files with: python3 scripts/make_images.py [--only <name>]. Posts default to a 1200x630 centre crop (og:image size); pages keep their aspect ratio.",
+  "posts": {
+    "boho-chic-revival": "photo-1748354261791-d90c20d32498",
+    "yellow-trends": "photo-1590343104492-972a3169bc98",
+    "elevated-sportswear": "photo-1538805060514-97d9cc17730c",
+    "quiet-luxury-explained": "photo-1591047139829-d91aecb6caea",
+    "morandi-colour-origins": "photo-1766056278792-d5b15656b7e8",
+    "pleat-craft-guide": "photo-1763652309790-c0f90e5c6bd8",
+    "power-suit-history": "photo-1571513722275-4b41940f54b8",
+    "morandi-colour-formulas": "photo-1512436991641-6745cdb1723f",
+    "modern-tailoring-styling": "photo-1539109136881-3be0616acf4b",
+    "spring-pleats": "photo-1756483500042-12c4444fc2f4",
+    "pleated-skirt-styling": "photo-1762342676026-09e25daaf607",
+    "crochet-craft-sustainability": "photo-1765915481891-28d11ac65740",
+    "crochet-summer-styling": "photo-1752133953101-572b52d578b5",
+    "quiet-luxury-wardrobe": "photo-1641642231157-0849081598a2",
+    "sequins-history-revival": "photo-1550614000-4895a10e1bfd",
+    "sequins-everyday-styling": "photo-1779406273746-8aef6abde6de",
+    "pantone-2026-cloud-dancer": "photo-1762764919554-cfd608ffc1a0",
+    "fall-winter-2026-fashion-month": "photo-1543728069-a3f97c5a2f32",
+    "off-white-styling-2026": "photo-1713812964743-f5bc0e117154",
+    "spring-2026-couture-craft": "photo-1671535108620-d169ce916f09",
+    "met-gala-2026-costume-art": "photo-1541941702428-22609a10cb9e",
+    "linen-summer-fabric": "photo-1705290304455-35ffb433f560",
+    "espadrille-summer-shoe": "photo-1625909111853-5b975dc7f895",
+    "resort-2027-trends-little-black-dress": "photo-1783598534213-d301fdc455db",
+    "copenhagen-fashion-week-spring-2027-trends": "photo-1601982321967-62e214d48552",
+    "spring-2027-fashion-trends-forecast": "photo-1650409408977-8719ff494c4f",
+    "colour-of-the-year-2027-luminous-blue": "photo-1588726963671-7875b4c2e00b",
+    "new-york-fashion-week-spring-2027-trends": "photo-1733322992706-1210ca79f4df"
+  },
+  "pages": {
+    "brand-story": {
+      "photo": "photo-1558769132-cb1aea458c5e",
+      "width": 1000
+    },
+    "fashion-news-neutrals": {
+      "photo": "photo-1490481651871-ab68de25d43d",
+      "width": 800
+    },
+    "fashion-news-summer-linen": {
+      "photo": "photo-1592980187697-2708eafe9c81",
+      "width": 800
+    },
+    "fashion-news-autumn-layering": {
+      "photo": "photo-1485968579580-b6d095142e6e",
+      "width": 800
+    }
+  },
+  "og_default": {
+    "photo": "photo-1558769132-cb1aea458c5e"
+  }
+}

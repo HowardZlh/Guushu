@@ -4,7 +4,7 @@ title: "波西米亚风 2025 春夏回潮：Chloé 的麂皮与长裙"
 title_en: "Boho Chic Returns for Spring 2025: Chloé, Suede, Long Skirts"
 description: "波西米亚风 2025 春夏回潮：Chemena Kamali 执掌的 Chloé 把 2004 年 Sienna Miller 的流苏与麂皮重新带回秀场，Prada 也出了麂皮大衣。关键单品、配色，以及怎么买一件能穿十年的麂皮外套。"
 description_en: "Boho chic is back for spring 2025. Chemena Kamali's Chloé revived the 2004 Sienna Miller look, Prada sent out a suede coat, and here is what to buy once."
-image: "https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800"
+image: "/assets/img/posts/boho-chic-revival.jpg"
 tags: [boho, suede, spring-summer, trends]
 date: 2025-01-15
 updated: 2026-09-18
@@ -29,7 +29,7 @@ author: "Guushu Team"
 - **飘逸长裙**：碎花或素色，裙长到脚踝，走路时能带起来。
 - **流苏包与宽腰带**：2005 年那一轮的 hobo bag 和硬币腰带又回来了，别一次全上。
 
-![波西米亚风 2025 春夏：麂皮外套配飘逸长裙](https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800)
+![波西米亚风 2025 春夏：麂皮外套配飘逸长裙](/assets/img/posts/boho-chic-revival.jpg)
 
 ### 配色：大地色打底，锈红点一笔
 

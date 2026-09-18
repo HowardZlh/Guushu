@@ -4,7 +4,7 @@ title: "静奢风衣橱怎么建：面料、剪裁、配色三个标准"
 title_en: "Building a Quiet Luxury Wardrobe: Fabric, Cut, Palette"
 description: "静奢风衣橱怎么建？1985 年 Donna Karan 让 8 个模特从连体衣开始一件件加穿 7 件单品，1997 年 Loro Piana 只取活体骆马毛。面料、剪裁、配色三个标准，加 Vogue 2023 年的单品清单。"
 description_en: "Quiet luxury wardrobe, built on three rules: Donna Karan's 1985 Seven Easy Pieces, Loro Piana's 1997 vicuña pact with Peru, fabric, cut, color, Vogue's 2023 list."
-image: "https://images.unsplash.com/photo-1641642231157-0849081598a2?w=800"
+image: "/assets/img/posts/quiet-luxury-wardrobe.jpg"
 tags: [quiet-luxury, wardrobe, investment, minimalism]
 date: 2025-08-14
 updated: 2026-09-18
@@ -29,7 +29,7 @@ Loro Piana 1924 年在意大利 Quarona 成立，经营羊绒、骆马毛、亚�
 
 Brunello Cucinelli 1978 年创业时手里只有约 550 美元等值的里拉，第一件产品是染成鲜亮颜色的羊绒毛衣。两家的共同点：先把纤维做对，款式是后话。
 
-![静奢风衣橱：一叠米色、灰色与深绿的针织毛衣](https://images.unsplash.com/photo-1641642231157-0849081598a2?w=800)
+![静奢风衣橱：一叠米色、灰色与深绿的针织毛衣](/assets/img/posts/quiet-luxury-wardrobe.jpg)
 
 ### 标准二：剪裁，选不跟季度走的
 

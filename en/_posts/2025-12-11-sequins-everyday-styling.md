@@ -2,7 +2,7 @@
 layout: post
 title: "How to Wear Sequins in the Daytime: Three Toned-Down Looks"
 description: "How to wear sequins in daytime: Prada's silver sequin dress under a yellow windbreaker (September 2024), Rabanne's silver-disc lapels, three formulas, care."
-image: "https://images.unsplash.com/photo-1779406273746-8aef6abde6de?w=800"
+image: "/assets/img/posts/sequins-everyday-styling.jpg"
 tags: [sequins, styling, party, winter]
 date: 2025-12-11
 updated: 2026-09-18
@@ -40,7 +40,7 @@ You don't need to shine head to toe. One sequin garment, or just one sequined ac
 
 Rabanne's lapels are the extreme version: sequins on one small part of one garment.
 
-![Daytime sequins: a royal blue sequin slip dress with matching blue boots](https://images.unsplash.com/photo-1779406273746-8aef6abde6de?w=800)
+![Daytime sequins: a royal blue sequin slip dress with matching blue boots](/assets/img/posts/sequins-everyday-styling.jpg)
 
 ### Formula three: quiet colors, matte fabric beside them
 

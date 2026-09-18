@@ -2,7 +2,7 @@
 layout: post
 title: "How to Wear Yellow: Vanilla, Saffron and Mustard, Explained"
 description: "How to wear yellow when only 6% of people call it a favourite: vanilla, saffron and mustard in three depths, plus the neutrals that hold them."
-image: "https://images.unsplash.com/photo-1590343104492-972a3169bc98?w=800"
+image: "/assets/img/posts/yellow-trends.jpg"
 tags: [yellow, color trends, 2025, fashion]
 date: 2025-01-20
 updated: 2026-09-18
@@ -30,7 +30,7 @@ Wear it as one piece, a dress or a coat, with everything else in black or navy.
 
 Mustard is darker and greener. The word only entered English as a colour name in 1886. It looks older than the other two, so it pairs better with corduroy and tweed than with silk. Scarves and coats are where it usually lives.
 
-![How to wear yellow: a vanilla knit against neutrals](https://images.unsplash.com/photo-1590343104492-972a3169bc98?w=800)
+![How to wear yellow: a vanilla knit against neutrals](/assets/img/posts/yellow-trends.jpg)
 
 ### Three pairings and one rule
 

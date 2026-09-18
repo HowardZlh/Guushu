@@ -2,7 +2,7 @@
 layout: post
 title: "Spring 2027 Fashion Trends Forecast: WGSN's Four Directions"
 description: "Spring 2027 fashion trends forecast: WGSN's four runway directions, from New Glam rock glamour to Romantic Vintage, and what each means in clothes."
-image: "https://images.unsplash.com/photo-1650409408977-8719ff494c4f?w=800"
+image: "/assets/img/posts/spring-2027-fashion-trends-forecast.jpg"
 tags: [trends, forecast, 2027, wgsn]
 date: 2026-09-04
 author: "Guushu Team"
@@ -21,7 +21,7 @@ WGSN describes this as an edgy shift on the runway, where a rebellious countercu
 
 In clothes that means slimmer, body-conscious silhouettes, low-rise cuts, and leather outerwear and separates. Animal prints return, with cheetah spots and snakeskin on dark slinky satin and lace-trimmed slip dresses. WGSN calls the mood "disheveled yet sophisticated" and reads it as an early signal for darker, more opulent stories to come.
 
-![Spring 2027 trend New Glam: leather jacket, animal print and a bra top](https://images.unsplash.com/photo-1650409408977-8719ff494c4f?w=800)
+![Spring 2027 trend New Glam: leather jacket, animal print and a bra top](/assets/img/posts/spring-2027-fashion-trends-forecast.jpg)
 
 ### Free-Style Expression: pastels and clashing patterns
 

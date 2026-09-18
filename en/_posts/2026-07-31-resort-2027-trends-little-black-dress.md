@@ -2,7 +2,7 @@
 layout: post
 title: "Resort 2027 Trends: The Little Black Dress at 100"
 description: "Resort 2027 trends: Chanel opened with the little black dress, 100 years after Vogue called it fashion's Ford. Drop waists, rosettes, carpenter pants."
-image: "https://images.unsplash.com/photo-1783598534213-d301fdc455db?w=800"
+image: "/assets/img/posts/resort-2027-trends-little-black-dress.jpg"
 tags: [resort, trends, 2027, history]
 date: 2026-07-31
 author: "Guushu Team"
@@ -21,7 +21,7 @@ Chanel's show opened with Matthieu Blazy's take on the little black dress. In 19
 
 Drop-waist dresses from the same decade came back with it. So did a related trick for lengthening the torso: a deep yoke, the panel across shoulders and chest, that carries the waist lower before releasing into a full skirt.
 
-![Resort 2027 trends: a black mini dress, long necklace and lace gloves](https://images.unsplash.com/photo-1783598534213-d301fdc455db?w=800)
+![Resort 2027 trends: a black mini dress, long necklace and lace gloves](/assets/img/posts/resort-2027-trends-little-black-dress.jpg)
 
 ### Moiré, ponyhair and rosettes: a season about materials
 

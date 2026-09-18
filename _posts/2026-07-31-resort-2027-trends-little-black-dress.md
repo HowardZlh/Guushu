@@ -4,7 +4,7 @@ title: "Resort 2027 度假系列趋势：小黑裙 100 年、低腰裙与工装�
 title_en: "Resort 2027 Trends: The Little Black Dress at 100"
 description: "Resort 2027 度假系列趋势：Chanel 以小黑裙开场，距 1926 年 Vogue 称它「福特」正好一百年；同季回归的还有低腰裙、玫瑰花饰、工装裤与衬衫。"
 description_en: "Resort 2027 trends: Chanel opened with the little black dress, 100 years after Vogue called it fashion's Ford. Drop waists, rosettes, carpenter pants."
-image: "https://images.unsplash.com/photo-1783598534213-d301fdc455db?w=800"
+image: "/assets/img/posts/resort-2027-trends-little-black-dress.jpg"
 tags: [resort, trends, 2027, history]
 date: 2026-07-31
 author: "Guushu Team"
@@ -24,7 +24,7 @@ Chanel 的度假秀由 Matthieu Blazy 的小黑裙开场。1926 年，Vogue 把�
 
 和它一起回来的还有 1920 年代的低腰连衣裙，以及一种拉长上身的做法：深育克（yoke，就是肩胸处那块拼片）把腰线往下延，再放出一条蓬起来的裙摆。
 
-![Resort 2027 趋势：小黑裙、长项链与蕾丝手套](https://images.unsplash.com/photo-1783598534213-d301fdc455db?w=800)
+![Resort 2027 趋势：小黑裙、长项链与蕾丝手套](/assets/img/posts/resort-2027-trends-little-black-dress.jpg)
 
 ### 波纹绸、马毛与玫瑰花饰：这一季在材料上做文章
 

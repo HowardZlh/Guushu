@@ -4,7 +4,7 @@ title: "百褶裙怎么搭：通勤、周末、傍晚三套夏日穿法"
 title_en: "How to Style a Pleated Skirt: Office, Weekend, Evening"
 description: "百褶裙怎么搭？1919 年 Suzanne Lenglen 穿着及小腿的百褶裙打进温网决赛，此后它就没离开过夏天。通勤、周末、傍晚三套搭法，及膝、midi、及踝三种长度怎么选，压褶怎么洗。"
 description_en: "How to style a pleated skirt: Suzanne Lenglen wore one to the 1919 Wimbledon final and it has owned summer since. Three outfits, three lengths, one care rule."
-image: "https://images.unsplash.com/photo-1762342676026-09e25daaf607?w=800"
+image: "/assets/img/posts/pleated-skirt-styling.jpg"
 tags: [pleated-skirt, styling, summer, wardrobe]
 date: 2025-06-12
 updated: 2026-09-18
@@ -29,7 +29,7 @@ author: "Guushu Team"
 
 光泽面料的百褶裙、细肩带上衣、高跟凉鞋。褶皱在灯光下流动，自带一点隆重。
 
-![百褶裙夏日穿搭：手风琴褶半裙配白 T](https://images.unsplash.com/photo-1762342676026-09e25daaf607?w=800)
+![百褶裙夏日穿搭：手风琴褶半裙配白 T](/assets/img/posts/pleated-skirt-styling.jpg)
 
 ### 上简下繁
 

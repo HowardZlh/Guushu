@@ -4,7 +4,7 @@ title: "2026 年度色 Cloud Dancer：潘通第一次选白色"
 title_en: "Pantone Color of the Year 2026: Cloud Dancer, a First White"
 description: "2026 年度色 Cloud Dancer（Pantone 11-4201）是潘通自 2000 年以来第一次选白色。2025 年 12 月 4 日公布，官方说法是「不是刺眼的纯白，是自然的白」。它和 2021 年的灰什么关系，怎么穿。"
 description_en: "Pantone Color of the Year 2026 is Cloud Dancer, 11-4201, the first white since 2000. Announced December 4, 2025 as a natural white; how to wear it."
-image: "https://images.unsplash.com/photo-1762764919554-cfd608ffc1a0?w=800"
+image: "/assets/img/posts/pantone-2026-cloud-dancer.jpg"
 tags: [pantone, color, off-white, 2026, minimalism]
 date: 2026-01-16
 updated: 2026-09-18
@@ -34,7 +34,7 @@ author: "Guushu Team"
 
 选色流程也值得知道：潘通每年两次在某个欧洲首都召集各国色彩标准机构的代表闭门开会，两天陈述和辩论之后定下一个颜色。
 
-![2026 年度色 Cloud Dancer：一身柔白的上衣与阔腿裤](https://images.unsplash.com/photo-1762764919554-cfd608ffc1a0?w=800)
+![2026 年度色 Cloud Dancer：一身柔白的上衣与阔腿裤](/assets/img/posts/pantone-2026-cloud-dancer.jpg)
 
 ### 秀场早就在穿它
 

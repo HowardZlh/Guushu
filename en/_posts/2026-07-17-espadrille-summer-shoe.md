@@ -2,7 +2,7 @@
 layout: post
 title: "Espadrille History: 1322, the YSL Wedge and the Jute Sole"
 description: "Espadrille history: first recorded under its Catalan name in 1322, Lauren Bacall in Key Largo (1948), the Yves Saint Laurent wedge of 1970, how a jute sole is made."
-image: "https://images.unsplash.com/photo-1625909111853-5b975dc7f895?w=800"
+image: "/assets/img/posts/espadrille-summer-shoe.jpg"
 tags: [espadrille, footwear, history, summer]
 date: 2026-07-17
 updated: 2026-09-18
@@ -26,7 +26,7 @@ After the Spanish Civil War (1936 to 1939), esparto was declared a "national fib
 
 The classic upper is a single piece of canvas with toe and vamp cut together, sewn to the rope sole along the sides, often with laces at the throat that wrap around the ankle. From at least the 14th century it was the everyday shoe of peasants across the Basque Country, Catalonia, Occitania.
 
-![Espadrilles with woven rope soles: the jute braid and canvas upper](https://images.unsplash.com/photo-1625909111853-5b975dc7f895?w=800)
+![Espadrilles with woven rope soles: the jute braid and canvas upper](/assets/img/posts/espadrille-summer-shoe.jpg)
 
 ### From esparto to jute: the Bangladesh production line
 

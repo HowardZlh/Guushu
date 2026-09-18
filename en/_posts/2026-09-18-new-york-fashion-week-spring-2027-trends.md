@@ -2,7 +2,7 @@
 layout: post
 title: "New York Fashion Week Spring 2027 Trends, by the Numbers"
 description: "New York Fashion Week spring 2027 trends from WGSN's count of 3,120 looks: column dresses up 1.7 points, pencil skirts up 1.4, blue up 2.4, #BrightBasics on top."
-image: "https://images.unsplash.com/photo-1733322992706-1210ca79f4df?w=800"
+image: "/assets/img/posts/new-york-fashion-week-spring-2027-trends.jpg"
 tags: [fashion-week, runway, trends, 2027, new-york]
 date: 2026-09-18
 author: "Guushu Team"
@@ -21,7 +21,7 @@ The unit is the percentage point. A category up 1.7 points means roughly two mor
 
 **Pencil skirts** rose 1.4 points. Full and A-line skirts are still the bigger growth drivers; the pencil came back by other means, through blocks of contrasting material and texture, seasonal prints and saturated colour. Old shape, new treatment.
 
-![New York Fashion Week spring 2027 trends: a row of dresses in strong colour on the runway](https://images.unsplash.com/photo-1733322992706-1210ca79f4df?w=800)
+![New York Fashion Week spring 2027 trends: a row of dresses in strong colour on the runway](/assets/img/posts/new-york-fashion-week-spring-2027-trends.jpg)
 
 ### Blue up 2.4: Luminous Blue leads
 

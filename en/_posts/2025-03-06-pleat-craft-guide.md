@@ -2,7 +2,7 @@
 layout: post
 title: "Pleats Explained: Knife, Box, Accordion and Fortuny"
 description: "Pleats explained: knife pleats at 3:1, box and cartridge pleats, 10th-century Viking linen, and the Delphos gown of about 1907 whose pleating nobody has cracked."
-image: "https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800"
+image: "/assets/img/posts/pleat-craft-guide.jpg"
 tags: [pleats, craftsmanship, textile, history]
 date: 2025-03-06
 updated: 2026-09-18
@@ -30,7 +30,7 @@ Accordion pleats are knife pleats packed tight into a zigzag. They stay shut whe
 
 Cartridge pleats gather a large amount of fabric into a narrow waistband or armhole without thickening the seam. They were everywhere in 15th- and 16th-century dress and came back in the 1840s to hold up bell-shaped skirts.
 
-![An accordion-pleated gown: pleats explained](https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800)
+![An accordion-pleated gown: pleats explained](/assets/img/posts/pleat-craft-guide.jpg)
 
 ### Fortuny pleats: the Delphos gown, about 1907
 

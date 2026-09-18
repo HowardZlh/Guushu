@@ -4,7 +4,7 @@ title: "现代廓形西装怎么穿：通勤、周末、傍晚三种搭法"
 title_en: "Modern Tailoring: How to Wear a Suit Jacket Every Day"
 description: "现代廓形西装怎么穿进日常？1975 年 Armani 拆掉衬布做出松弛西装，1993 年美国参议院才允许女议员穿裤装上会场。去掉垫肩留住结构：通勤、周末、傍晚三套搭法，肩线、腰线、长度三个挑法。"
 description_en: "Modern tailoring: Armani unpicked the jacket in 1975, the US Senate allowed women trousers only in 1993. Three ways to wear a jacket now, three things to check."
-image: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800"
+image: "/assets/img/posts/modern-tailoring-styling.jpg"
 tags: [power-suit, tailoring, styling, spring]
 date: 2025-04-24
 updated: 2026-09-18
@@ -29,7 +29,7 @@ author: "Guushu Team"
 
 **傍晚**：西装外套、丝质上衣、高跟鞋。一件剪裁好的外套，能把最简单的三件变成一套。
 
-![现代廓形西装：中性剪裁的成套西装](https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800)
+![现代廓形西装：中性剪裁的成套西装](/assets/img/posts/modern-tailoring-styling.jpg)
 
 ### 挑西装看三处
 

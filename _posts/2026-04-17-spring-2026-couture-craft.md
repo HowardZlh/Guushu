@@ -4,7 +4,7 @@ title: "高级定制是什么：1945 年的入会规则与一件 600 小时的�
 title_en: "Haute Couture Explained: 1945 Rules and a 600-Hour Jacket"
 description: "高级定制（haute couture）是什么：法国法律保护的称号、1945 年定下的四条入会规则、Lesage 一件 600 小时的梵高刺绣外套，以及 2026 春季高定季 Dior、Chanel 秀评里的细节。"
 description_en: "Haute couture explained: French legal protection, the 1945 rules (Paris atelier, 20 technicians, 50 looks a season) and Lesage's 600-hour Van Gogh jacket."
-image: "https://images.unsplash.com/photo-1671535108620-d169ce916f09?w=800"
+image: "/assets/img/posts/spring-2026-couture-craft.jpg"
 tags: [couture, embroidery, craftsmanship, history]
 date: 2026-04-17
 updated: 2026-09-18
@@ -29,7 +29,7 @@ author: "Guushu Team"
 
 Lesage 的前身是 1858 年的 Michonet 工坊，给拿破仑三世的宫廷做过刺绣，1924 年由 Lesage 家族接手。2002 年起属于 Chanel 的子公司 Paraffection。
 
-![高定工坊里的手工刺绣：haute couture 的钉珠工时都花在这里](https://images.unsplash.com/photo-1671535108620-d169ce916f09?w=800)
+![高定工坊里的手工刺绣：haute couture 的钉珠工时都花在这里](/assets/img/posts/spring-2026-couture-craft.jpg)
 
 ### 巴黎的手工坊：Lemarié 做羽毛，Lognon 打褶
 

@@ -60,7 +60,7 @@ title: "中文标题"
 title_en: "English Title"
 description: "中文描述"
 description_en: "English description"
-image: "https://..."          # 主图，与正文插图同一张
+image: "/assets/img/posts/<slug>.jpg"   # 主图，自托管，与正文插图同一张（见 §6.4）
 tags: [tag1, tag2, ...]
 date: YYYY-MM-DD
 author: "Guushu Team"
@@ -134,6 +134,11 @@ author: "Guushu Team"
 
 ## 6. 配图工作流（关键：必须看图验证）
 
+图片**自托管**：站内所有配图都是仓库里的 `assets/img/posts/<slug>.jpg`（1200×630），
+og:image / 卡片 / 正文共用一个文件；Unsplash 只用于选图，来源 id 登记在
+`scripts/image-sources.json`，由 `scripts/make_images.py` 生成本地文件。构建不访问
+任何外部图片服务，`image:` 指向的文件不存在时 `build.py` 会直接失败。
+
 Unsplash 随机图片 ID **无法从 ID 推断内容**，且 `source.unsplash.com` 关键词接口
 已停用（返回 503）。因此必须**下载后实际查看**。
 
@@ -152,10 +157,10 @@ Unsplash 随机图片 ID **无法从 ID 推断内容**，且 `source.unsplash.co
    ```
    用具体贴题的英文关键词（如 `accordion pleated dress` / `quiet luxury outfit`）；
    `alt_description` 只是线索，**不能替代看图**。
-   > ⚠️ 该 key 是公开 demo key（~50 次/小时），仅用于编辑期选图；最终写进 md 的永远是
-   > 不含 key 的静态直链 `https://images.unsplash.com/photo-<ID>?w=800`。
-2. **Unsplash 直链**（内容需下载验证）：
-   `https://images.unsplash.com/photo-<ID>?w=800`
+   > ⚠️ 该 key 是公开 demo key（~50 次/小时），仅用于编辑期选图；md 里只写本地路径，
+   > `scripts/image-sources.json` 里只记 `photo-<ID>`，都不含 key。
+2. **Unsplash 直链**（仅用于下载候选图看内容，不写进 md）：
+   `https://images.unsplash.com/photo-<ID>?w=400`
 3. **Wikimedia Commons**（内容明确、URL 稳定，适合工艺/实物/历史图）：
    `https://commons.wikimedia.org/wiki/Special:FilePath/<File_Name>.jpg?width=800`
    - 注意：Commons 的 `upload.wikimedia.org/.../thumb/<hash>/...` 直链需要 MD5 哈希前缀，
@@ -188,18 +193,32 @@ curl -s -L -A "Mozilla/5.0" -o cand2.jpg -w "%{http_code}\n" \
 
 ```bash
 cd /Users/steve/WebstormProjects/Guushu
-python3 - <<'PY'
-import re, glob, collections
-urls=collections.defaultdict(list)
-for f in glob.glob("_posts/*.md")+glob.glob("en/_posts/*.md"):
-    for m in re.finditer(r'image: "([^"]+)"', open(f,encoding="utf-8").read()):
-        urls[m.group(1).split("?")[0]].append(f)
-for u,fs in sorted(urls.items()):
-    slugs={re.sub(r'^(en/)?_posts/','',x).replace('.md','') for x in fs}
-    print(f"{u.split('/')[-1]:55} x{len(fs)}", "<-- 跨文章重复!" if len(slugs)>1 else "")
-PY
+grep -n "<ID>" scripts/image-sources.json   # 应无输出：该图未被其它文章使用
 ```
-每张主图应只出现 `x2`（中文 + 英文镜像）；出现跨文章重复必须替换。
+每张主图对应唯一 slug（中英镜像共用一个文件）；`posts` 段里同一个 `photo-<ID>`
+出现两次即为跨文章重复，必须替换。
+
+### 6.4 登记来源、生成本地图、写入 md
+
+```bash
+# 1) scripts/image-sources.json 的 posts 段加一行（替换配图则改 id）
+#    "<slug>": "photo-<ID>"
+# 2) 生成 assets/img/posts/<slug>.jpg（1200×630）；替换时加 --force
+python3 scripts/make_images.py --only <slug>
+```
+
+用 Read 工具再看一眼裁切结果（居中裁切偶尔会切掉主体）。然后把同一个本地路径写进
+中英两个文件的 front matter 与正文：
+
+```yaml
+image: "/assets/img/posts/<slug>.jpg"
+```
+```markdown
+![贴合内容的 alt](/assets/img/posts/<slug>.jpg)
+```
+
+`assets/img/posts/<slug>.jpg`、`scripts/image-sources.json` 与两个 md 放进同一个 PR。
+脚本依赖 Pillow（本机 `python3` 已有；不要加进 `requirements.txt`）。
 
 ---
 

@@ -4,7 +4,7 @@ title: "麻底鞋 espadrille 简史：1322 年、YSL 坡跟与黄麻底"
 title_en: "Espadrille History: 1322, the YSL Wedge and the Jute Sole"
 description: "麻底鞋（espadrille）的历史：1322 年首次见于文献，1948 年《盖世枭雄》里的 Lauren Bacall，1970 年 YSL 与 Castañer 做出坡跟款；鞋底从 esparto 草到黄麻的转变，以及一双鞋的制作工序。"
 description_en: "Espadrille history: first recorded under its Catalan name in 1322, Lauren Bacall in Key Largo (1948), the Yves Saint Laurent wedge of 1970, how a jute sole is made."
-image: "https://images.unsplash.com/photo-1625909111853-5b975dc7f895?w=800"
+image: "/assets/img/posts/espadrille-summer-shoe.jpg"
 tags: [espadrille, footwear, history, summer]
 date: 2026-07-17
 updated: 2026-09-18
@@ -27,7 +27,7 @@ espadrille 是法语词，经奥克语（Occitan）来自加泰罗尼亚语 espa
 
 传统麻底鞋的鞋面是一片帆布，鞋头和鞋面一块裁，从两侧缝到绳底上，鞋口常有系带缠到脚踝。至少从 14 世纪起，它一直是巴斯克、加泰罗尼亚和法国奥克地区农民的日常鞋。
 
-![编织草绳鞋底的麻底鞋：espadrille 的黄麻辫底与帆布鞋面](https://images.unsplash.com/photo-1625909111853-5b975dc7f895?w=800)
+![编织草绳鞋底的麻底鞋：espadrille 的黄麻辫底与帆布鞋面](/assets/img/posts/espadrille-summer-shoe.jpg)
 
 ### 鞋底从 esparto 换成黄麻：孟加拉国的加工线
 
