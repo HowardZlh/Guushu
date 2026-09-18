@@ -95,10 +95,10 @@ pip install -r requirements.txt   # Jinja2, Markdown, PyYAML
 npm install                       # dart-sass
 
 # Build the site into ./_site
-python build.py
+python3 build.py
 
 # Preview locally
-python -m http.server -d _site 4000
+python3 -m http.server -d _site 4000
 ```
 
 Then open `http://localhost:4000/` in your browser.
@@ -115,7 +115,7 @@ Ruby/Jekyll → Python migration to be verified for behavioural parity.
 node test/run-all.js
 
 # L2/L3 — build-output & snapshot tests (build the site first)
-python build.py
+python3 build.py
 node test/run-build.js
 
 # Regenerate snapshot baseline after intentional content changes

@@ -93,10 +93,10 @@ pip install -r requirements.txt   # Jinja2、Markdown、PyYAML
 npm install                       # dart-sass
 
 # 构建站点到 ./_site
-python build.py
+python3 build.py
 
 # 本地预览
-python -m http.server -d _site 4000
+python3 -m http.server -d _site 4000
 ```
 
 然后在浏览器中打开 `http://localhost:4000/`。
@@ -112,7 +112,7 @@ python -m http.server -d _site 4000
 node test/run-all.js
 
 # L2/L3 —— 构建产物与快照测试（需先构建站点）
-python build.py
+python3 build.py
 node test/run-build.js
 
 # 内容有意变更后，重新生成快照基线

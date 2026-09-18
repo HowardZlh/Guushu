@@ -58,9 +58,12 @@ setup steps for a new machine are in `.envrc`.
 
 ## Build & test
 
-- Build the site: `python build.py` (output in `_site/`).
+- Build the site: `python3 build.py` (output in `_site/`). Use `python3`
+  explicitly: bare `python` is not on PATH on the dev machine, and a failed
+  build leaves the previous `_site/` in place, so L2/L3 tests would pass
+  against stale output. Confirm the `Built site -> ... (N posts)` line first.
 - L1 tests (pure JS, no build): `node test/run-all.js`
-- L2/L3 tests (require a build first): `python build.py && node test/run-build.js`
+- L2/L3 tests (require a build first): `python3 build.py && node test/run-build.js`
 - Regenerate snapshot baseline after intentional content changes:
   `UPDATE_SNAPSHOTS=1 node -e "require('./test/test-runner').runTests(['./test/build/snapshot.test.js'])"`
 
