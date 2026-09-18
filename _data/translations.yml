@@ -36,12 +36,12 @@ footer:
 404:
   zh:
     title: "页面未找到"
-    message: "哎呀！您似乎进入了一个空山谷。您要找的页面已经移动或不存在。"
+    message: "您似乎走进了一座空谷。您要找的页面已移动或不存在。"
     home: "返回首页"
     browse: "浏览时尚资讯"
   en:
     title: "Page Not Found"
-    message: "Oops! It seems you've wandered into an empty valley. The page you're looking for has moved or doesn't exist."
+    message: "It seems you've wandered into an empty valley. The page you're looking for has moved or no longer exists."
     home: "Return Home"
     browse: "Browse Fashion News"
 
