@@ -5,11 +5,10 @@
 //     Always blocking.
 //   * "content" checks: the SEO rules from docs/article-authoring-prompt.md
 //     (description length, title length, internal links, image alt, no
-//     escaped blockquote). Blocking only when SEO_STRICT=1; otherwise the
-//     violations are printed as a report and the suite passes. The flag
-//     exists so the backlog of older posts can be fixed in batches without
-//     turning CI red in the meantime. Flip the default once the backlog is
-//     clear.
+//     escaped blockquote). Blocking by default now that the backlog of
+//     older posts has been rewritten (PRs #9, #10 and the 2026 batch). Set
+//     SEO_STRICT=0 to fall back to report-only mode, e.g. while drafting a
+//     batch of new posts locally.
 //
 // Site directory can be overridden with SITE_DIR env var.
 
@@ -21,7 +20,7 @@ const SITE_DIR = process.env.SITE_DIR
     ? path.resolve(process.env.SITE_DIR)
     : path.join(process.cwd(), '_site');
 
-const STRICT = process.env.SEO_STRICT === '1';
+const STRICT = process.env.SEO_STRICT !== '0';
 
 // Character budgets. Google shows roughly 30 CJK chars / 60 Latin chars of a
 // title and 80 CJK chars / 160 Latin chars of a description before cutting.
@@ -155,7 +154,7 @@ describe('SEO: template guarantees (always blocking)', () => {
     });
 });
 
-describe(`SEO: article content rules (${STRICT ? 'blocking' : 'report only, set SEO_STRICT=1 to block'})`, () => {
+describe(`SEO: article content rules (${STRICT ? 'blocking; set SEO_STRICT=0 for report only' : 'report only'})`, () => {
     const bad = results.filter(r => r.problems.length);
     const summary = `${bad.length}/${results.length} posts with issues`;
     if (STRICT) {

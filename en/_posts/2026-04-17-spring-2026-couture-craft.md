@@ -1,40 +1,51 @@
 ---
 layout: post
-title: "The Craft of Couture: Why One Piece Takes Hundreds of Hours"
-description: "On the occasion of the Spring 2026 couture season, a look at what haute couture really means and the hours behind every stitch"
+title: "Haute Couture Explained: 1945 Rules and a 600-Hour Jacket"
+description: "Haute couture explained: French legal protection, the 1945 rules (Paris atelier, 20 technicians, 50 looks a season) and Lesage's 600-hour Van Gogh jacket."
 image: "https://images.unsplash.com/photo-1671535108620-d169ce916f09?w=800"
 tags: [couture, embroidery, craftsmanship, history]
 date: 2026-04-17
+updated: 2026-09-18
 author: "Guushu Team"
 lang: en
 ---
 
-## A Handcraft Ritual Held Twice a Year
+## Haute couture explained: two seasons a year, one French law, twelve ateliers
 
-Haute couture (French for "high dressmaking") is shown twice a year — **January and July** — corresponding to spring/summer and fall/winter. The just-passed Spring 2026 couture season once again pulled fashion back to its oldest, most hand-made side: no mass production here, only pieces made by hand, at great expense of time, for specific individuals.
+Haute couture is a legally protected term in France, shown twice a year in Paris, in January and July. The Spring 2026 couture week ran in the last days of January, with first collections at Dior and Chanel from newly arrived designers. Three questions here: who may use the word, where the hours go, why it hasn't died.
 
-### "Haute Couture" Is Not an Adjective but a Protected Title
+### The 1945 rules: a Paris atelier, 20 technicians, 50 looks a season
 
-Many assume any lavish, expensive gown can be called couture. Not so. In France, "haute couture" is a **legally protected designation**, governed by the Paris-based Fédération de la Haute Couture et de la Mode, and only houses meeting strict conditions may bear the label.
+Wikipedia's Haute couture entry puts it plainly. The term is protected by French law and defined by the Paris Chamber of Commerce. A commission at the Ministry for Industry draws up a list each year, and only the houses on it may use the name. The criteria were tightened in 1945, after the Nazi occupation of Paris.
 
-Those conditions have historically included: made-to-measure work for private clients, an atelier of a certain size in Paris, and the presentation each season of a required number of hand-made looks in Paris. In other words, couture is a set of rules about *how it's made* — not merely about *looking expensive*.
+Four conditions. Made-to-order work for private clients with one or more fittings. A Paris workshop employing at least 15 full-time staff. At least 20 full-time technical people. A collection of at least 50 original designs covering both day and evening wear, shown each January and July.
 
-![Hand embroidery in a couture atelier](https://images.unsplash.com/photo-1671535108620-d169ce916f09?w=800)
+The guild behind the rules is older. The Chambre Syndicale de la Couture Parisienne was founded in 1868 at the urging of Charles Frederick Worth, who had opened at 7 rue de la Paix in 1858. Worth was the first to show clothes on live models instead of dolls and the first to sew a label into a garment. A Worth bodice could run to 17 pieces of fabric, most of it sewn by hand.
 
-### Where the Hours Go
+### Where the hours go: Lesage's 600-hour Van Gogh jacket
 
-A couture piece can take hundreds of hours, and that time settles into places you never see:
+"Hundreds of hours" gets said about couture constantly. Numbers with a source are rarer. One that checks out: for Yves Saint Laurent's summer 1988 collection, the embroidery house Lesage made two Van Gogh jackets (Irises and Sunflowers) at 600 hours each. The Irises jacket carried 250,000 sequins in 22 colors, 200,000 beads, 250 meters of ribbon.
 
-- **Draping:** shaping the silhouette inch by inch on a form with muslin, adjusted again and again.
-- **Embroidery and beadwork:** the most time-consuming stage, with thousands of beads, sequins, and feathers applied by hand, one stitch at a time.
-- **Hand sewing:** from linings to finished edges, many steps stay hand-sewn to achieve a fit no machine can replicate.
+Lesage descends from the Michonet workshop of 1858, which embroidered for the court of Napoleon III. The Lesage family took it over in 1924. Since 2002 it has belonged to Paraffection, a Chanel subsidiary.
 
-This is why Paris still keeps a group of specialized ateliers — embroidery, featherwork, artificial flowers, pleating — each with its own masters. They are the invisible skeleton that makes couture possible.
+![Hand embroidery in a haute couture atelier, where the beadwork hours go](https://images.unsplash.com/photo-1671535108620-d169ce916f09?w=800)
 
-### Why Couture Still Exists
+### The Paris ateliers: Lemarié for feathers, Lognon for pleats
 
-By commercial logic, couture has very few clients and enormous costs; it can hardly be expected to turn a profit. It functions more as each house's "laboratory" and "calling card": a place to experiment with the most extreme craft and ideas, then radiate that influence downward to ready-to-wear, accessories, and fragrance.
+Paraffection means "for the love of." Chanel set it up in 1985 and launched it properly in 2002 by buying Lesage and the shoemaker Massaro. By 2015 it held twelve workshops, among them Desrues for buttons (founded 1887), Lemarié for feathers and camellias (1880), Guillet for fabric flowers (1869), Montex for embroidery (1939), Les Ateliers Lognon for pleating (1945).
 
-For the rest of us, the point of understanding couture is this — it reminds us that a garment's value can be defined by *hands* and *time*, not only by a price tag.
+They stay independent and supply other houses too. For what the pleater actually folds, see [pleats explained](/en/2025/03/06/pleat-craft-guide/).
 
-> "Machines handle efficiency; hands handle everything efficiency can never reach." —— Guushu Design Team
+### Spring 2026 couture: "there's no sewing machines"
+
+On January 26, 2026, Vogue Runway's Nicole Phelps reviewed Jonathan Anderson's first Dior couture show and quoted him on the trade: it's an endangered craft, and "you go to the atelier and there's no sewing machines." Knitwear turned up in looks 4 and 8; sweaters in looks 42 and 43.
+
+A day later Phelps covered Matthieu Blazy's first Chanel couture. The opening look was a transparent skirt suit in blush-pink mousseline with pink quartz buttons and a hem chain strung with small natural pearls. Clients can ask for a personal embroidery: an initial, a zodiac sign, a heart. The same day, Tiziana Cardini reported that Silvana Armani's first Armani Privé collection ran to 60 looks "instead of the customary hundred."
+
+### Why couture survives: the house's laboratory
+
+Wikipedia is blunt about the economics. Custom clothing is no longer a main source of income and often costs more than it earns; its job is to lend an aura to ready-to-wear, shoes, perfume. Lacroix and Mugler both shut their couture lines over the expense. Phelps opened her Schiaparelli review on January 26 with the line "haute couture is a vanishingly small club."
+
+Several Met Gala 2026 gowns arrived with their hour counts attached in the press; see also [Met Gala 2026 and Costume Art](/en/2026/05/15/met-gala-2026-costume-art/).
+
+> "Five words, 'there's no sewing machines,' explain couture better than any hour count." — Guushu Design Team

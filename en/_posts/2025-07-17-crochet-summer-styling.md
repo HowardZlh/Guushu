@@ -24,7 +24,7 @@ Two hundred years on, a crochet vest for hot weather works the same way. Less ya
 
 The most useful recent runway example is Diotima's spring 2025 show in New York on September 10, 2024. Rachel Scott put a crochet collar on a very thin striped turtleneck and wore it over a linen wrap skirt. A draped dress in mint and gray jersey carried a black crochet appliqué down one side. Her line to Vogue: "I love combining crochet with wovens. There's always this fluidity and undoneness."
 
-By March 7, 2025, Vogue's spring trend list had a heading called crafty minimalism, with runway credits for Khaite, Proenza Schouler, Diotima, Alaïa and Carven. That is where crochet sits this summer: one textured piece inside an otherwise plain wardrobe.
+By March 7, 2025, Vogue's spring trend list had a heading called crafty minimalism, with runway credits for Khaite, Proenza Schouler, Diotima, Alaïa and Carven. That is where crochet sits in summer 2025: one textured piece inside an otherwise plain wardrobe.
 
 ![Crochet summer outfit: a cream openwork crochet dress layered over a brown base](https://images.unsplash.com/photo-1752133953101-572b52d578b5?w=800)
 

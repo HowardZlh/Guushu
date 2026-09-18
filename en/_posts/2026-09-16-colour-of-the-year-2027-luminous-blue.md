@@ -13,7 +13,7 @@ lang: en
 
 The Colour of the Year 2027 is Luminous Blue, a bright blue with a lit-from-inside quality, chosen jointly by the trend forecaster WGSN and the colour-system company Coloro. They announced it on 2 June 2025, a year and a half before the year it names.
 
-Compare that with [Pantone's Cloud Dancer, the 2026 colour we covered in January](/en/2026/01/16/pantone-2026-cloud-dancer/): an off-white, announced in December, covering the following twelve months. WGSN runs on a different clock because its audience is people who make clothes. Mills need to dye yarn and brands need to plan ranges long before anything reaches a shop floor. In April this year WGSN already announced its 2028 colour, a warm earth tone named Radiant Earth.
+Compare that with [Pantone's Cloud Dancer, the 2026 colour we covered in January](/en/2026/01/16/pantone-2026-cloud-dancer/): an off-white, announced in December, covering the following twelve months. WGSN runs on a different clock because its audience is people who make clothes. Mills need to dye yarn and brands need to plan ranges long before anything reaches a shop floor. In April 2026 WGSN already announced its 2028 colour, a warm earth tone named Radiant Earth.
 
 ### Why blue: lapis lazuli and cobalt
 
