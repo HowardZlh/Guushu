@@ -44,6 +44,18 @@ Follow this workflow for every code change:
   then proceed via PR. Ask the user only if the intent is genuinely ambiguous.
 - Keep each PR focused on a single logical change.
 
+### GitHub account
+
+This repo belongs to `HowardZlh`. The local clone is pinned to that account
+(`.git/config`: `gh.configDir`, `credential.helper`, remote URL with user);
+setup steps for a new machine are in `.envrc`.
+
+- Use `gh` directly, **without** any `GH_CONFIG_DIR=` prefix; the wrapper in
+  `~/.zshenv` picks the right config from `git config gh.configDir`.
+- Before the first write operation in a session, `gh api user -q .login` must
+  print `HowardZlh`. If it prints another account, redo the steps in `.envrc`
+  instead of running `gh auth switch` (that changes the global account).
+
 ## Build & test
 
 - Build the site: `python build.py` (output in `_site/`).
