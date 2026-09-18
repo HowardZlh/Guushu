@@ -2,7 +2,7 @@
 layout: post
 title: "Boho Chic Returns for Spring 2025: Chloé, Suede, Long Skirts"
 description: "Boho chic is back for spring 2025. Chemena Kamali's Chloé revived the 2004 Sienna Miller look, Prada sent out a suede coat, and here is what to buy once."
-image: "https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800"
+image: "/assets/img/posts/boho-chic-revival.jpg"
 tags: [boho, suede, spring-summer, trends]
 date: 2025-01-15
 updated: 2026-09-18
@@ -28,7 +28,7 @@ Suede works here because its nap swallows light. It reads as worn-in even when n
 - **A long skirt that moves.** Printed or plain, hem at the ankle.
 - **Fringe and a wide belt.** The hobo bag and coin belt from 2005 are back. Wear one, not all.
 
-![Boho chic spring 2025: suede jacket with a flowing long skirt](https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800)
+![Boho chic spring 2025: suede jacket with a flowing long skirt](/assets/img/posts/boho-chic-revival.jpg)
 
 ### Colours: earth tones, then one hit of rust
 

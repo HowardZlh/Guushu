@@ -4,7 +4,7 @@ title: "钩针工艺与慢时尚：从爱尔兰饥荒救济到 2025 春夏秀场
 title_en: "Crochet and Slow Fashion: From Famine Relief to the Runway"
 description: "钩针（crochet）为什么天然属于慢时尚？它 19 世纪才留下实物证据，1845 年爱尔兰大饥荒期间被当作救济手段，一战前大量生产。一针一个活结、可拆可续，2025 春夏「手工极简」趋势里又被点名。"
 description_en: "Why crochet belongs to slow fashion: one live loop at a time, famine relief in Ireland from 1845, and a place on Vogue's spring 2025 list under crafty minimalism."
-image: "https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800"
+image: "/assets/img/posts/crochet-craft-sustainability.jpg"
 tags: [crochet, craftsmanship, sustainability, summer]
 date: 2025-06-26
 updated: 2026-09-18
@@ -27,7 +27,7 @@ author: "Guushu Team"
 
 Mlle Riego de la Branchardière 通常被认为是爱尔兰钩针蕾丝的发明者，1846 年出版了第一本图样书。爱尔兰人移民美洲时把它带走，这种蕾丝一直大量生产到第一次世界大战。
 
-![钩针工艺细节：手工钩织的花片](https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800)
+![钩针工艺细节：手工钩织的花片](/assets/img/posts/crochet-craft-sustainability.jpg)
 
 ### 为什么钩针天然属于慢时尚
 

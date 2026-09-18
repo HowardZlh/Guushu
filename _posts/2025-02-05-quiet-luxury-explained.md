@@ -4,7 +4,7 @@ title: "静奢风是什么：从 The Row 到 Loro Piana 的无标识高级感"
 title_en: "Quiet Luxury Explained: The Row, Loro Piana and No Logos"
 description: "静奢风（quiet luxury）是什么？低调设计、好材料、经典剪裁，没有 logo。它和隐形财富、老钱风差在哪，为什么《继承之战》和 2023 年 Paltrow 出庭让它翻红，The Row 头三年为何不接受采访。"
 description_en: "Quiet luxury explained: no logos, better cloth. How it differs from stealth wealth, why Succession and Paltrow's 2023 trial revived it, and The Row's silent start."
-image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800"
+image: "/assets/img/posts/quiet-luxury-explained.jpg"
 tags: [quiet-luxury, minimalism, investment, trends]
 date: 2025-02-05
 updated: 2026-09-18
@@ -25,7 +25,7 @@ author: "Guushu Team"
 
 1990 年代，Donna Karan 和 Miuccia Prada 的利落实穿服装延续了这条线；Jil Sander 和 Giorgio Armani 在 80、90 年代的极简剪裁，被视为更早的先声。
 
-![静奢风穿搭：无标识的驼色大衣与羊绒针织](https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800)
+![静奢风穿搭：无标识的驼色大衣与羊绒针织](/assets/img/posts/quiet-luxury-explained.jpg)
 
 ### 2020 年代翻红：一部剧和一场官司
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Quiet Luxury Explained: The Row, Loro Piana and No Logos"
 description: "Quiet luxury explained: no logos, better cloth. How it differs from stealth wealth, why Succession and Paltrow's 2023 trial revived it, and The Row's silent start."
-image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800"
+image: "/assets/img/posts/quiet-luxury-explained.jpg"
 tags: [quiet-luxury, minimalism, investment, trends]
 date: 2025-02-05
 updated: 2026-09-18
@@ -24,7 +24,7 @@ In the late 18th and early 19th centuries the new capitalist class in Europe and
 
 In the 1990s Donna Karan and Miuccia Prada carried the line forward with practical clothes for working women. Jil Sander and Giorgio Armani, in the 1980s and 90s, are usually named as the precursors.
 
-![Quiet luxury: an unbranded camel coat over cashmere knitwear](https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800)
+![Quiet luxury: an unbranded camel coat over cashmere knitwear](/assets/img/posts/quiet-luxury-explained.jpg)
 
 ### The 2020s revival: a TV series and a court case
 

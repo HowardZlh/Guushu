@@ -2,7 +2,7 @@
 layout: post
 title: "Crochet and Slow Fashion: From Famine Relief to the Runway"
 description: "Why crochet belongs to slow fashion: one live loop at a time, famine relief in Ireland from 1845, and a place on Vogue's spring 2025 list under crafty minimalism."
-image: "https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800"
+image: "/assets/img/posts/crochet-craft-sustainability.jpg"
 tags: [crochet, craftsmanship, sustainability, summer]
 date: 2025-06-26
 updated: 2026-09-18
@@ -24,7 +24,7 @@ An 1844 instruction book describes the hooks as steel, ivory or boxwood, shaped 
 
 The weightiest chapter is Irish. During the Great Famine of 1845 to 1849, crochet lace was introduced as a form of relief. Co-operatives formed, schools opened, teachers were trained and sent around the country. Mlle Riego de la Branchardière is generally credited with inventing Irish crochet lace and published the first pattern book in 1846. Emigrants carried the skill to America, and Irish lace was made in quantity until the First World War.
 
-![Crochet craft detail: a hand-worked granny square](https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800)
+![Crochet craft detail: a hand-worked granny square](/assets/img/posts/crochet-craft-sustainability.jpg)
 
 ### Why crochet fits slow fashion
 

@@ -52,7 +52,10 @@ Guushu/
 │   │   ├── template-engine.js  # Lightweight template engine
 │   │   ├── components.js       # UI component factory
 │   │   └── main.js             # Core interactions
-│   └── post/                   # Article images
+│   └── img/                    # Self-hosted images (posts/<slug>.jpg 1200x630, pages/, og-default.jpg)
+├── scripts/
+│   ├── image-sources.json      # Unsplash photo id behind every image in assets/img
+│   └── make_images.py          # Regenerates assets/img from the manifest (Pillow, run by hand)
 ├── en/                         # English mirror site
 ├── test/                       # Tests (3-layer strategy)
 │   ├── test-runner.js          # Lightweight test framework

@@ -4,7 +4,7 @@ title: "莫兰迪色搭配公式：同色深浅、邻近色、中性色三套"
 title_en: "Morandi Colour Formulas: Three Ways to Wear Greyed Tones"
 description: "莫兰迪色怎么搭？三套公式：同色深浅（单色配色）、邻近色过渡（色轮相邻）、中性色托底。核心只有一条，让各色的灰度接近；再讲三个常见误区，以及为什么灰墙挨着红沙发会发绿。"
 description_en: "Morandi colour formulas: tone on tone, analogous neighbours, neutrals as a base. One rule underneath them all, plus why a grey wall beside a red sofa looks green."
-image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800"
+image: "/assets/img/posts/morandi-colour-formulas.jpg"
 tags: [morandi, color, styling, spring]
 date: 2025-04-10
 updated: 2026-09-18
@@ -29,7 +29,7 @@ author: "Guushu Team"
 
 适合想要一点变化、又不想打破宁静的场合。
 
-![莫兰迪色搭配：灰粉大衣配米色内搭](https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800)
+![莫兰迪色搭配：灰粉大衣配米色内搭](/assets/img/posts/morandi-colour-formulas.jpg)
 
 ### 公式三：中性色托底
 

@@ -4,7 +4,7 @@ title: "褶皱 2025 春夏流行趋势：从 Pleats Please 到 Prada 百褶裙"
 title_en: "Pleats for Spring 2025: From Pleats Please to Prada's Skirt"
 description: "褶皱是 2025 春夏的廓形关键词：Vogue 3 月的趋势榜把「学院风百褶裙」列入八大趋势，Issey Miyake 2024 年 9 月的秀把整片褶皱缠上身体。压褶与软褶怎么分、三件关键单品、怎么搭。"
 description_en: "Pleats are spring 2025's silhouette: Vogue's March top-eight list has the preppy pleated skirt, Issey Miyake wrapped pleated panels around the body in September."
-image: "https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800"
+image: "/assets/img/posts/spring-pleats.jpg"
 tags: [pleats, silhouette, spring-summer, texture, trends]
 date: 2025-05-21
 updated: 2026-09-18
@@ -25,7 +25,7 @@ author: "Guushu Team"
 
 它同时干两件事：给身体活动余量，又在静与动之间制造光影变化。春夏要轻、要流动，一种「会呼吸的结构」正好。
 
-![2025 春夏褶皱流行趋势：手风琴褶连衣裙](https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800)
+![2025 春夏褶皱流行趋势：手风琴褶连衣裙](/assets/img/posts/spring-pleats.jpg)
 
 ### 三件关键单品
 

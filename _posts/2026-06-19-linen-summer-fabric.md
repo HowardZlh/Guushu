@@ -4,7 +4,7 @@ title: "亚麻面料：3 万年前的纤维、Tarkhan 裙与法国 75% 的产量
 title_en: "Linen Explained: 30,000-Year Fibers and a 5,000-Year Dress"
 description: "亚麻（linen）为什么是夏天的面料：导热快、越洗越软、易皱的物理原因；3 万多年前的染色亚麻纤维、公元前 3482 年的 Tarkhan 裙；沤麻、打麻、梳麻三道工序；法国占世界亚麻产量 75%。"
 description_en: "Why linen feels cool, wrinkles and softens with washing; 30,000-year-old dyed flax from a Georgian cave; the Tarkhan dress of 3482 BC; France's 75% of the crop."
-image: "https://images.unsplash.com/photo-1705290304455-35ffb433f560?w=800"
+image: "/assets/img/posts/linen-summer-fabric.jpg"
 tags: [linen, textile, craftsmanship, summer]
 date: 2026-06-19
 updated: 2026-09-18
@@ -31,7 +31,7 @@ author: "Guushu Team"
 
 1977 年 V&A 的修复师整理一堆「陪葬破布」时把它认了出来。1978 年的碳十四测年给出约公元前 2362 年，2015 年牛津大学重测，把年代推到公元前 3482 到 3102 年之间。织物经密每厘米 22 到 23 根，纬密 13 到 14 根。
 
-![天然亚麻面料的纹理：亚麻夏天面料上的粗节与褶皱](https://images.unsplash.com/photo-1705290304455-35ffb433f560?w=800)
+![天然亚麻面料的纹理：亚麻夏天面料上的粗节与褶皱](/assets/img/posts/linen-summer-fabric.jpg)
 
 ### 沤麻、打麻、梳麻：为什么亚麻比棉贵
 

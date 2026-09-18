@@ -2,7 +2,7 @@
 layout: post
 title: "Colour of the Year 2027: WGSN's Luminous Blue, Explained"
 description: "WGSN x Coloro's Colour of the Year 2027 is Luminous Blue. Why lapis and cobalt, how much blue New York's spring 2027 runways showed, and how to wear it."
-image: "https://images.unsplash.com/photo-1588726963671-7875b4c2e00b?w=800"
+image: "/assets/img/posts/colour-of-the-year-2027-luminous-blue.jpg"
 tags: [color, color trends, blue, wgsn, 2027]
 date: 2026-09-16
 author: "Guushu Team"
@@ -21,7 +21,7 @@ WGSN's theme for 2027 is interconnectedness. Luminous Blue gets compared to two 
 
 Clare Smith, WGSN's Senior Colour Strategist, called it "both mysterious and eccentric" and said it would work from occasionwear to activewear. The announcement also stressed that the shade is gender-inclusive and not tied to a season.
 
-![Colour of the Year 2027 Luminous Blue: a cobalt blue dress in motion](https://images.unsplash.com/photo-1588726963671-7875b4c2e00b?w=800)
+![Colour of the Year 2027 Luminous Blue: a cobalt blue dress in motion](/assets/img/posts/colour-of-the-year-2027-luminous-blue.jpg)
 
 ### Spring 2027 in New York: blue up 2.4 points
 

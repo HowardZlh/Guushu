@@ -4,7 +4,7 @@ title: "亮片日常穿搭：白天怎么穿、怎么降调、怎么点到为止
 title_en: "How to Wear Sequins in the Daytime: Three Toned-Down Looks"
 description: "亮片日常穿搭怎么做？2024 年 9 月 Prada 把银色亮片裙套进黄色风衣，Rabanne 用小银片绣满西装翻领。三种思路：中性色降调、只用一件、白天选低调色系配哑光面料，再看缝法与洗护。"
 description_en: "How to wear sequins in daytime: Prada's silver sequin dress under a yellow windbreaker (September 2024), Rabanne's silver-disc lapels, three formulas, care."
-image: "https://images.unsplash.com/photo-1779406273746-8aef6abde6de?w=800"
+image: "/assets/img/posts/sequins-everyday-styling.jpg"
 tags: [sequins, styling, party, winter]
 date: 2025-12-11
 updated: 2026-09-18
@@ -41,7 +41,7 @@ Prada 那套的逻辑相同，只是他们把中性色换成了一件黄色风�
 
 Rabanne 的翻领是这个思路的极端版：亮片只占一件衣服的一小块。
 
-![亮片日常穿搭：宝蓝色亮片吊带裙配同色长靴](https://images.unsplash.com/photo-1779406273746-8aef6abde6de?w=800)
+![亮片日常穿搭：宝蓝色亮片吊带裙配同色长靴](/assets/img/posts/sequins-everyday-styling.jpg)
 
 ### 思路三：白天选低调色系，旁边放哑光面料
 

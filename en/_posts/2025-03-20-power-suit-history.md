@@ -2,7 +2,7 @@
 layout: post
 title: "Power Suit History: Chanel, Le Smoking and the Shoulder Pad"
 description: "Power suit history in five dates: the 1920s Chanel suit, Le Smoking in 1966, Dress for Success in 1975, the 1978 shoulder pad, and Thatcher's pearls and pussy-bow."
-image: "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800"
+image: "/assets/img/posts/power-suit-history.jpg"
 tags: [power-suit, tailoring, history, workwear]
 date: 2025-03-20
 updated: 2026-09-18
@@ -28,7 +28,7 @@ Nan Kempner, the New York socialite, once arrived at La Côte Basque in trousers
 
 John T. Molloy's *Dress for Success* (1975) and *Women: Dress for Success* (1977) sold the skirted suit as the uniform of the professional woman. Early power dressing copied menswear outright: tailored jacket, padded shoulders, knee-length skirt. The jacket played down the bust; the cut did the talking.
 
-![Power suit: a 1980s-style padded-shoulder skirt suit](https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800)
+![Power suit: a 1980s-style padded-shoulder skirt suit](/assets/img/posts/power-suit-history.jpg)
 
 ### 1978: the big shoulder is born
 

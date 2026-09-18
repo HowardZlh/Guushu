@@ -2,7 +2,7 @@
 layout: post
 title: "Linen Explained: 30,000-Year Fibers and a 5,000-Year Dress"
 description: "Why linen feels cool, wrinkles and softens with washing; 30,000-year-old dyed flax from a Georgian cave; the Tarkhan dress of 3482 BC; France's 75% of the crop."
-image: "https://images.unsplash.com/photo-1705290304455-35ffb433f560?w=800"
+image: "/assets/img/posts/linen-summer-fabric.jpg"
 tags: [linen, textile, craftsmanship, summer]
 date: 2026-06-19
 updated: 2026-09-18
@@ -30,7 +30,7 @@ Egyptians wore white linen by day and were wrapped in it after death. Plutarch w
 
 In 1977, conservators from the V&A recognized it while sorting a pile of "funerary rags." Radiocarbon dating in 1978 put it at about 2362 BC; a 2015 Oxford test moved it back to between 3482 and 3102 BC. The weave counts 22 to 23 warps and 13 to 14 wefts per centimeter.
 
-![The texture of natural linen fabric: slubs and creases in a summer linen](https://images.unsplash.com/photo-1705290304455-35ffb433f560?w=800)
+![The texture of natural linen fabric: slubs and creases in a summer linen](/assets/img/posts/linen-summer-fabric.jpg)
 
 ### Retting, scutching, heckling: why linen costs more than cotton
 

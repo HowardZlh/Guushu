@@ -4,7 +4,7 @@ title: "黄色怎么穿：香草黄、藏红花黄与芥末黄搭配指南"
 title_en: "How to Wear Yellow: Vanilla, Saffron and Mustard, Explained"
 description: "黄色怎么穿？2000 年一项调查里只有 6% 的欧美人把黄色选作最爱，可它又是远处最醒目的颜色。香草黄、藏红花黄、芥末黄三种深浅怎么配、配什么中性色、冷暖皮怎么选，一篇讲清。"
 description_en: "How to wear yellow when only 6% of people call it a favourite: vanilla, saffron and mustard in three depths, plus the neutrals that hold them."
-image: "https://images.unsplash.com/photo-1590343104492-972a3169bc98?w=800"
+image: "/assets/img/posts/yellow-trends.jpg"
 tags: [yellow, color trends, 2025, fashion]
 date: 2025-01-20
 updated: 2026-09-18
@@ -31,7 +31,7 @@ author: "Guushu Team"
 
 芥末黄（mustard）偏绿偏暗，1886 年才作为颜色名进入英语。它天然带旧感，配灯芯绒、羊毛、粗花呢比配丝绸好看，围巾和外套是最常见的用法。
 
-![黄色穿搭：香草黄针织配中性色](https://images.unsplash.com/photo-1590343104492-972a3169bc98?w=800)
+![黄色穿搭：香草黄针织配中性色](/assets/img/posts/yellow-trends.jpg)
 
 ### 三种搭法与一个原则
 

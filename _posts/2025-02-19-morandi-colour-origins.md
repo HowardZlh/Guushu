@@ -4,7 +4,7 @@ title: "莫兰迪色的来历：画家 Giorgio Morandi 与他的灰调静物"
 title_en: "Morandi Colours: The Painter Behind Fashion's Greyed Palette"
 description: "莫兰迪色是什么、从哪来？画家 Giorgio Morandi（1890–1964）在博洛尼亚一条街上画了 55 年瓶罐，灰、米、褐的低饱和调色板后来成了一整套配色语言。三个特征、五个常见色、一个搭配提醒。"
 description_en: "Morandi colours: Giorgio Morandi (1890–1964) painted bottles on one Bologna street for 55 years. How that greyed palette became a fashion vocabulary."
-image: "https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800"
+image: "/assets/img/posts/morandi-colour-origins.jpg"
 tags: [morandi, color, muted-tones, aesthetics]
 date: 2025-02-19
 updated: 2026-09-18
@@ -25,7 +25,7 @@ author: "Guushu Team"
 
 据华盛顿 Phillips Collection 的说法，他会改造这些物件：给表面涂上颜色，去掉标签和反光。所以画里的瓶罐没有商标、没有高光，只剩形状和一层哑光的灰、米、褐。这就是「莫兰迪色」的源头。
 
-![莫兰迪色调的针织穿搭：灰粉与燕麦米](https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800)
+![莫兰迪色调的针织穿搭：灰粉与燕麦米](/assets/img/posts/morandi-colour-origins.jpg)
 
 ### 莫兰迪色的三个特征
 

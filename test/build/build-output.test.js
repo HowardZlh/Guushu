@@ -129,7 +129,38 @@ describe('Build output: SEO & metadata', () => {
         assertTrue(ld.headline.length > 0);
         assertMatch(ld.datePublished, /^2025-01-15T/);
         assertIncludes(html, '<meta property="og:type" content="article" />');
-        assertIncludes(html, '<meta property="og:image" content="https://images.unsplash.com/');
+        assertIncludes(html, '<meta property="og:image" content="https://fashion.guushu.com/assets/img/posts/boho-chic-revival.jpg" />');
+        assertEqual(ld.image[0], 'https://fashion.guushu.com/assets/img/posts/boho-chic-revival.jpg');
+    });
+
+    it('social-card images are self-hosted, absolute, and shipped in the build', () => {
+        const pages = fs.readdirSync(SITE_DIR, { recursive: true })
+            .filter(p => p.endsWith('index.html'))
+            .map(p => p.toString());
+        assertTrue(pages.length > 50, `expected the whole site, got ${pages.length} pages`);
+        const seen = new Set();
+        for (const rel of pages) {
+            const html = read(rel);
+            const og = html.match(/<meta property="og:image" content="([^"]+)" \/>/);
+            assertTrue(og !== null, `${rel}: missing og:image`);
+            assertMatch(og[1], /^https:\/\/fashion\.guushu\.com\/assets\/img\/.+\.jpg$/);
+            assertTrue(!html.includes('images.unsplash.com'), `${rel}: still hotlinks Unsplash`);
+            assertIncludes(html, '<meta property="og:image:width" content="1200" />');
+            assertIncludes(html, '<meta property="og:image:height" content="630" />');
+            assertIncludes(html, `<meta name="twitter:image" content="${og[1]}" />`);
+            assertIncludes(html, '<meta name="twitter:card" content="summary_large_image" />');
+            seen.add(og[1].replace('https://fashion.guushu.com/', ''));
+        }
+        for (const img of seen) {
+            assertTrue(exists(img), `og:image file not in build output: ${img}`);
+        }
+        // Non-post pages fall back to the brand image.
+        assertIncludes(read('about/index.html'), 'og:image" content="https://fashion.guushu.com/assets/img/og-default.jpg"');
+    });
+
+    it('post cards and bodies use the same self-hosted image', () => {
+        assertIncludes(read('index.html'), '<img src="/assets/img/posts/');
+        assertIncludes(read('2025/01/15/boho-chic-revival/index.html'), 'src="/assets/img/posts/boho-chic-revival.jpg"');
     });
 
     it('language redirect only fires from the site root', () => {

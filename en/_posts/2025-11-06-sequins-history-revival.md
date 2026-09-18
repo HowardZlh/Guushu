@@ -2,7 +2,7 @@
 layout: post
 title: "Sequin History: From Tutankhamun's Tomb to Party Season"
 description: "Sequin history: gold discs in the Indus Valley about 2500 BC, Tutankhamun's tomb, Henry VII's coronation in 1485, Egyptomania in 1922, gelatin that melted, vinyl."
-image: "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?w=800"
+image: "/assets/img/posts/sequins-history-revival.jpg"
 tags: [sequins, metallic, party, history]
 date: 2025-11-06
 updated: 2026-09-18
@@ -33,7 +33,7 @@ The word comes from the Venetian *zechin*, a ducat coin, which French rendered a
 
 On November 4, 1922, Howard Carter's team uncovered a single step in the Valley of the Kings, the top of the staircase down to Tutankhamun's tomb. The antechamber was opened on November 26. The Tutmania that followed made Egyptian motifs the decorative fashion of the decade, and sequins came back with it, worn by flappers as a statement. Most of them were still metal.
 
-![Sequin history: two burgundy sequined tops with matching pleated skirts](https://images.unsplash.com/photo-1550614000-4895a10e1bfd?w=800)
+![Sequin history: two burgundy sequined tops with matching pleated skirts](/assets/img/posts/sequins-history-revival.jpg)
 
 ### Materials: from gelatin that melted to vinyl
 

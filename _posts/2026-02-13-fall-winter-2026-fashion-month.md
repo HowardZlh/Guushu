@@ -4,7 +4,7 @@ title: "时装月是什么：2026 秋冬四大时装周的顺序与由来"
 title_en: "Fashion Month Explained: The Fall/Winter 2026 Big Four"
 description: "时装月是什么？2026 秋冬四大时装周按纽约、伦敦、米兰、巴黎的顺序在 2 到 3 月发布。纽约 1943 年的「新闻周」为什么办，伦敦 1984 年在停车场开场，即看即买为什么没成主流。"
 description_en: "Fashion month explained: why fall/winter 2026 runs New York, London, Milan, Paris in February and March, when each week began, and what became of see-now-buy-now."
-image: "https://images.unsplash.com/photo-1543728069-a3f97c5a2f32?w=800"
+image: "/assets/img/posts/fall-winter-2026-fashion-month.jpg"
 tags: [fashion-week, runway, trends, 2026]
 date: 2026-02-13
 updated: 2026-09-18
@@ -38,7 +38,7 @@ Wikipedia 米兰时装周词条写得直接：「日程从纽约开始，接着�
 
 伦敦时装周第一届在 1984 年，场地是肯辛顿英联邦学院的停车场，15 场秀，Vivienne Westwood、Betty Jackson、Ghost 都在名单上。2010 年春季它成了四大里第一个把秀在网上直播的；2018 年 9 月，它成了第一个不用皮草的主要时装周。
 
-![时装月秀场：多位模特在观众两侧走终场](https://images.unsplash.com/photo-1543728069-a3f97c5a2f32?w=800)
+![时装月秀场：多位模特在观众两侧走终场](/assets/img/posts/fall-winter-2026-fashion-month.jpg)
 
 ### 巴黎的规矩比它的时装周老一百年
 

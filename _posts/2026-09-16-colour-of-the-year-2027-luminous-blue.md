@@ -4,7 +4,7 @@ title: "2027 年度色 Luminous Blue：WGSN 亮蓝的来历与穿法"
 title_en: "Colour of the Year 2027: WGSN's Luminous Blue, Explained"
 description: "2027 年度色 Luminous Blue 由 WGSN × Coloro 提前两年公布。为什么对照青金石与钴、纽约 2027 春夏秀场兑现了多少、和潘通有何区别、怎么穿。"
 description_en: "WGSN x Coloro's Colour of the Year 2027 is Luminous Blue. Why lapis and cobalt, how much blue New York's spring 2027 runways showed, and how to wear it."
-image: "https://images.unsplash.com/photo-1588726963671-7875b4c2e00b?w=800"
+image: "/assets/img/posts/colour-of-the-year-2027-luminous-blue.jpg"
 tags: [color, color trends, blue, wgsn, 2027]
 date: 2026-09-16
 author: "Guushu Team"
@@ -24,7 +24,7 @@ WGSN 给 2027 定的主题词是「相互连接」（interconnectedness）。Lum
 
 WGSN 高级色彩策略师 Clare Smith 的说法是，这个颜色「既神秘又古怪」，从正装到运动服都用得上。官方还特意点出它不分性别，也不分季节。
 
-![2027 年度色 Luminous Blue：一身钴蓝连衣裙](https://images.unsplash.com/photo-1588726963671-7875b4c2e00b?w=800)
+![2027 年度色 Luminous Blue：一身钴蓝连衣裙](/assets/img/posts/colour-of-the-year-2027-luminous-blue.jpg)
 
 ### 2027 春夏纽约秀场：蓝色多了 2.4 个百分点
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Crochet Summer Outfits: Three Ways to Wear It in the Heat"
 description: "Crochet summer outfits start with the yarn: cotton, linen or bamboo over wool in July, the 1823 openwork pattern, Diotima's crochet collar from 2024, three looks."
-image: "https://images.unsplash.com/photo-1752133953101-572b52d578b5?w=800"
+image: "/assets/img/posts/crochet-summer-styling.jpg"
 tags: [crochet, styling, summer, wardrobe]
 date: 2025-07-17
 updated: 2026-09-18
@@ -26,7 +26,7 @@ The most useful recent runway example is Diotima's spring 2025 show in New York 
 
 By March 7, 2025, Vogue's spring trend list had a heading called crafty minimalism, with runway credits for Khaite, Proenza Schouler, Diotima, Alaïa and Carven. That is where crochet sits in summer 2025: one textured piece inside an otherwise plain wardrobe.
 
-![Crochet summer outfit: a cream openwork crochet dress layered over a brown base](https://images.unsplash.com/photo-1752133953101-572b52d578b5?w=800)
+![Crochet summer outfit: a cream openwork crochet dress layered over a brown base](/assets/img/posts/crochet-summer-styling.jpg)
 
 ### Three settings, one rule: crochet is a layer, never the whole outfit
 

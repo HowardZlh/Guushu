@@ -2,7 +2,7 @@
 layout: post
 title: "Building a Quiet Luxury Wardrobe: Fabric, Cut, Palette"
 description: "Quiet luxury wardrobe, built on three rules: Donna Karan's 1985 Seven Easy Pieces, Loro Piana's 1997 vicuña pact with Peru, fabric, cut, color, Vogue's 2023 list."
-image: "https://images.unsplash.com/photo-1641642231157-0849081598a2?w=800"
+image: "/assets/img/posts/quiet-luxury-wardrobe.jpg"
 tags: [quiet-luxury, wardrobe, investment, minimalism]
 date: 2025-08-14
 updated: 2026-09-18
@@ -28,7 +28,7 @@ Loro Piana was founded in Quarona, Italy, in 1924 as a merchant of cashmere, vic
 
 Brunello Cucinelli started his company in 1978 with the lira equivalent of about $550. The first product was cashmere sweaters dyed in bright colors. Fiber first, style second, in both cases.
 
-![Quiet luxury wardrobe: a stack of folded knit sweaters in beige, gray, dark green](https://images.unsplash.com/photo-1641642231157-0849081598a2?w=800)
+![Quiet luxury wardrobe: a stack of folded knit sweaters in beige, gray, dark green](/assets/img/posts/quiet-luxury-wardrobe.jpg)
 
 ### Rule two: a cut that ignores the season
 

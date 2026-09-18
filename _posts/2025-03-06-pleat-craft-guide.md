@@ -4,7 +4,7 @@ title: "褶皱工艺图鉴：刀褶、箱褶、手风琴褶与 Fortuny 褶"
 title_en: "Pleats Explained: Knife, Box, Accordion and Fortuny"
 description: "褶皱工艺图鉴：刀褶 3:1、箱褶、手风琴褶、筒褶各有什么结构逻辑；公元 10 世纪 Birka 维京墓里的褶饰亚麻衬衣；1907 年前后 Fortuny 夫妇的 Delphos 长裙为什么至今没人复制出来。"
 description_en: "Pleats explained: knife pleats at 3:1, box and cartridge pleats, 10th-century Viking linen, and the Delphos gown of about 1907 whose pleating nobody has cracked."
-image: "https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800"
+image: "/assets/img/posts/pleat-craft-guide.jpg"
 tags: [pleats, craftsmanship, textile, history]
 date: 2025-03-06
 updated: 2026-09-18
@@ -31,7 +31,7 @@ author: "Guushu Team"
 
 筒褶（cartridge pleat）解决的是另一个问题：怎么把很多布收进很窄的腰头或袖窿，又不把接缝堆厚。15、16 世纪的男女装都爱用，1840 年代为了撑起钟形大裙摆再次流行。
 
-![手风琴褶长裙：褶皱工艺图鉴](https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800)
+![手风琴褶长裙：褶皱工艺图鉴](/assets/img/posts/pleat-craft-guide.jpg)
 
 ### Fortuny 褶：1907 年前后的 Delphos 长裙
 

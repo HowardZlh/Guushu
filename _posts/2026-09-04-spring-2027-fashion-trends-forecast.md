@@ -4,7 +4,7 @@ title: "2027 春夏流行趋势预测：WGSN 的四大方向"
 title_en: "Spring 2027 Fashion Trends Forecast: WGSN's Four Directions"
 description: "2027 春夏流行趋势预测：开秀前 WGSN 列出四条方向——New Glam 摇滚华丽、Free-Style Expression 自我表达、松弛学院风、Romantic Vintage 复古浪漫。"
 description_en: "Spring 2027 fashion trends forecast: WGSN's four runway directions, from New Glam rock glamour to Romantic Vintage, and what each means in clothes."
-image: "https://images.unsplash.com/photo-1650409408977-8719ff494c4f?w=800"
+image: "/assets/img/posts/spring-2027-fashion-trends-forecast.jpg"
 tags: [trends, forecast, 2027, wgsn]
 date: 2026-09-04
 author: "Guushu Team"
@@ -22,7 +22,7 @@ WGSN 把它描述成秀场上的一次「偏锐」转向：反叛的地下气质
 
 具体到衣服，是更修身、更贴合身体的廓形，低腰，皮质外套和单品。动物纹回来了，猎豹斑和蛇皮纹印在深色的滑面缎和蕾丝边吊带裙上。WGSN 称它「凌乱但讲究」，并把它视为往后「暗调奢华」故事的早期信号。
 
-![2027 春夏趋势 New Glam：皮衣、动物纹与内衣式上装](https://images.unsplash.com/photo-1650409408977-8719ff494c4f?w=800)
+![2027 春夏趋势 New Glam：皮衣、动物纹与内衣式上装](/assets/img/posts/spring-2027-fashion-trends-forecast.jpg)
 
 ### Free-Style Expression：粉彩、花纹撞花纹的自我表达
 

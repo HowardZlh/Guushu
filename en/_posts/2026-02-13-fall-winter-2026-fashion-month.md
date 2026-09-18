@@ -2,7 +2,7 @@
 layout: post
 title: "Fashion Month Explained: The Fall/Winter 2026 Big Four"
 description: "Fashion month explained: why fall/winter 2026 runs New York, London, Milan, Paris in February and March, when each week began, and what became of see-now-buy-now."
-image: "https://images.unsplash.com/photo-1543728069-a3f97c5a2f32?w=800"
+image: "/assets/img/posts/fall-winter-2026-fashion-month.jpg"
 tags: [fashion-week, runway, trends, 2026]
 date: 2026-02-13
 updated: 2026-09-18
@@ -37,7 +37,7 @@ It took until 1993 for the CFDA to gather New York's shows in one place. Bryant 
 
 London Fashion Week's first edition was in 1984, in the car park of the Commonwealth Institute in Kensington: 15 shows, with Vivienne Westwood, Betty Jackson and Ghost on the list. In spring 2010 it became the first of the Big Four to stream shows live online. In September 2018 it became the first major fashion week to go fur-free.
 
-![Fashion month runway: models walking the finale between two banks of guests](https://images.unsplash.com/photo-1543728069-a3f97c5a2f32?w=800)
+![Fashion month runway: models walking the finale between two banks of guests](/assets/img/posts/fall-winter-2026-fashion-month.jpg)
 
 ### Paris has rules a century older than its fashion week
 

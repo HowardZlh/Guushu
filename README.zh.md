@@ -52,7 +52,10 @@ Guushu/
 │   │   ├── template-engine.js  # 轻量模板引擎
 │   │   ├── components.js       # UI 组件工厂
 │   │   └── main.js             # 核心交互逻辑
-│   └── post/                   # 文章配图
+│   └── img/                    # 自托管配图（posts/<slug>.jpg 1200×630、pages/、og-default.jpg）
+├── scripts/
+│   ├── image-sources.json      # assets/img 每张图对应的 Unsplash photo id
+│   └── make_images.py          # 按清单重新生成 assets/img（依赖 Pillow，手动运行）
 ├── en/                         # 英文版镜像源
 ├── test/                       # 测试（三层策略）
 │   ├── test-runner.js          # 轻量测试框架

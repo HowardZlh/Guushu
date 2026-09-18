@@ -2,7 +2,7 @@
 layout: post
 title: "Copenhagen Spring 2027 Trends: Long Shorts to Rococo"
 description: "Copenhagen Fashion Week spring 2027 trends: polka dots and lingerie dressing carry over, long shorts lead daywear, panniers bring rococo, basket weave is new."
-image: "https://images.unsplash.com/photo-1601982321967-62e214d48552?w=800"
+image: "/assets/img/posts/copenhagen-fashion-week-spring-2027-trends.jpg"
 tags: [fashion-week, trends, 2027, spring-summer, copenhagen]
 date: 2026-08-28
 author: "Guushu Team"
@@ -21,7 +21,7 @@ Spring 2027 in Copenhagen didn't tear up last season. Polka dots stayed. So did 
 
 The most theatrical strand was historical romance. Panniers walked. So did crinolines and corsets. Trailing fabrics and soft textures sat alongside them, which kept the season from turning into a costume drama.
 
-![Copenhagen spring 2027 trends: a polka-dot skirt on a summer street](https://images.unsplash.com/photo-1601982321967-62e214d48552?w=800)
+![Copenhagen spring 2027 trends: a polka-dot skirt on a summer street](/assets/img/posts/copenhagen-fashion-week-spring-2027-trends.jpg)
 
 ### Long shorts and a crisp shirt: the everyday pairing of spring 2027
 

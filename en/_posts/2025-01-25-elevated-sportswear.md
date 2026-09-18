@@ -2,7 +2,7 @@
 layout: post
 title: "Athleisure Explained: How to Wear Sportswear to the Office"
 description: "Athleisure explained: a word from 1976, a $35 billion US market by 2014, Chanel sneakers on the couture runway that same year. How to wear leggings to work."
-image: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800"
+image: "/assets/img/posts/elevated-sportswear.jpg"
 tags: [sportswear, luxury, comfort, 2025, athleisure]
 date: 2025-01-25
 updated: 2026-09-18
@@ -28,7 +28,7 @@ Beyoncé's Ivy Park followed, on sale from April 14, 2016. She and Rihanna did m
 - **A long blazer.** Light shoulder, hem below the hip. It is the garment that translates leggings into office wear.
 - **Ballet flats.** Big from 2005 to 2010, revived in 2022. The least effort you can make after sneakers.
 
-![Athleisure: leggings under a long tailored blazer](https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800)
+![Athleisure: leggings under a long tailored blazer](/assets/img/posts/elevated-sportswear.jpg)
 
 ### Three settings
 

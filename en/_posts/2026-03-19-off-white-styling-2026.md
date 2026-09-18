@@ -2,7 +2,7 @@
 layout: post
 title: "Off-White Outfits 2026: Cloud Dancer Without Going Flat"
 description: "Off-white outfits 2026: Toteme's pearlescent ivories from September 2025, Jil Sander's darted white skirt, ivory vs cream by hex code, four rules for Cloud Dancer."
-image: "https://images.unsplash.com/photo-1713812964743-f5bc0e117154?w=800"
+image: "/assets/img/posts/off-white-styling-2026.jpg"
 tags: [off-white, styling, spring, minimalism]
 date: 2026-03-19
 updated: 2026-09-18
@@ -37,7 +37,7 @@ Toteme showed spring 2026 on September 15, 2025, in the Pool Room of the former 
 
 Nine days later in Milan, Simone Bellotti's first Jil Sander show opened with Guinevere Van Seenus in a white A-line skirt built with inverse darting for a subtle geometric volume, which he called "modern armature." Both shows gave the same answer for white: vary the surface, structure the shape.
 
-![Off-white outfit: a white linen shirt with white trousers under a stone archway](https://images.unsplash.com/photo-1713812964743-f5bc0e117154?w=800)
+![Off-white outfit: a white linen shirt with white trousers under a stone archway](/assets/img/posts/off-white-styling-2026.jpg)
 
 ### Rule one: layer fabrics, don't add color
 

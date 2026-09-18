@@ -22,8 +22,16 @@
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:type" content="{{ 'article' if page.slug else 'website' }}" />
     {%- set image_alt = page.image_alt | default(page.title | default(site.title)) %}
+    {#- Crawlers need an absolute URL. Images are self-hosted (site-relative
+        paths under /assets/img/); an absolute URL is passed through as-is. -#}
+    {%- set og_image = '' %}
     {%- if page.image %}
-    <meta property="og:image" content="{{ page.image }}" />
+    {%- set og_image = page.image if page.image.startswith('http') else site.url ~ page.image %}
+    <meta property="og:image" content="{{ og_image }}" />
+    {%- if page.image_width and page.image_height %}
+    <meta property="og:image:width" content="{{ page.image_width }}" />
+    <meta property="og:image:height" content="{{ page.image_height }}" />
+    {%- endif %}
     <meta property="og:image:alt" content="{{ image_alt | e }}" />
     {%- endif %}
     {%- if page.slug %}
@@ -33,8 +41,8 @@
     <meta name="twitter:card" content="{{ 'summary_large_image' if page.image else 'summary' }}" />
     <meta name="twitter:title" content="{{ page.title | default(site.title) | e }}" />
     <meta name="twitter:description" content="{{ page.description | default(site.description) | e }}" />
-    {%- if page.image %}
-    <meta name="twitter:image" content="{{ page.image }}" />
+    {%- if og_image %}
+    <meta name="twitter:image" content="{{ og_image }}" />
     <meta name="twitter:image:alt" content="{{ image_alt | e }}" />
     {%- endif %}
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
@@ -51,7 +59,7 @@
         "@type": "Article",
         "headline": page.title,
         "description": page.description,
-        "image": [page.image] if page.image else [],
+        "image": [og_image] if og_image else [],
         "datePublished": page.date_xml,
         "dateModified": page.updated_xml | default(page.date_xml),
         "inLanguage": page_lang,

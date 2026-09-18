@@ -2,7 +2,7 @@
 layout: post
 title: "How to Style a Pleated Skirt: Office, Weekend, Evening"
 description: "How to style a pleated skirt: Suzanne Lenglen wore one to the 1919 Wimbledon final and it has owned summer since. Three outfits, three lengths, one care rule."
-image: "https://images.unsplash.com/photo-1762342676026-09e25daaf607?w=800"
+image: "/assets/img/posts/pleated-skirt-styling.jpg"
 tags: [pleated-skirt, styling, summer, wardrobe]
 date: 2025-06-12
 updated: 2026-09-18
@@ -28,7 +28,7 @@ An accordion-pleated skirt, a white tee, flat shoes. Let the skirt do the moving
 
 A pleated skirt in a fabric with some shine, a camisole, heeled sandals. Pleats under lights move by themselves and bring a bit of occasion with them.
 
-![Pleated skirt summer outfit: accordion pleats with a white T-shirt](https://images.unsplash.com/photo-1762342676026-09e25daaf607?w=800)
+![Pleated skirt summer outfit: accordion pleats with a white T-shirt](/assets/img/posts/pleated-skirt-styling.jpg)
 
 ### Simple on top
 

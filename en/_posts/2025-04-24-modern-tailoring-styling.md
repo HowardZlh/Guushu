@@ -2,7 +2,7 @@
 layout: post
 title: "Modern Tailoring: How to Wear a Suit Jacket Every Day"
 description: "Modern tailoring: Armani unpicked the jacket in 1975, the US Senate allowed women trousers only in 1993. Three ways to wear a jacket now, three things to check."
-image: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800"
+image: "/assets/img/posts/modern-tailoring-styling.jpg"
 tags: [power-suit, tailoring, styling, spring]
 date: 2025-04-24
 updated: 2026-09-18
@@ -28,7 +28,7 @@ A fact for scale: until 1993, women could not wear trousers on the floor of the 
 
 **Evening**: the jacket over a silk top, with heels. One well-cut jacket turns three plain pieces into an outfit.
 
-![Modern tailoring: a matched suit in a neutral, gender-neutral cut](https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800)
+![Modern tailoring: a matched suit in a neutral, gender-neutral cut](/assets/img/posts/modern-tailoring-styling.jpg)
 
 ### Three things to check on the jacket
 

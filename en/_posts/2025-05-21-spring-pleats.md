@@ -2,7 +2,7 @@
 layout: post
 title: "Pleats for Spring 2025: From Pleats Please to Prada's Skirt"
 description: "Pleats are spring 2025's silhouette: Vogue's March top-eight list has the preppy pleated skirt, Issey Miyake wrapped pleated panels around the body in September."
-image: "https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800"
+image: "/assets/img/posts/spring-pleats.jpg"
 tags: [pleats, silhouette, spring-summer, texture, trends]
 date: 2025-05-21
 updated: 2026-09-18
@@ -24,7 +24,7 @@ Pleats sort by how they're set. Pressed pleats are ironed or heat-set into a sha
 
 They do two jobs at once: they give the body room to move, and they turn movement into light and shadow. Spring wants lightness and flow. A structure that breathes fits.
 
-![Pleats for spring 2025: an accordion-pleated dress](https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800)
+![Pleats for spring 2025: an accordion-pleated dress](/assets/img/posts/spring-pleats.jpg)
 
 ### Three pieces
 

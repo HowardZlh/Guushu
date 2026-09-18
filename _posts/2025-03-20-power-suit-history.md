@@ -4,7 +4,7 @@ title: "女性西装简史：从 1966 年 Le Smoking 到 80 年代垫肩"
 title_en: "Power Suit History: Chanel, Le Smoking and the Shoulder Pad"
 description: "女性西装（power suit）怎么从借来的男装变成自己的衣服？1920 年代 Chanel 套装、1966 年 Le Smoking、1975 年《Dress for Success》、1978 年的大垫肩、撒切尔的珍珠与蝴蝶结衬衫。"
 description_en: "Power suit history in five dates: the 1920s Chanel suit, Le Smoking in 1966, Dress for Success in 1975, the 1978 shoulder pad, and Thatcher's pearls and pussy-bow."
-image: "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800"
+image: "/assets/img/posts/power-suit-history.jpg"
 tags: [power-suit, tailoring, history, workwear]
 date: 2025-03-20
 updated: 2026-09-18
@@ -29,7 +29,7 @@ author: "Guushu Team"
 
 John T. Molloy 的《Dress for Success》（1975）和《Women: Dress for Success》（1977）把裙装套装推为职业女性的制服。早期的力量着装直接借男装的做法：合身西装、垫肩、及膝裙，用外套弱化胸线，用剪裁传递权威。
 
-![女性西装：1980 年代风格的垫肩套装](https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800)
+![女性西装：1980 年代风格的垫肩套装](/assets/img/posts/power-suit-history.jpg)
 
 ### 1978 年：大垫肩的诞生
 

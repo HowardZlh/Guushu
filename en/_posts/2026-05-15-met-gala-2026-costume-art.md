@@ -2,7 +2,7 @@
 layout: post
 title: "Met Gala 2026 Costume Art: $42 Million, Nearly 400 Objects"
 description: "Met Gala 2026 (May 4) and the Costume Art exhibition: a record $42 million raised, $100,000 tickets, nearly 400 objects in a new gallery and the $50 dinner of 1948."
-image: "https://images.unsplash.com/photo-1541941702428-22609a10cb9e?w=800"
+image: "/assets/img/posts/met-gala-2026-costume-art.jpg"
 tags: [met-gala, exhibition, fashion, history]
 date: 2026-05-15
 updated: 2026-09-18
@@ -30,7 +30,7 @@ The same piece gave two hour counts. Kylie Jenner's Schiaparelli gown took over 
 
 Two days earlier, on May 5, Vogue's Christian Allaire reported that Nicole Kidman's custom Chanel by Matthieu Blazy took the atelier 800 hours. For what those hours mean in couture terms, see [haute couture explained](/en/2026/04/17/spring-2026-couture-craft/).
 
-![Fashion in a museum display case: the Met Gala 2026 Costume Art exhibition treats dress as art](https://images.unsplash.com/photo-1541941702428-22609a10cb9e?w=800)
+![Fashion in a museum display case: the Met Gala 2026 Costume Art exhibition treats dress as art](/assets/img/posts/met-gala-2026-costume-art.jpg)
 
 ### The exhibition: nearly 400 objects, gowns beside armor and vases
 
