@@ -20,7 +20,11 @@ description: >-
   counting toward the 160-char paragraph limit, em dashes effectively capped at
   2), zsh array quoting, the relative-time-word sweep (今天/今年/这个夏天/this
   summer), homepage snapshot + editor's-pick sync, the truncated-file recovery
-  rule, and the PR body template.
+  rule, the PR body template, the `python` vs `python3` silent-no-build trap
+  (run-build passes on a stale `_site/`), an internal-link resolution
+  one-liner against `_site/`, and how to gate hand-written pages
+  (fashion-news / index) that seo.test does not cover: compare tells against
+  the `main` version instead of aiming for zero.
 allowed-tools:
   - read
   - grep
@@ -165,12 +169,24 @@ UPDATE_SNAPSHOTS=1 node -e "require('./test/test-runner').runTests(['./test/buil
 ## 验证
 
 ```sh
+python3 build.py | tail -1                            # 必须看到 "Built site -> ... (N posts)"，否则下面全是旧产物
 node test/run-build.js | grep "Test Results"          # 期望 N passed, 0 failed
 node -e "require('./test/test-runner').runTests(['./test/build/seo.test.js'])" | grep -E "❌|Test Results"   # 0 failed
 gh pr view <n> --json title,url                       # 有值
 ```
 
-PR 描述里的命令块能原样复跑且结果一致。
+改了手写页面（`fashion-news.html` / `index.html` / `about.html` 及 `en/` 镜像）或加了内链时，
+逐条核对站内链接在 `_site` 里都有落点（seo.test 不管这些页面）：
+
+```sh
+for f in _site/fashion-news/index.html _site/en/fashion-news/index.html; do
+  echo "== $f"; grep -o 'id="[a-z0-9-]*"' $f | sort -u | tr '\n' ' '; echo
+  grep -o 'href="/[^"#]*"' $f | sed 's/href="//;s/"$//' | sort -u | while read u; do
+    [ -f "_site${u%/}/index.html" ] || [ -f "_site$u" ] || echo "MISSING $u"; done
+done
+```
+
+无 `MISSING` 输出即通过。PR 描述里的命令块能原样复跑且结果一致。
 
 ## 坑
 
@@ -215,5 +231,13 @@ PR 描述里的命令块能原样复跑且结果一致。
 
 ### 测试产物
 
+- **`python` 不在 PATH，`build.py` 静默未跑**（2026-09-18）：`python build.py && node test/run-build.js` 里第一段报
+  `command not found` 后 `&&` 短路，但若用 `;` 或分开跑，`run-build.js` 会拿**上一次的 `_site/`** 全绿假通过。
+  本机只有 `python3`（AGENTS.md 写的 `python` 不可信）。规矩：一律 `python3 build.py`，并确认末行
+  `Built site -> ... (N posts)` 再跑测试。
+- **手写页面跑 check-ai-tells 会全红，别追零**（2026-09-18）：`fashion-news.html` 等页面的 `<section>` 整块被当作
+  一个段落，160 字 / 75 词上限必超；`Ultimate Gray` 专名命中 `ultimate`。这些页面不在 seo.test 覆盖范围。
+  改这类页面时的通过标准是「不比 `main` 差」：`git show main:<file> > /tmp/gate-base/<file>` 后两边各跑一次，
+  `grep -v paragraph` 对比非段落类违规，新增为 0、em dash 不增即可；把对比结论写进 PR。
 - **首页快照只存标题列表**：`diff index.snap _site/index.html` 会显示整页 HTML，那是对比对象不对；
   直接跑 `UPDATE_SNAPSHOTS=1` 后 `git diff test/build/__snapshots__` 看真实变化（应只有那一两行标题）。
