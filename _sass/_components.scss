@@ -96,19 +96,6 @@
     }
 }
 
-.trend-item {
-    position: relative;
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 4px;
-        height: 100%;
-        background: linear-gradient(to bottom, var(--accent-color), var(--hover-color));
-    }
-}
 
 .language-switcher .lang-link {
     position: relative;
@@ -286,5 +273,21 @@
         padding: 2rem;
         text-align: center;
         color: var(--text-light);
+    }
+}
+// Season cards on fashion-news: equal height, button pinned to the bottom
+.fashion-card:has(.card-kicker) {
+    display: flex;
+    flex-direction: column;
+
+    .fashion-card-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        .btn {
+            margin-top: auto;
+            align-self: flex-start;
+        }
     }
 }
