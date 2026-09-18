@@ -1,51 +1,53 @@
 ---
 layout: post
-title: "A Brief History of the Espadrille: From the Pyrenees to Your Summer Wardrobe"
-description: "From a 1322 peasant shoe to the YSL wedge, why the espadrille is summer's most relaxed footwear"
+title: "Espadrille History: 1322, the YSL Wedge and the Jute Sole"
+description: "Espadrille history: first recorded under its Catalan name in 1322, Lauren Bacall in Key Largo (1948), the Yves Saint Laurent wedge of 1970, how a jute sole is made."
 image: "https://images.unsplash.com/photo-1625909111853-5b975dc7f895?w=800"
 tags: [espadrille, footwear, history, summer]
 date: 2026-07-17
+updated: 2026-09-18
 author: "Guushu Team"
 lang: en
 ---
 
-## Summer's Most Relaxed Pair of Shoes
+## Espadrille history: the shoe that got its name in 1322
 
-When high summer arrives, the wardrobe needs a shoe that works with dresses, linen trousers, and holiday looks. The espadrille is almost the default answer for that slot: a canvas upper, a woven rope sole, and an inborn Mediterranean ease. Yet this seemingly casual shoe has nearly seven centuries of documented history.
+An espadrille is a canvas shoe on a rope sole. It comes from Iberia, with the deepest roots in Catalonia, Aragon, the Basque Country. Wikipedia dates its written record in Europe to at least 1322, the year it was first described under its present Catalan name, espardenya. Seven hundred years on, the name hasn't changed.
 
-### It Began on the Feet of Peasants
+### The grass in the name: esparto and espardenya
 
-The espadrille comes from Spain, with deep historical ties to the regions of **Catalonia, Aragon, and the Basque Country.** Its name derives from the Catalan *espardenya*, pointing to a tough Mediterranean grass — **esparto** — the material first used to weave the soles.
+Espadrille is a French word, taken via Occitan from the Catalan espardenya. Both it and the Spanish esparteña mean a shoe made from esparto, a tough wiry Mediterranean grass that grows in Spain, Portugal, North Africa and goes into rope and basketry. In Spanish the shoe is an alpargata; in Basque, espartina.
 
-The shoe's existence **is documented in Europe since at least 1322**, when it was first recorded under its present Catalan name. For centuries afterward it remained the everyday footwear of peasants and laborers — cheap, breathable, and made from local materials.
+The grass has a longer craft record than the shoe. The Cueva de los Murciélagos near Albuñol in Granada yielded esparto baskets 7,000 years old and esparto sandals from around 5000 BC. A study in Science Advances on September 29, 2023, pushed the most primitive espadrille-like footwear back to 9,500 years ago.
 
-### From Grass Rope to Jute
+After the Spanish Civil War (1936 to 1939), esparto was declared a "national fibre," complete with a National Esparto Service. Other fibers and plastics later took its markets and the industry declined.
 
-The espadrilles you see today mostly no longer use esparto for the sole, but **jute**. The reason is practical: it costs less and is more readily available. Jute's naturally bright white color has, in turn, become a signature design feature of the modern espadrille. Bangladesh is one of the world's most important sources of high-quality jute and jute soles.
+### The traditional build: one piece of canvas, seamed to the rope
 
-![Espadrilles with woven rope soles](https://images.unsplash.com/photo-1625909111853-5b975dc7f895?w=800)
+The classic upper is a single piece of canvas with toe and vamp cut together, sewn to the rope sole along the sides, often with laces at the throat that wrap around the ankle. From at least the 14th century it was the everyday shoe of peasants across the Basque Country, Catalonia, Occitania.
 
-### How a Pair Is Made
+![Espadrilles with woven rope soles: the jute braid and canvas upper](https://images.unsplash.com/photo-1625909111853-5b975dc7f895?w=800)
 
-Making an espadrille is more complex than a sandal, and the sole is the critical part:
+### From esparto to jute: the Bangladesh production line
 
-- Jute twine is first machine-braided.
-- The braid is then hand-coiled into the shape of a sole and set with **heat under hydraulic press**.
-- Vertical stitching is done with special "espadrille needles," and the bottom is vulcanized for durability.
-- Finally, uppers in various styles are sewn onto the jute sole.
+Most espadrille soles today are jute rather than esparto, for reasons of cost and supply. Jute's natural bright white has become a design signature of the modern shoe.
 
-This semi-handmade process gives every pair a touch of the handmade.
+The geography needs care. By FAO figures for 2020, India is the largest jute grower at 1,807,264 tonnes, with Bangladesh second at 804,520; Bangladeshis call it the "golden fiber." Wikipedia's espadrille entry says Bangladesh produces high-quality jute and has become a center for premium jute soles and finished espadrilles, with some makers in Spain, in France and in Italy importing soles from there to finish at home.
 
-### How It Walked from the Fields onto the Runway
+The process, as Wikipedia describes it: jute twine is machine-braided; the braid is coiled by hand into a sole shape and hydraulically pressed with heat; it's stitched vertically with espadrille needles; the underside is vulcanized. For a wedge, a wooden or EVA heel is glued on and wrapped in more braid. The upper goes on last.
 
-The espadrille's true "class leap" is owed to celebrities and designers. Across the 20th century, Picasso and Dalí often wore them; and in 1970, French designer **Yves Saint Laurent** met the venerable Spanish maker **Castañer** at a Paris trade fair and turned his long-held idea of a **wedge espadrille** into reality — an instant hit whose influence continues today.
+### Lauren Bacall in 1948, the YSL wedge in 1970
 
-From then on, the espadrille was both a seaside casual shoe and a piece that could take the fashion stage.
+Espadrilles caught on in the United States in the 1940s. In Key Largo (1948), Lauren Bacall's character wears a pair laced at the ankle. Wikipedia's list of 20th-century figures who popularised the shoe runs from Picasso and Salvador Dalí to John F. Kennedy and Yves Saint Laurent.
 
-### How to Wear It in Summer
+The wedge dates to 1970. Saint Laurent had spent months looking for someone to make him a wedge espadrille. At a Paris trade fair he met the Spanish maker Castañer, who worked out how to build it. The shoe was an instant hit and is still in production.
 
-- **With wide-leg trousers:** the wedge lengthens the proportions while the canvas upper echoes linen's ease.
-- **With dresses:** a flat pair is the easiest partner for a holiday dress.
-- **Check the sole:** the density of the jute braid and the finish of the vulcanized edge are often the dividing line between good and poor make.
+The 1980s revival in America came through Miami Vice, on the feet of Don Johnson's Sonny Crockett. By 2013 a pair in a New York luxury shoe store could cost close to $500.
 
-> "Some shoes wear better the plainer they are — because from the very start, they were made to walk a long road." —— Guushu Design Team
+### What to wear it with
+
+Wedges go with wide-leg and linen trousers, canvas against linen. Flats are the easy answer for a summer dress. Judge a pair by the sole: the density of the jute braid and the finish of the vulcanized edge tell you most of what you need about the make.
+
+For the fabric it usually sits under, see [linen explained](/en/2026/06/19/linen-summer-fabric/). For what the resort collections shown this summer are wearing, see also [Resort 2027 trends](/en/2026/07/31/resort-2027-trends-little-black-dress/).
+
+> "A peasant shoe waited 648 years for its wedge. Some designs don't need rushing." — Guushu Design Team

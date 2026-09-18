@@ -20,7 +20,7 @@ author: "Guushu Team"
 
 ### 为什么是蓝：青金石与钴
 
-WGSN 给 2027 定的主题词是「相互连接」（interconnectedness）。Luminous Blue 被拿来和两样东西对照：一是青金石（lapis lazuli），几百年来画家用它磨出群青颜料；二是钴（cobalt），今天锂电池里的关键原料。一头是手工艺的过去，一头是能源转型的现在。
+WGSN 给 2027 定的主题词是「相互连接」（interconnectedness）。Luminous Blue 被拿来和两样东西对照：一是青金石（lapis lazuli），几百年来画家用它磨出群青颜料；二是钴（cobalt），如今锂电池里的关键原料。一头是手工艺的过去，一头是能源转型的现在。
 
 WGSN 高级色彩策略师 Clare Smith 的说法是，这个颜色「既神秘又古怪」，从正装到运动服都用得上。官方还特意点出它不分性别，也不分季节。
 

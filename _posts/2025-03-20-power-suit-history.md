@@ -41,7 +41,7 @@ John T. Molloy 的《Dress for Success》（1975）和《Women: Dress for Succes
 
 撒切尔夫人是这套语法最著名的使用者：宽肩裙装套装、蝴蝶结衬衫、Asprey 手袋、珍珠项链。1988 年的电影《上班女郎》里，女上司 Katherine 穿的是带垫肩的中灰色无领丝质外套。
 
-### 今天怎么穿
+### 现在怎么穿
 
 垫肩退了，结构留下了。当代西装怎么松弛地穿进日常，见 [现代廓形西装怎么穿](/2025/04/24/modern-tailoring-styling/)。
 
