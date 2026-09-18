@@ -49,6 +49,14 @@
   穿搭建议 / 购买指南 / 护理等）→ 一句 `> 引言` 署名 `—— Guushu 设计团队 / 色彩团队` 等。
 - **正文中部**插入一张 `![alt](image-url)`，与 front matter 的 `image` 同一张。
 - **语气**：专业、克制、有观点；避免浮夸营销词。
+- **调性**：书面、优雅、编辑气质，与首页 hero「当代时尚邂逅永恒优雅」、about 页
+  「克制、耐穿、经得起时间」同一档。去 AI 味靠「有出处的具体细节」，**不靠口语化**。
+  不用口头动词短语与网络比喻（摸着凉 / 一坐就皱 / 被数据接住 / 被数出来 / 就得 / 发完了 /
+  画了几条线 / 破布 / 从这几个入口开始读起），不用感叹词（哎呀 / Oops），不用「你可以叫它…叫什么都行」
+  式的闲聊句。改法参考 PR「fix/homepage-copy-register」：触感清凉 / 久坐便留下折痕 / 得到数据的印证 /
+  数据中的趋势 / 便需 / 发布完毕 / 给出四条预测方向 / 织物残片 / 三篇值得先读的文章。
+  英文版同理：`filed under rags` → `lay unrecognised among rags`，`caught by data` → `borne out by data`，
+  `a season that was counted` → `a season by the numbers`，去掉 `back in` / `Oops!`。
 
 ### Front matter 字段（务必与现有一致）
 

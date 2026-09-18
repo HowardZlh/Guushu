@@ -9,9 +9,9 @@ author: "Guushu Team"
 lang: en
 ---
 
-## New York Fashion Week spring 2027: a season that was counted
+## New York Fashion Week spring 2027: a season by the numbers
 
-The New York Fashion Week spring 2027 trends in this piece come from a count, not a mood. On 15 September 2026 WGSN published its analytics for the womenswear shows: 104 collections, 3,120 looks and 4,639 individual items, all run through its image-recognition tool, Fashion Vision. [Back in February we explained how fashion month is organised](/en/2026/02/13/fall-winter-2026-fashion-month/); this time the question is what got measured.
+The New York Fashion Week spring 2027 trends in this piece come from a count, not a mood. On 15 September 2026 WGSN published its analytics for the womenswear shows: 104 collections, 3,120 looks and 4,639 individual items, all run through its image-recognition tool, Fashion Vision. For how fashion month is organised, see [the fashion month guide](/en/2026/02/13/fall-winter-2026-fashion-month/); this time the question is what got measured.
 
 The unit is the percentage point. A category up 1.7 points means roughly two more looks in every hundred wore it than last season. Small on paper. But when a hundred-odd brands making independent decisions all shift the same way, something is pulling.
 
@@ -35,6 +35,6 @@ The top hashtag on WGSN's trend stream, The Feed, was **#BrightBasics**. The ide
 
 - **Watch for repetition, not spectacle.** A category rising across a hundred collections is a better signal than one startling look at one show.
 - **Old shape, new colour.** Column dresses, pencil skirts and shirts are already in most wardrobes. This season's answer for them is a colour change, not a cut change.
-- **Wait for the other three cities.** London, Milan, Paris: not counted yet. New York skews commercial and wearable, so its numbers may not be fashion month's numbers.
+- **Wait for the other three cities.** London, Milan, Paris: not yet analysed. New York skews commercial and wearable, so its numbers may not be fashion month's numbers.
 
 > "A trend isn't the loudest note at one show. It's the bass line you can hear at a hundred of them." — Guushu Design Team

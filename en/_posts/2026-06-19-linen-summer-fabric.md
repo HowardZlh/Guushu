@@ -18,7 +18,7 @@ Linen is cloth woven from the bast fibers in the stem of the flax plant. It feel
 
 Flax fibers run 25 to 150 mm long, far longer than cotton's, and the finished cloth can be up to three times as strong. Wet, it gains about 20% more tensile strength. It absorbs moisture and dries faster than cotton, which is the whole case for wearing it in heat.
 
-The crease is the flip side. Flax has poor elasticity, so linen wrinkles the moment you sit down. Wikipedia adds a warning worth keeping: fold it sharply in the same place over and over and the threads will break. It doesn't pill or shed lint, softens with every wash, and irons most easily while still damp.
+The crease is the flip side. Flax has poor elasticity, so linen creases as soon as you sit. Wikipedia adds a warning worth keeping: fold it sharply in the same place over and over and the threads will break. It doesn't pill or shed lint, softens with every wash, and irons most easily while still damp.
 
 The flaw people used to mind was the slub, a short thick stretch in the yarn. Slubs once marked low-grade linen. Many current linens sell them as texture.
 
@@ -54,4 +54,4 @@ On June 1, 2026, Vogue's Kristina Rutkowski, rounding up linen trousers, noted t
 
 For summer's other handmade fabric, see [crochet and slow fashion](/en/2025/06/26/crochet-craft-sustainability/). For the shoe that goes with all this linen, see also [the espadrille's history](/en/2026/07/17/espadrille-summer-shoe/).
 
-> "The Tarkhan dress spent 65 years filed under rags. That is one way to prove a fabric lasts." — Guushu Design Team
+> "The Tarkhan dress lay unrecognised among rags for 65 years. That is one way to prove a fabric lasts." — Guushu Design Team

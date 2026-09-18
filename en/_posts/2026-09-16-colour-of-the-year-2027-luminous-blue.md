@@ -27,7 +27,7 @@ Clare Smith, WGSN's Senior Colour Strategist, called it "both mysterious and ecc
 
 More than a year after the forecast, the spring 2027 womenswear shows in New York returned the first real result. In analytics published on 15 September, WGSN found blue up 2.4 percentage points on the previous season, with Luminous Blue the standout shade. Retro blues rode along with it, described by WGSN as calm and a little nostalgic.
 
-A forecast issued two years out, then caught by data on the runway. That's roughly the outcome a forecasting business hopes for. We'll read New York's full numbers in a separate piece.
+A forecast issued two years out, then borne out by data on the runway. That is roughly the outcome a forecasting house hopes for. We'll read New York's full numbers in a separate piece.
 
 ### WGSN's colour of the year versus Pantone's
 

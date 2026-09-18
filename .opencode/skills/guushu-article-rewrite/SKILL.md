@@ -113,6 +113,12 @@ Vogue 趋势汇总文（`/article/spring-2026-fashion-trends`）可能晚于文�
 - 结尾 `> "…" —— Guushu 设计团队`（en 单个 `—`），内容对本文有具体所指。
 - 数字多用表格：时间线、色值、城市/年份/组织，表格不计入门禁字数。
 - 相对时间词按语境处理（见「坑」）。
+- **调性守住书面优雅**（2026-09-18，用户明确要求）：去 AI 味只靠有出处的具体细节，
+  不靠口语。禁用口头动词短语 / 网络比喻 / 感叹词 / 闲聊句，词表与替换对照见
+  `docs/article-authoring-prompt.md` §3「调性」。写完跑一次扫描：
+  `grep -nE "接住|数出来|破布|一坐就|摸着|摸起来|就得|发完了|画了.*条线|叫什么都行|顺手提|干脆|哎呀|读起|入口" _posts/*.md *.html`
+  `grep -nEi "\boops\b|filed under|caught by|the moment you sit|\bback in (january|february|march|april|may|june|july|august|september|october|november|december)|not counted yet" en/_posts/*.md en/*.html`
+  两条都应无输出；已知误命中：「墓入口」、引文里的「读起来像一口新鲜空气」（Eiseman 原话译文）。
 
 ### 5. 长度自检（每篇写完立刻跑）
 
@@ -235,6 +241,10 @@ PR 描述附「左 main / 右本 PR」拼图；hero 用 padding 定高而不是 
   「最近一次…是 2024 年 9 月 10 日」这种后面紧跟日期的保留。先看语境，别一刀切。
   扫法：`grep -nE "今天|今年|去年|明年|这个夏天|本季|今夏" _posts/*.md`；
   `grep -niE "\b(today|this year|this summer|this season|now holds)\b" en/_posts/*.md`。「贴近日常」「离它最近」是误命中。
+- **去 AI 味会漂向口语，门禁抓不到**（2026-09-18）：PR #12/#16 的重写用了「摸着凉 / 一坐就皱 / 被数据接住 /
+  从这几个入口开始读起」一类句子，`check-ai-tells` 全绿，用户仍判「不优雅、不符项目风格」。门禁只挡 AI 套话，
+  不挡口语；调性要靠步骤 4 的调性规则与 grep 词表人工守。首页「编辑精选」、fashion-news 的 h3 与 404 文案
+  是最容易漂的三处，改文章时顺手看一眼。
 - **姊妹文章已用过的细节不要复用**：crochet-craft 已用 Christopher Kane 2011 / Moschino 2024 / Vogue 2025-03 手工极简；
   quiet-luxury-explained 已用 The Row 2006 / Paltrow 2023 / WSJ 2024 / Eckhardt 2015；couture-craft 已用 Lesage 600 小时 /
   Dior「没有缝纫机」/ Armani Privé 60 套；met-gala 已用 $42M / Kidman 800 小时 / Jenner 11,000 小时。派研究 agent 时列出来，要求找别的。
