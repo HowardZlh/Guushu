@@ -1,43 +1,47 @@
 ---
 layout: post
-title: "Boho Chic Revival: Spring/Summer 2025 Essential Trend"
-description: "Discover how suede textures and flowing silhouettes dominate Spring/Summer 2025 fashion collections"
+title: "Boho Chic Returns for Spring 2025: Chloé, Suede, Long Skirts"
+description: "Boho chic is back for spring 2025. Chemena Kamali's Chloé revived the 2004 Sienna Miller look, Prada sent out a suede coat, and here is what to buy once."
 image: "https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800"
 tags: [boho, suede, spring-summer, trends]
 date: 2025-01-15
+updated: 2026-09-18
 author: "Guushu Team"
 lang: en
 ---
 
-## Boho Chic Makes a Strong Comeback
+## Boho chic is back for spring 2025, and Chloé started it
 
-Suede textures and flowing silhouettes are creating a fashion revolution in Spring/Summer 2025 collections. From runways to street style, this classic trend is being reinterpreted with a fresh perspective.
+Boho chic returned to the spring 2025 runways with one clear author. Chemena Kamali took over Chloé in October 2023 and showed her first collection in Paris on February 29, 2024: ruffles, long skirts, piles of accessories. Vogue's review called it "all boho ruffles."
 
-### Key Pieces
+Sienna Miller sat in the front row. Her furry gilet and floaty skirt at Glastonbury in 2004 made the look famous the first time. Twenty years later she was watching her old wardrobe walk past.
 
-**Suede Blazers**: This season's must-have item, perfectly balancing formal and casual
-**Flowing Maxi Skirts**: Creating romantic vibes for any occasion  
-**Suede Accessories**: From handbags to footwear, details make the difference
+### Suede showed up at Chloé and Prada in the same week
 
-### Styling Tips
+At Chloé's spring 2025 show on September 26, 2024, the jackets came in sturdy workwear cotton, in soft suede and in leather. A week earlier at Prada, Vogue noted "a folk singer's brown suede coat." Two houses, one season, same material.
 
-Mix suede pieces with modern elements to create a unique style that's both nostalgic and contemporary.
+Suede works here because its nap swallows light. It reads as worn-in even when new, which is what the boho look wants. It also hates rain. More on that below.
 
-### Color Trends
+### What to buy: a suede jacket, a long skirt, a fringed bag
 
-The 2025 boho chic color palette is richer than ever:
-- **Earth Tones**: Browns, caramels, olive greens
-- **Warm Neutrals**: Cream, beige, light khaki
-- **Accent Colors**: Rust red, deep orange
+- **Suede jacket or coat.** Tobacco brown or camel. Knee length if you want it to carry a whole outfit.
+- **A long skirt that moves.** Printed or plain, hem at the ankle.
+- **Fringe and a wide belt.** The hobo bag and coin belt from 2005 are back. Wear one, not all.
 
-![Boho Chic Style](https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800)
+![Boho chic spring 2025: suede jacket with a flowing long skirt](https://images.unsplash.com/photo-1748354261791-d90c20d32498?w=800)
 
-### Celebrity Inspiration
+### Colours: earth tones, then one hit of rust
 
-Numerous fashion icons have already embraced this trend, from red carpets to street style, boho chic is everywhere.
+- **Earth tones** do most of the work: brown, caramel, olive. About seventy percent of the outfit.
+- **Warm neutrals** for air: cream, beige, light khaki.
+- **One accent**: rust or deep orange, usually the bag or the shoes.
 
-&gt; "Fashion is not just about clothes, it's an expression of life attitude." —— Guushu Design Team
+### The lesson from 2005: don't let it turn into fast fashion
 
-### Shopping Advice
+By January 2007 British Vogue was writing "no more boho chic, no more gilets." Jane Shepherdson, then at Topshop, said that when Sienna wore that gilet they had to pull theirs forward fast. The look burned out in about two years.
 
-Invest in a high-quality suede piece, it will become a perennial favorite in your wardrobe. Choose classic cuts and avoid overly complex designs for longevity.
+If you want this round to last, buy one good suede jacket and stop. Simple cut, no hardware, a neutral colour. With a long skirt it is boho. With straight jeans it is just a good jacket.
+
+For the other soft silhouette of the season, see [pleats for spring 2025](/en/2025/05/21/spring-pleats/). For pairing earth tones with the season's yellows, see [how to wear yellow](/en/2025/01/20/yellow-trends/).
+
+> "Sienna Miller in the front row of Chloé's 2024 debut is the whole trend in one image." — Guushu Design Team

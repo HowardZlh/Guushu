@@ -1,51 +1,53 @@
 ---
 layout: post
-title: "Understanding Pleats: A Craft Guide from Knife to Fortuny"
-description: "Knife, box, accordion, Fortuny — an introductory guide to the types and history of pleating"
+title: "Pleats Explained: Knife, Box, Accordion and Fortuny"
+description: "Pleats explained: knife pleats at 3:1, box and cartridge pleats, 10th-century Viking linen, and the Delphos gown of about 1907 whose pleating nobody has cracked."
 image: "https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800"
 tags: [pleats, craftsmanship, textile, history]
 date: 2025-03-06
+updated: 2026-09-18
 author: "Guushu Team"
 lang: en
 ---
 
-## One Piece of Cloth, Countless Ways to Fold
+## Pleats explained: four ways to fold cloth, and one gown nobody can copy
 
-A pleat is the craft of folding fabric back on itself and securing it. The earliest evidence dates back to pleated linen garments found in tenth-century Viking graves. Over a thousand years, many kinds of pleats have developed, each with its own structural logic and visual effect.
+A pleat is cloth folded back on itself and held. The earliest surviving examples are linen shirts pleated with the plissé technique, found in 10th-century Viking graves at Birka in Sweden. A thousand years on, the folds sort into a few families, each solving a different problem.
 
-### Common Types of Pleats
+### Knife pleats: the 3:1 ratio
 
-**Knife pleat**
-The most basic pleat, with all folds turned in the same direction. It is traditionally formed at roughly a 3:1 ratio — three inches of fabric make one inch of finished pleat — for smooth, even lines.
+Knife pleats all turn the same way. The traditional ratio is 3:1, three inches of fabric for one inch of finished pleat. School skirts and most "pleated skirts" are knife pleats.
 
-**Box pleat**
-Two knife pleats set back-to-back. At the same 3:1 ratio, it tends to spring out from the waistline for added volume. Stacked into double box pleats at about a 5:1 ratio, it creates even fuller pleating.
+### Box pleats: two knife pleats back to back
 
-**Accordion pleat**
-A variation of the knife pleat with tighter, zigzag folds that expand with movement near the hem — a favourite for dancing dresses.
+A box pleat is two knife pleats facing away from each other, also at 3:1. It springs out from the waist and adds volume. Stacked into a double box pleat the ratio rises to 5:1.
 
-**Cartridge pleat**
-Used to gather a large amount of fabric into a small waistband or armscye without bulking up the seam. Popular in 15th- and 16th-century menswear and womenswear, it returned in the 1840s to support full bell-shaped skirts.
+### Accordion pleats: closed at rest, open in motion
 
-![Accordion-pleated gown](https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800)
+Accordion pleats are knife pleats packed tight into a zigzag. They stay shut when you stand still and fan open near the hem when you move, which is why dance dresses use them.
 
-### A Legend: The Fortuny Pleat
+### Cartridge pleats: a lot of cloth into a small waistband
 
-In the early twentieth century, designer Mariano Fortuny set crisp, fine pleats into silk, epitomised by his famous Delphos gown (1917). By many accounts, his pleat-setting process has still not been fully understood — a legend in the history of pleating.
+Cartridge pleats gather a large amount of fabric into a narrow waistband or armhole without thickening the seam. They were everywhere in 15th- and 16th-century dress and came back in the 1840s to hold up bell-shaped skirts.
 
-### Pressed or Unpressed
+![An accordion-pleated gown: pleats explained](https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800)
 
-Whatever the type, every pleat ultimately falls into one of two textures:
+### Fortuny pleats: the Delphos gown, about 1907
 
-- **Pressed**: ironed or heat-set into a sharp crease.
-- **Unpressed**: left unset, soft and rounded.
+The Delphos gown was created around 1907 by the French designer Henriette Negrin and her husband Mariano Fortuny. Negrin designed it; Fortuny filed the patent and credited her. Its silk carries fine, crisp pleats set by a process that was kept secret and is still not understood.
 
-The same pleat can take on an entirely different character under these two treatments.
+The name comes from the Charioteer of Delphi. Murano glass beads run along each side seam, strung on silk cord, and they're there to weight the fabric so the pleats hang straight. Proust called it "faithfully antique but markedly original." Lauren Bacall wore a red one to the 1978 Oscars.
 
-> "Understand the craft, and you can truly read why a garment looks good." —— Guushu Design Team
+### Pressed or unpressed
 
-### Choosing Tips
+Every pleat ends up one of two ways. Pressed pleats are ironed or heat-set into a sharp crease. Unpressed pleats fall in soft rounded folds. Pleats sewn down are called tucks. The same fold reads completely differently under the two treatments.
 
-- For crisp lines, choose pressed pieces in synthetic fibres; for soft drape, choose unpressed folds in natural fibres.
-- Fine dense pleats read as refined and light; wide box pleats have more presence.
-- Keep sharply pressed pieces from prolonged folding and pressure.
+### How to choose
+
+- For crisp lines, pressed pleats in synthetic fibre. For soft drape, unpressed folds in natural fibre.
+- Fine dense pleats read light. Wide box pleats have presence.
+- Don't store sharply pressed pieces folded flat for months.
+
+For how these folds showed up in spring 2025, see [pleats for spring 2025](/en/2025/05/21/spring-pleats/). For wearing them day to day, see [how to style a pleated skirt](/en/2025/06/12/pleated-skirt-styling/).
+
+> "The beads on a Delphos gown are ballast. Looking good is a side effect. Good design is often like that." — Guushu Design Team

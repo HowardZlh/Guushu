@@ -1,51 +1,49 @@
 ---
 layout: post
-title: "The Pleats Movement: The Silhouette Keyword of Spring/Summer 2025"
-description: "From pressed to unpressed folds, exploring how pleating became the most fluid silhouette language of Spring/Summer 2025"
+title: "Pleats for Spring 2025: From Pleats Please to Prada's Skirt"
+description: "Pleats are spring 2025's silhouette: Vogue's March top-eight list has the preppy pleated skirt, Issey Miyake wrapped pleated panels around the body in September."
 image: "https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800"
 tags: [pleats, silhouette, spring-summer, texture, trends]
 date: 2025-05-21
+updated: 2026-09-18
 author: "Guushu Team"
 lang: en
 ---
 
-## Pleats Return to the Centre of the Silhouette
+## Pleats for spring 2025: an old craft, a new silhouette
 
-A pleat is an ancient technique in which fabric is folded back on itself and secured in place. It can create volume by gathering a wide piece of cloth, and it also produces a play of light as the wearer moves. For Spring/Summer 2025, this old craft returns to the heart of the silhouette conversation in a lighter, more kinetic form.
+Pleats are the most visible silhouette idea of spring 2025. Vogue's list of eight spring trends, published March 7, 2025, gives "the preppy pleated skirt" its own line, with a Prada skirt as the example. The same list carries Jil Sander's pleated wide-leg trousers, a plissé blouse from McQueen and a pleated jersey mini from Alaïa.
 
-### Pressed and Unpressed: Two Basic Languages
+Earlier, on September 27, 2024, Issey Miyake's spring 2025 show in Paris twisted single pleated panels around the models into what Vogue called body-wrappings. The audience sat on stools cut from compressed paper cylinders, a byproduct of the house's pleating process.
 
-By the way they are set, pleats generally fall into two families:
+### Pressed and unpressed: the two basic languages
 
-- **Pressed pleats**: ironed or heat-set into a sharp crease, giving crisp, structured lines.
-- **Unpressed pleats**: left unset, falling in soft rounded folds that feel supple and breathable.
+Pleats sort by how they're set. Pressed pleats are ironed or heat-set into a sharp crease and hold structure. Unpressed pleats are left alone and fall in soft rounded folds. Pleats sewn down are tucks. This season designers often let both happen on one garment. The structural logic of each fold is in [pleats explained](/en/2025/03/06/pleat-craft-guide/).
 
-Understanding these two languages is where reading this season's pleating begins — designers often let crispness and softness converse within a single piece.
+### Why pleats come back in spring
 
-### Why Now
+They do two jobs at once: they give the body room to move, and they turn movement into light and shadow. Spring wants lightness and flow. A structure that breathes fits.
 
-The appeal of the pleat is that it satisfies both function and aesthetics: it grants the wearer freedom of movement while creating visual change between stillness and motion. In a spring/summer mood that prizes lightness and flow, this "breathing structure" naturally takes centre stage.
+![Pleats for spring 2025: an accordion-pleated dress](https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800)
 
-![Pleated silhouette](https://images.unsplash.com/photo-1756483500042-12c4444fc2f4?w=800)
+### Three pieces
 
-### Key Pieces
+**The pleated skirt.** The classic carrier. Its best moment is the open-and-close as you walk.
+**The pleated-shoulder blouse.** Shoulder pleats began as a functional detail; now they add depth.
+**The accordion dress.** Denser toward the hem, it fans as you move.
 
-**Pleated skirt**: the most classic vehicle for pleats, with the open-and-close motion of walking as its highlight.
-**Pleated blouse**: pleats at the shoulder and back are a long-standing functional design that also adds dimension.
-**Accordion-pleat dress**: pleats that tighten towards the hem let the skirt fan out naturally with movement.
+### How to wear them
 
-### Styling Tips
+- **Simple on top, full below.** A plain top against a pleated skirt.
+- **One colour, two depths.** Let the light on the pleats be the point.
+- **Sharp against soft.** Pressed pleats next to a fluid fabric.
 
-1. **Simple top, rich bottom**: balance a pleat-heavy skirt with a minimal top.
-2. **Tonal gradients**: let the play of light across the pleats lead the look, without relying on complex colour.
-3. **Echo the structure**: pair crisp pressed pieces with soft fabrics to create contrast.
+For specific everyday outfits, see [how to style a pleated skirt](/en/2025/06/12/pleated-skirt-styling/).
 
-> "A pleat is the memory of the cloth — it records every fold, and every movement of the wearer." —— Guushu Design Team
+### Something to know before buying
 
-### Shopping Guide
+In 1993 Issey Miyake launched Pleats Please and reversed the usual order: garments are cut and sewn first, then sandwiched between sheets of paper and fed through a heat press. The result is machine washable and can be balled up without losing shape. The line grew out of costumes he made in 1991 for William Forsythe's Ballett Frankfurt, shipped in batches of 200 to 300 so dancers could wear a fresh one each night.
 
-When choosing pleated pieces, consider:
+When choosing: synthetics hold a pressed crease better, natural fibres drift toward soft folds. Fine pleats read light; wide box pleats have weight. Keep pressed pleats away from heat and heavy pressure.
 
-- **The fabric's ability to hold a set**: synthetics tend to keep sharp pressed pleats, while natural fibres lean towards soft unpressed folds.
-- **Pleat density and your frame**: fine dense pleats read as light, while wide box pleats add volume.
-- **Care**: pressed pieces should avoid heavy heat and pressure that can destroy the crease.
+> "Sew first, pleat after, was the 1993 idea. Thirty years later the runway wrapped pleats straight onto the body. Same direction." — Guushu Design Team

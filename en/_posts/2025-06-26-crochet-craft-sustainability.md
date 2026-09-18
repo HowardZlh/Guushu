@@ -1,41 +1,47 @@
 ---
 layout: post
-title: "Crochet and Slow Fashion: Sustainability in Every Stitch"
-description: "From Irish crochet to the contemporary catwalk, how this handcraft meets sustainable fashion"
+title: "Crochet and Slow Fashion: From Famine Relief to the Runway"
+description: "Why crochet belongs to slow fashion: one live loop at a time, famine relief in Ireland from 1845, and a place on Vogue's spring 2025 list under crafty minimalism."
 image: "https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800"
 tags: [crochet, craftsmanship, sustainability, summer]
 date: 2025-06-26
+updated: 2026-09-18
 author: "Guushu Team"
 lang: en
 ---
 
-## One Hook, One Ancient Craft
+## Crochet and slow fashion: one hook, one live loop
 
-Crochet is the craft of interlocking loops of yarn, thread, or other materials into fabric using a hooked needle. Its biggest difference from knitting is that in crochet each stitch is completed before the next begins, whereas knitting keeps many stitches "open" at once. Humble as it looks, this craft carries a rich history and contemporary meaning.
+Crochet makes fabric by pulling loops of yarn through each other with a hooked needle. The one real difference from knitting: a crochet hook holds a single live stitch at a time, and each stitch is finished before the next begins, while knitting keeps a whole row open. That difference is why machines struggle to copy it, and why it keeps coming up in slow fashion.
 
-### From Famine Relief to Fashion Language
+### The hard evidence only starts in the 1800s
 
-Substantive physical evidence of crocheted fabric only emerges in Europe in the 19th century. One of its most moving chapters came during the Great Irish Famine (1845–1849), when crochet lace was introduced as a form of famine relief — impoverished workers made a living from it as co-operatives formed, schools opened, and teachers were trained and sent across Ireland to pass on the craft. When the Irish emigrated to the Americas, they took crochet with them. Irish crochet lace became popular across Europe and America, produced in quantity until the First World War.
+Crochet sounds ancient, but the first solid evidence of crocheted fabric appears in 19th-century Europe. The earliest English mention is an entry dated 1812 in Elizabeth Grant's *Memoirs of a Highland Lady*, where she calls it shepherd's knitting. The first published instructions using the word crochet ran in the Dutch magazine *Penélopé* in 1823: five purses.
 
-![Crochet detail](https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800)
+An 1844 instruction book describes the hooks as steel, ivory or boxwood, shaped like a fish-hook.
 
-### Why Crochet Is Naturally Sustainable
+### 1845: famine relief in Ireland
 
-In an era dominated by fast fashion, crochet's value is being seen anew:
+The weightiest chapter is Irish. During the Great Famine of 1845 to 1849, crochet lace was introduced as a form of relief. Co-operatives formed, schools opened, teachers were trained and sent around the country. Mlle Riego de la Branchardière is generally credited with inventing Irish crochet lace and published the first pattern book in 1846. Emigrants carried the skill to America, and Irish lace was made in quantity until the First World War.
 
-- **Slow, handmade**: crochet is almost entirely made by hand, aligning naturally with slow fashion's pursuit of unhurried, skilled work.
-- **Eco-friendly materials**: it can use upcycled and environmentally friendly yarns such as bamboo, hemp, cotton, linen, and wool.
-- **Undo and reuse**: crocheted fabric can be easily unravelled and reused, or added to worn garments as collars and cuffs for upcycling.
-- **Versatile**: crochet's versatility reduces the need to constantly buy new things.
+![Crochet craft detail: a hand-worked granny square](https://images.unsplash.com/photo-1765915481891-28d11ac65740?w=800)
 
-Slow fashion promotes respect for people, animals, and the environment, supports local artisans, uses eco-friendly materials, and preserves craftsmanship — and crochet is an ideal vehicle for these ideals.
+### Why crochet fits slow fashion
 
-### A Revival on the Catwalk
+Kate Fletcher used the phrase slow fashion in *The Ecologist* in 2007. It sits inside the wider slow movement and asks for respect for people, for animals, for the environment. Crochet answers each point in practical terms:
 
-In recent years crochet has enjoyed a revival on the runway. Christopher Kane's Fall 2011 ready-to-wear, Moschino's crocheted skirts for Spring 2024, and Miu Miu's crocheted pieces have all brought the craft back into the spotlight. Social media has fuelled the trend too — searches for the keyword "crochet" reportedly rose by around 32% on the resale platform Depop.
+- **Made slowly by hand.** There is no fast version.
+- **Any yarn.** Cotton or linen, wool, or old yarn unravelled and reused.
+- **Undo and redo.** Frogging a piece costs nothing; a worn cuff gets a new crocheted edge.
 
-> "The warmth of the handmade is a luxury machines cannot copy." —— Guushu Design Team
+### Two runway returns
 
-### A Thought Worth Keeping
+On February 20, 2011, Christopher Kane opened his fall 2011 show with crochet that Vogue's Tim Blanks compared to "the kind of traditional craftsy throw you might see on a rec room sofa." On September 21, 2023, at Moschino's spring 2024 show, the stylist Gabriella Karefa-Johnson pulled a granny-square skirt out of the archive.
 
-When fast-fashion brands use knitting machines to "imitate" the look of crochet, the true value of crochet lies precisely in its handmade nature and sustainability — a reminder that clothes can be slower, longer-lasting, and made with more care.
+By March 2025 Vogue's eight spring trends included one called crafty minimalism. The three things it named: texture, fringe, crochet.
+
+### Before you buy
+
+Fast fashion imitates the look on knitting machines. It photographs the same and feels different: machine stitches are perfectly even, hand crochet has small variations in tension. For wearing it in summer, see [crochet summer styling](/en/2025/07/17/crochet-summer-styling/). For the other natural summer fabric, see [linen season](/en/2026/06/19/linen-summer-fabric/).
+
+> "One live loop at a time. Two hundred years and the craft hasn't found a shortcut." — Guushu Design Team
