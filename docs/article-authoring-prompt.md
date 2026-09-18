@@ -70,6 +70,14 @@ author: "Guushu Team"
 英文镜像（`en/_posts/`）：同名文件，`title`/`description` 用英文，
 去掉 `_en` 字段，正文全英文，并**追加** `lang: en`。
 
+可选字段（两种语言都可加）：
+
+- `updated: YYYY-MM-DD` — 内容修订日。写入 JSON-LD `dateModified`、
+  `article:modified_time` 和 sitemap `<lastmod>`；发布日期与 URL 仍由文件名决定。
+  改过正文再提交时加上或更新它，早于发布日会被忽略。
+- `image_alt: "..."` — 主图的 `og:image:alt` / `twitter:image:alt`。不写时取正文
+  第一张 `![alt](...)` 的 alt，再退回标题。
+
 > ⚠️ 不要使用旧 Jekyll 字段（如 `lookbook`）。`build.py` 不解析它们，
 > post 模板也不渲染，会导致图片不显示。
 
@@ -206,6 +214,10 @@ node test/run-all.js
 
 # L2/L3：构建产物 + 快照测试（需先构建）
 python3 build.py && node test/run-build.js
+
+# 文章 SEO 规则（description/title 长度、站内链接、图片 alt、&gt; 残留）
+# 默认只打印报告；加 SEO_STRICT=1 变为阻塞，新文章提交前应在此模式下通过
+SEO_STRICT=1 node -e "require('./test/test-runner').runTests(['./test/build/seo.test.js'])"
 ```
 
 ### 内容变更后更新快照基线

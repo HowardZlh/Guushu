@@ -189,6 +189,13 @@ describe('Build output: RSS feed', () => {
         const xml = read('feed.xml');
         assertIncludes(xml, 'elevated-sportswear');
     });
+
+    it('feed escapes HTML bodies so the XML stays well-formed', () => {
+        const xml = read('feed.xml');
+        assertIncludes(xml, '<content type="html" xml:base="https://fashion.guushu.com/');
+        assertIncludes(xml, '&lt;p&gt;');
+        assertTrue(!/<content[^>]*><p>/.test(xml), 'raw <p> inside <content> means the body was not escaped');
+    });
 });
 
 describe('Build output: CSS compilation', () => {

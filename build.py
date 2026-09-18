@@ -22,12 +22,13 @@ Pipeline:
 Dependencies: Jinja2, Markdown, PyYAML  (see requirements.txt)
 """
 
+import html
 import os
 import re
 import shutil
 import subprocess
 import sys
-from datetime import datetime, timezone, timedelta
+from datetime import date as date_type, datetime, timezone, timedelta
 
 import yaml
 import markdown as md
@@ -97,6 +98,30 @@ def truncate_words(text, n):
     return " ".join(words[:n])
 
 
+def coerce_date(value, fallback):
+    """Turn a front matter date (YAML date/datetime or 'YYYY-MM-DD' string)
+    into an aware datetime in CST. Anything unparseable returns `fallback`."""
+    if isinstance(value, datetime):
+        return value if value.tzinfo else value.replace(tzinfo=CST)
+    if isinstance(value, date_type):
+        return datetime(value.year, value.month, value.day, tzinfo=CST)
+    if isinstance(value, str):
+        m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", value.strip())
+        if m:
+            y, mo, d = (int(x) for x in m.groups())
+            return datetime(y, mo, d, tzinfo=CST)
+    return fallback
+
+
+IMAGE_ALT_RE = re.compile(r"!\[([^\]]*)\]\(")
+
+
+def first_image_alt(body_md):
+    """Alt text of the first Markdown image in the body, or ''."""
+    m = IMAGE_ALT_RE.search(body_md)
+    return m.group(1).strip() if m else ""
+
+
 def ensure_dir(path):
     os.makedirs(path, exist_ok=True)
 
@@ -132,18 +157,28 @@ def load_posts():
                 meta, body = parse_front_matter(f.read())
             lang = meta.get("lang", default_lang)
             date = datetime(int(y), int(mo), int(d), tzinfo=CST)
+            # Optional `updated:` marks a content revision. It feeds JSON-LD
+            # dateModified, article:modified_time and the sitemap <lastmod>;
+            # the publish date (and the URL) never move.
+            updated = coerce_date(meta.get("updated"), date)
+            if updated < date:
+                updated = date
             url = url_tpl.format(y=y, m=mo, d=d, slug=slug)
             content_html = render_markdown(body)
+            title = meta.get("title", "")
             posts.append({
-                "title": meta.get("title", ""),
+                "title": title,
                 "description": meta.get("description", ""),
                 "image": meta.get("image", ""),
+                "image_alt": meta.get("image_alt") or first_image_alt(body) or title,
                 "tags": meta.get("tags", []),
                 "author": meta.get("author", "Guushu Team"),
                 "lang": lang,
                 "date": date,
                 "date_display": date.strftime("%B %d, %Y").replace(" 0", " "),
                 "date_xml": date.isoformat(),
+                "updated": updated,
+                "updated_xml": updated.isoformat(),
                 "url": url,
                 "content": content_html,
                 "excerpt": extract_excerpt(content_html),
@@ -311,16 +346,19 @@ def build_blog(env, translations, posts):
 # Feed
 # ---------------------------------------------------------------------------
 def build_feed(posts):
+    """Atom feed. Text nodes and attribute values are XML-escaped; the HTML
+    body goes into <content type="html"> escaped as Atom requires."""
+    x = html.escape  # escapes & < > " ' — valid for both text and attributes
     updated = datetime.now(CST).isoformat()
     entries = []
     for p in posts:
         entries.append(
-            f'<entry><title type="html">{p["title"]}</title>'
-            f'<link href="{SITE["url"]}{p["url"]}" rel="alternate" type="text/html" title="{p["title"]}" />'
+            f'<entry><title type="html">{x(p["title"])}</title>'
+            f'<link href="{SITE["url"]}{p["url"]}" rel="alternate" type="text/html" title="{x(p["title"])}" />'
             f'<published>{p["date_xml"]}</published>'
-            f'<updated>{p["date_xml"]}</updated>'
+            f'<updated>{p["updated_xml"]}</updated>'
             f'<id>{SITE["url"]}{p["url"].rstrip("/")}</id>'
-            f'<content type="html" xml:base="{SITE["url"]}{p["url"]}">{p["content"]}</content>'
+            f'<content type="html" xml:base="{SITE["url"]}{p["url"]}">{x(p["content"])}</content>'
             f'</entry>'
         )
     feed = (
@@ -331,8 +369,8 @@ def build_feed(posts):
         f'<link href="{SITE["url"]}/" rel="alternate" type="text/html" />'
         f'<updated>{updated}</updated>'
         f'<id>{SITE["url"]}/feed.xml</id>'
-        f'<title type="html">{SITE["title"]}</title>'
-        f'<subtitle>{SITE["description"]}</subtitle>'
+        f'<title type="html">{x(SITE["title"])}</title>'
+        f'<subtitle>{x(SITE["description"])}</subtitle>'
         + "".join(entries) +
         '</feed>'
     )
@@ -372,7 +410,7 @@ def build_sitemap(posts):
         zh_url = p["url"][3:] if p["lang"] == "en" else p["url"]
         entries.append(
             f"<url><loc>{esc(SITE['url'] + p['url'])}</loc>"
-            f"<lastmod>{p['date'].date().isoformat()}</lastmod>"
+            f"<lastmod>{p['updated'].date().isoformat()}</lastmod>"
             f"{alternates(zh_url)}</url>"
         )
     xml = (

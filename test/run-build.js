@@ -3,5 +3,6 @@
 const { runTests } = require('./test-runner');
 runTests([
     './test/build/build-output.test.js',
+    './test/build/seo.test.js',
     './test/build/snapshot.test.js'
 ]);
