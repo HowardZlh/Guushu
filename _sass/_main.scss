@@ -398,6 +398,53 @@ footer {
     }
 }
 
+// In-page section navigation (fashion-news)
+.section-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    list-style: none;
+    padding: 0;
+    margin: -1rem 0 3rem;
+
+    a {
+        display: inline-block;
+        padding: 8px 18px;
+        border: 1px solid var(--border-color);
+        border-radius: 999px;
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+        color: var(--text-dark);
+        background: white;
+        transition: all 0.3s ease;
+
+        &:hover {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+    }
+}
+
+// Anchored section headings must clear the fixed header
+h2[id] {
+    scroll-margin-top: 100px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-current {
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--accent-color);
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
 // Trend Items
 .trend-item {
     margin-bottom: 2rem;
