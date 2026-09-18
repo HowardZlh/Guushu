@@ -1,52 +1,54 @@
 ---
 layout: post
-title: "读懂褶皱：从刀褶到Fortuny褶的工艺图鉴"
-title_en: "Understanding Pleats: A Craft Guide from Knife to Fortuny"
-description: "刀褶、箱褶、手风琴褶、Fortuny褶——一份关于褶皱工艺类型与历史的入门图鉴"
-description_en: "Knife, box, accordion, Fortuny — an introductory guide to the types and history of pleating"
+title: "褶皱工艺图鉴：刀褶、箱褶、手风琴褶与 Fortuny 褶"
+title_en: "Pleats Explained: Knife, Box, Accordion and Fortuny"
+description: "褶皱工艺图鉴：刀褶 3:1、箱褶、手风琴褶、筒褶各有什么结构逻辑；公元 10 世纪 Birka 维京墓里的褶饰亚麻衬衣；1907 年前后 Fortuny 夫妇的 Delphos 长裙为什么至今没人复制出来。"
+description_en: "Pleats explained: knife pleats at 3:1, box and cartridge pleats, 10th-century Viking linen, and the Delphos gown of about 1907 whose pleating nobody has cracked."
 image: "https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800"
 tags: [pleats, craftsmanship, textile, history]
 date: 2025-03-06
+updated: 2026-09-18
 author: "Guushu Team"
 ---
 
-## 一片布，无数种折法
+## 褶皱工艺：一片布的四种折法，和一件没人复制出来的裙子
 
-褶皱是把布料对折并固定的工艺，最早可追溯到十世纪维京墓葬中出土的亚麻褶饰衣物。历经千年，人们发展出许多种褶法，每一种都有独特的结构逻辑与视觉效果。
+褶皱（pleat）是把布对折后固定的工艺，最早的实物证据来自公元 10 世纪瑞典 Birka 的维京墓葬：用 plissé 技法打褶的亚麻衬衣。一千年过去，折法分出了几大家族，每一种都有自己的结构逻辑。
 
-### 常见褶皱类型
+### 刀褶：3:1 的基础比例
 
-**刀褶（Knife pleat）**
-最基础的褶法，所有褶朝同一方向倒。传统上以约 3:1 的布量比例形成——三寸布料折出一寸成品，线条平整流畅。
+刀褶（knife pleat）是最基础的一种，所有褶朝同一方向倒。传统比例是 3:1，三寸布折出一寸成品。百褶裙、校服裙多是它。
 
-**箱褶（Box pleat）**
-两个背对背的刀褶组合而成，同样是 3:1 比例，容易从腰线向外弹出，带来体积感。叠加形成的双箱褶则以约 5:1 的比例制造更饱满的褶量。
+### 箱褶：两个背靠背的刀褶
 
-**手风琴褶（Accordion pleat）**
-刀褶的变体，褶裥更紧密、呈锯齿状，靠近下摆时能随动作张开，是舞裙常用的褶法。
+箱褶（box pleat）由两个背对背的刀褶组成，同样 3:1。它从腰线往外弹，带体积感。叠成双箱褶时比例到 5:1，褶量更饱满。
 
-**筒褶（Cartridge pleat）**
-用于把大量布料收进小小的腰头或袖窿而不增加接缝厚度，15、16 世纪的男女服装中很流行，19 世纪 40 年代再度回归以承托钟形大裙摆。
+### 手风琴褶：越到下摆越开
 
-![手风琴褶长裙](https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800)
+手风琴褶（accordion pleat）是刀褶的密排变体，锯齿状，褶裥很窄。静止时收拢，走动时靠近下摆的部分张开，是舞裙的常用褶法。
 
-### 一个传奇：Fortuny 褶
+### 筒褶：把大量布收进小腰头
 
-二十世纪初，设计师 Mariano Fortuny 在丝绸上定型出细密而挺括的褶裥，其著名的 Delphos 长裙（1917 年）正是代表。据记载，他的定型工艺至今仍未被完全破解，成为褶皱史上的一段传奇。
+筒褶（cartridge pleat）解决的是另一个问题：怎么把很多布收进很窄的腰头或袖窿，又不把接缝堆厚。15、16 世纪的男女装都爱用，1840 年代为了撑起钟形大裙摆再次流行。
+
+![手风琴褶长裙：褶皱工艺图鉴](https://images.unsplash.com/photo-1763652309790-c0f90e5c6bd8?w=800)
+
+### Fortuny 褶：1907 年前后的 Delphos 长裙
+
+Delphos 长裙大约在 1907 年诞生，设计者是法国设计师 Henriette Negrin 和她的丈夫 Mariano Fortuny。Negrin 设计，Fortuny 申请专利并署上她的名字。裙子的丝绸上压着细密挺括的褶，定型工艺是秘密，至今没人完全弄懂。
+
+名字来自德尔斐的驭者雕像。每条侧缝上都串着一排穆拉诺玻璃珠，作用是压住轻薄的丝绸，让褶垂直。普鲁斯特的评价是「忠实于古典，又明显是原创」。1978 年，Lauren Bacall 穿了一条红色 Delphos 去奥斯卡。
 
 ### 压褶还是软褶
 
-无论何种褶法，最终都可分为两种质感：
+任何褶法最后都分两种质感。压褶经熨烫或热定型，折痕锋利；软褶不定型，圆润柔软。缝住固定的褶叫塔克（tuck）。同一种褶在两种处理下气质完全不同。
 
-- **压褶**：经熨烫或热定型，折痕锋利。
-- **软褶**：不做定型，圆润柔软。
+### 怎么挑
 
-同一种褶法在这两种处理下，会呈现截然不同的气质。
+- 要利落线条，选合成纤维的压褶；要柔和垂坠，选天然纤维的软褶。
+- 细密褶裥显轻盈，宽箱褶更有存在感。
+- 压褶单品别长期折叠压在箱底。
 
-> "了解工艺，才能真正读懂一件衣服为什么好看。" —— Guushu 设计团队
+这些褶法在 2025 春夏怎么用，见 [褶皱 2025 春夏流行趋势](/2025/05/21/spring-pleats/)；日常怎么穿，见 [百褶裙怎么搭](/2025/06/12/pleated-skirt-styling/)。
 
-### 挑选建议
-
-- 想要利落线条，选合成纤维压褶单品；想要柔和垂坠，选天然纤维软褶。
-- 细密褶裥显精致轻盈，宽阔箱褶更有存在感。
-- 折痕锋利的压褶单品，避免长期折叠挤压。
+> "Delphos 裙侧缝上的玻璃珠是配重，好看是顺带的。好设计常常这样。" —— Guushu 设计团队

@@ -1,38 +1,47 @@
 ---
 layout: post
-title: "A Brief History of the Power Suit: From Shoulder Pads to Female Authority"
-description: "From the Chanel suit to the Thatcher era, revisiting how the power suit became a symbol of women's workplace dress"
+title: "Power Suit History: Chanel, Le Smoking and the Shoulder Pad"
+description: "Power suit history in five dates: the 1920s Chanel suit, Le Smoking in 1966, Dress for Success in 1975, the 1978 shoulder pad, and Thatcher's pearls and pussy-bow."
 image: "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800"
 tags: [power-suit, tailoring, history, workwear]
 date: 2025-03-20
+updated: 2026-09-18
 author: "Guushu Team"
 lang: en
 ---
 
-## One Suit, a History of Women at Work
+## Power suit history: how borrowed menswear became women's clothing
 
-"Power dressing" was a workplace fashion style popular from the late 1970s through the 1980s that helped professional women establish authority in an environment traditionally dominated by men. The tailored suit was the very core of this style.
+The history of the women's suit runs from blending in to standing out. "Power dressing" names the late-1970s and 1980s workplace style that helped women claim authority in rooms run by men. The suit was its core garment, but the story starts earlier.
 
-### Starting with the Chanel Suit
+### 1920s: the Chanel suit strips out gender
 
-As early as the 1920s, the Chanel suit — a fitted skirt with a wool button-up jacket, metallic buttons, and fitted sleeves — can be seen as a forerunner of the power suit. According to costume historian Harold Koda, the Chanel suit allowed women of the time to de-sex their feminine look and be accepted as equals in the professional sphere.
+The Chanel suit of the 1920s, a fitted skirt with a wool jacket, is usually named as the ancestor. The costume historian Harold Koda put it this way: it let women de-sex their look and take on a more masculine appearance so they could be accepted as equals at work.
 
-### 1970s–1980s: The Power Suit Takes Shape
+### 1966: Le Smoking puts women in evening trousers
 
-Power dressing emerged in the second half of the 1970s, in step with women entering the workforce in large numbers. John T. Molloy's *Dress for Success* (1975) and *Women: Dress for Success* (1977) popularised the idea, casting the skirted suit as the "uniform" of professional women. Early power dressing borrowed from menswear: tailored suits, padded-shoulder jackets, knee-length skirts — using the jacket to de-emphasise the bust and the cut to convey authority. Claude Montana's shoulder-pad designs are considered a defining feature of 1980s power dressing.
+In 1966 Yves Saint Laurent showed Le Smoking, the first tuxedo suit designed for women. He credited his muse Danielle Luquet de Saint Germain and the trouser suits of the artist Niki de Saint-Phalle. It opened the long, minimal, androgynous line that power suits and pantsuits would follow.
 
-![Tailored power suit](https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800)
+Nan Kempner, the New York socialite, once arrived at La Côte Basque in trousers. The restaurant would not seat women in pants, so she took them off and sat down covered in napkins.
 
-### From "Blending In" to "Standing Out"
+### 1975: a book makes the skirt suit a uniform
 
-Interestingly, early women's suits deliberately imitated menswear to gain acceptance; only once women's standing as professionals was secure was the suit reworked into a genuinely feminised garment — using different fabric, cut, colour, and ornament to stand out from menswear rather than merely blend in. Silk scarves, brooches, and pearls added femininity to workplace looks in this period.
+John T. Molloy's *Dress for Success* (1975) and *Women: Dress for Success* (1977) sold the skirted suit as the uniform of the professional woman. Early power dressing copied menswear outright: tailored jacket, padded shoulders, knee-length skirt. The jacket played down the bust; the cut did the talking.
 
-### Screen and Icons
+![Power suit: a 1980s-style padded-shoulder skirt suit](https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800)
 
-Margaret Thatcher, with her wide-shouldered skirt suits, pussy-bow blouses, and pearl necklaces, shaped the image of the "original female power-dresser" and influenced many women in politics who followed. The 1988 film *Working Girl* vividly captured the workplace dressing aesthetic of the era on screen.
+### 1978: the big shoulder is born
 
-> "For women, the suit was never just clothing — it was a stance." —— Guushu Design Team
+In April 1979 the New York Times wrote that Claude Montana and Thierry Mugler had "pioneered the giant shoulder-pad movement" the year before. Mugler told the Washington Post in October 1978 that big shoulders give a woman "a sense of grandeur and height and presence." Montana's version became the defining feature of 1980s power dressing; his obituary called him the King of the Shoulder Pad.
 
-### A Lesson for Today
+### From borrowing to rebuilding
 
-Looking back at this history, the power of the tailored suit lies not in imitating men but in using cut to convey confidence and ease. That is exactly why it remains an important part of the women's wardrobe today.
+Once women's standing at work was secure, the suit was rebuilt as a woman's garment: different cloth, different cut, colour, ornament. The aim flipped from passing to being noticed. Silk scarves, brooches, pearls: all of them entered the office in this period.
+
+Margaret Thatcher is the best-known user of the grammar: wide-shouldered skirt suit, pussy-bow blouse, Asprey handbag, pearls. In *Working Girl* (1988) the boss, Katherine, wears a mid-grey collarless silk jacket with padded shoulders. Tess, the heroine, is described as the first woman in the office who dresses like a woman rather than like a man's idea of one.
+
+### Wearing it now
+
+The pads went; the structure stayed. For how a suit sits in an everyday wardrobe today, see [modern tailoring for everyday wear](/en/2025/04/24/modern-tailoring-styling/).
+
+> "Mugler said big shoulders gave a woman presence. Fifty years on we took the shoulders back and kept the presence." — Guushu Design Team

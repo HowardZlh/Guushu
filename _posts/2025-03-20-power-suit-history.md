@@ -1,39 +1,48 @@
 ---
 layout: post
-title: "廓形西装简史：从垫肩到女性力量的表达"
-title_en: "A Brief History of the Power Suit: From Shoulder Pads to Female Authority"
-description: "从香奈儿套装到撒切尔时代，回顾廓形西装如何成为女性职场着装的象征"
-description_en: "From the Chanel suit to the Thatcher era, revisiting how the power suit became a symbol of women's workplace dress"
+title: "女性西装简史：从 1966 年 Le Smoking 到 80 年代垫肩"
+title_en: "Power Suit History: Chanel, Le Smoking and the Shoulder Pad"
+description: "女性西装（power suit）怎么从借来的男装变成自己的衣服？1920 年代 Chanel 套装、1966 年 Le Smoking、1975 年《Dress for Success》、1978 年的大垫肩、撒切尔的珍珠与蝴蝶结衬衫。"
+description_en: "Power suit history in five dates: the 1920s Chanel suit, Le Smoking in 1966, Dress for Success in 1975, the 1978 shoulder pad, and Thatcher's pearls and pussy-bow."
 image: "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800"
 tags: [power-suit, tailoring, history, workwear]
 date: 2025-03-20
+updated: 2026-09-18
 author: "Guushu Team"
 ---
 
-## 一套西装，一段女性职场史
+## 女性西装简史：借来的男装，怎么变成自己的衣服
 
-"Power dressing（力量着装）"是一种流行于 1970 年代末至 1980 年代的职场着装风格，帮助职业女性在传统上由男性主导的专业与政治环境中确立自己的权威。廓形西装，正是这一风格的核心载体。
+女性西装的历史，是一段从「混进去」到「站出来」的历史。力量着装（power dressing）这个词指 1970 年代末到 1980 年代的职场风格，职业女性靠它在男性主导的环境里确立权威。西装是它的核心载体，但故事要从更早说起。
 
-### 从香奈儿套装说起
+### 1920 年代：Chanel 套装先「去性别化」
 
-早在 1920 年代，香奈儿套装——修身裙装配羊毛纽扣外套、金属纽扣与合身袖型——就可视为廓形西装的先声。据服装史学者 Harold Koda 所述，香奈儿套装让当时的女性得以弱化性别化的外观，以更中性的形象被职场接纳为平等的一员。
+1920 年代的 Chanel 套装，合身裙装配羊毛外套，可视为女性西装的先声。服装史学者 Harold Koda 的说法是，它让当时的女性得以弱化性别化的外观，以更中性的形象在职场被接纳为平等的一员。
 
-### 1970s–1980s：力量着装成型
+### 1966 年：Le Smoking 让女人穿上晚礼服裤装
 
-廓形西装在 1970 年代下半叶成形，与女性大规模进入职场同步。John T. Molloy 的《Dress for Success》（1975）与《Women: Dress for Success》（1977）推广了这一理念，把裙装套装视为职业女性的"制服"。早期力量着装借鉴男装：合身西装、垫肩外套、及膝裙——用外套弱化胸线，用剪裁传递权威。设计师 Claude Montana 的垫肩设计，更被视为 80 年代力量着装的标志性特征。
+1966 年，Yves Saint Laurent 推出 Le Smoking，第一套为女性设计的晚礼服式西装。灵感来自他的缪斯 Danielle Luquet de Saint Germain 和艺术家 Niki de Saint-Phalle 的裤装。它打开了修长、极简、中性的女装线，后来的力量西装和裤装套装都从这里出发。
 
-![Tailored power suit](https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800)
+纽约社交名媛 Nan Kempner 有一段常被引用的轶事：她穿长裤去餐厅 La Côte Basque，餐厅不给穿裤子的女性安排座位，她当场脱掉裤子，用餐巾盖着入座。
 
-### 从"融入"到"脱颖而出"
+### 1975 年：一本书把裙装套装定为「制服」
 
-有趣的是，早期女性西装刻意模仿男装以求被接纳；直到女性作为专业人士的地位稳固后，西装才被改造为真正女性化的服装——用不同的面料、剪裁、颜色与装饰，从男装中脱颖而出，而不再只是"混入其中"。丝巾、胸针、珍珠等配饰，也在这一时期为职场造型增添女性气质。
+John T. Molloy 的《Dress for Success》（1975）和《Women: Dress for Success》（1977）把裙装套装推为职业女性的制服。早期的力量着装直接借男装的做法：合身西装、垫肩、及膝裙，用外套弱化胸线，用剪裁传递权威。
 
-### 荧幕与偶像
+![女性西装：1980 年代风格的垫肩套装](https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800)
 
-撒切尔夫人以宽肩裙装套装、pussy-bow 衬衫与珍珠项链，塑造了"最初的女性力量着装者"形象，也影响了后来众多女性政治人物的着装。1988 年电影《上班女郎》则在银幕上生动呈现了那个年代的职场着装美学。
+### 1978 年：大垫肩的诞生
 
-> "西装之于女性，从来不只是衣服，而是一种立场。" —— Guushu 设计团队
+《纽约时报》1979 年 4 月写道，Claude Montana 和 Thierry Mugler 在前一年一起开创了「巨型垫肩运动」。Mugler 1978 年 10 月对《华盛顿邮报》说：大肩膀给女人一种宏大、高度和存在感。Montana 后来被称作「垫肩之王」，他的垫肩被视为 80 年代力量着装的标志。
 
-### 给今天的启示
+### 从借用到改造
 
-回望这段历史会发现：廓形西装的力量，不在于模仿男性，而在于用剪裁传递自信与从容。这也正是它至今仍是女性衣橱重要一环的原因。
+一旦女性作为专业人士的地位站稳，西装就被改成真正的女装：换面料、换剪裁、换颜色、加装饰，目的从「混进去」变成「站出来」。丝巾、胸针、珍珠在这个阶段进入职场造型。
+
+撒切尔夫人是这套语法最著名的使用者：宽肩裙装套装、蝴蝶结衬衫、Asprey 手袋、珍珠项链。1988 年的电影《上班女郎》里，女上司 Katherine 穿的是带垫肩的中灰色无领丝质外套。
+
+### 今天怎么穿
+
+垫肩退了，结构留下了。当代西装怎么松弛地穿进日常，见 [现代廓形西装怎么穿](/2025/04/24/modern-tailoring-styling/)。
+
+> "Mugler 说大肩膀给女人存在感。半个世纪后我们把肩膀收回去，存在感留下了。" —— Guushu 设计团队

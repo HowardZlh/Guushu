@@ -1,42 +1,47 @@
 ---
 layout: post
-title: "The Origins of Morandi Colours: From Still Life to Wardrobe"
-description: "From the still-life palette of Italian painter Giorgio Morandi to the rise of muted greyed tones in fashion"
+title: "Morandi Colours: The Painter Behind Fashion's Greyed Palette"
+description: "Morandi colours: Giorgio Morandi (1890–1964) painted bottles on one Bologna street for 55 years. How that greyed palette became a fashion vocabulary."
 image: "https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800"
 tags: [morandi, color, muted-tones, aesthetics]
 date: 2025-02-19
+updated: 2026-09-18
 author: "Guushu Team"
 lang: en
 ---
 
-## One Painter, One Colour Philosophy
+## Morandi colours: one painter's palette, now a fashion vocabulary
 
-The name "Morandi colours" comes from the Italian painter Giorgio Morandi (1890–1964). Across his life he painted countless still lifes of bottles and jars, in which the colours are almost always softly wrapped in grey — low in saturation, low in contrast, never in sharp conflict with one another. It is precisely this restrained, harmonious palette that fashion and design later borrowed as the name for a whole colour language.
+Morandi colours are a family of low-saturation, low-contrast shades that share roughly the same amount of grey. The name belongs to Giorgio Morandi, born in Bologna on July 20, 1890, and dead in the same city on June 18, 1964. He spent his life painting bottles and jars, over and over, all of them wrapped in a haze of grey.
 
-### Traits of Morandi Colours
+### He painted on one street for 55 years
 
-- **Low saturation**: every colour is mixed with a degree of grey, muting both brightness and purity.
-- **Low contrast**: transitions between colours are soft, with few jarring clashes.
-- **High harmony**: because their greyness is so close, any combination looks unified.
+After his father died in 1909 the family moved to Via Fondazza in Bologna, and Morandi kept his studio there until his death. Casa Morandi stands at number 36 today. From 1930 to 1956 he taught etching at the city's Accademia di Belle Arti, a craft he had taught himself from books of Rembrandt prints.
 
-The temperament of these colours is quiet, reserved, and easy to live with — very much in tune with the understated aesthetic of recent years.
+Recognition arrived late: first prize for painting at the 1948 Venice Biennale, the grand prize for painting at the 1957 São Paulo Biennial. He did not visit Paris until 1956.
 
-![Knitwear in Morandi tones](https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800)
+### What he did to the bottles
 
-### Why They Wear So Well
+According to the Phillips Collection, he altered his objects before painting them, coating their surfaces and removing labels and reflections. So the jars in his pictures have no brands and no highlights. What's left is shape and a matte film of grey shading into cream and brown. That film is where the fashion term comes from.
 
-Highly saturated colours grab attention at first glance but tire the eye quickly; Morandi colours are the opposite — they are in no hurry to speak, yet they hold up over long acquaintance. This "slow-burn" quality makes them especially suited to transitional seasons like winter-into-spring, which call for a calm base note.
+![Knitwear in Morandi colours: greyed pink and oatmeal](https://images.unsplash.com/photo-1766056278792-d5b15656b7e8?w=800)
 
-### Common Morandi Colours
+### Three things all Morandi colours share
 
-- **Greyed pink**: soft without being saccharine.
-- **Hazy blue**: blue with grey added, calm and gentle.
-- **Sage green**: a low-saturation grey-green, natural and refined.
-- **Oatmeal**: a warm greyed beige, an all-purpose base.
-- **Smoky mauve**: a reserved grey-purple with a touch of melancholy.
+- **Low saturation.** Every hue carries grey; purity is pushed down.
+- **Low contrast.** Transitions are soft. Nothing clashes.
+- **Matched greyness.** Because they're equally muted, almost any combination sits together.
 
-> "The best colours are often the ones that don't shout." —— Guushu Colour Team
+### Five common Morandi colours
 
-### One Reminder
+- **Greyed pink**: pink without the sugar.
+- **Hazy blue**: blue with grey folded in.
+- **Sage**: a low-saturation grey-green.
+- **Oatmeal**: warm greyed beige, the best base.
+- **Smoky mauve**: a reserved grey-purple.
 
-The elegance of Morandi colours rests on unified greyness. When combining them, keep the greyness of the different colours close, and avoid slipping in a single over-saturated colour that breaks the calm — that is often why a look ends up feeling "muddy" or "busy."
+### The one rule
+
+The whole effect rests on matched greyness. One saturated colour in the outfit and the rest reads as muddy. Three specific combinations are in [Morandi colour formulas](/en/2025/04/10/morandi-colour-formulas/). The same logic runs through [quiet luxury](/en/2025/02/05/quiet-luxury-explained/).
+
+> "Fellini hung his paintings in La Dolce Vita in 1960. Obama picked two for the White House. The man who painted bottles ended up in the living room." — Guushu Colour Team
