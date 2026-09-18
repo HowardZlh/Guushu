@@ -24,7 +24,9 @@ description: >-
   (run-build passes on a stale `_site/`), an internal-link resolution
   one-liner against `_site/`, and how to gate hand-written pages
   (fashion-news / index) that seo.test does not cover: compare tells against
-  the `main` version instead of aiming for zero.
+  the `main` version instead of aiming for zero, and the visual check for
+  page/SCSS changes (serve `_site`, headless Chrome long screenshot, 390px via
+  iframe, before/after side-by-side, confirm `style.css?v=` changed).
 allowed-tools:
   - read
   - grep
@@ -188,6 +190,20 @@ done
 
 无 `MISSING` 输出即通过。PR 描述里的命令块能原样复跑且结果一致。
 
+改了 SCSS 或手写页面布局时，还要**看一眼**再提 PR（通用截图流程见全局 skill `ui-screenshot-headless`；这里只记本项目参数）：
+
+```sh
+python3 build.py | tail -1 && grep -o 'style.css?v=[a-f0-9]*' _site/index.html   # 改了 SCSS 则 v 必须变
+(cd _site && python3 -m http.server 4173 >/dev/null 2>&1 &)
+C="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+"$C" --headless=new --disable-gpu --hide-scrollbars --window-size=1280,6000 \
+     --screenshot=$TMPDIR/opencode/after.png http://localhost:4173/fashion-news/ 2>/dev/null
+pkill -f "http.server 4173"
+```
+
+`main` 版本的对照图：`git stash` → 重建 → 截 `before.png` → `git stash pop` → 重建。
+PR 描述附「左 main / 右本 PR」拼图；hero 用 padding 定高而不是 vh（`--window-size` 很高时 vh 会把 hero 拉到几千像素）。
+
 ## 坑
 
 ### 门禁脚本
@@ -239,5 +255,7 @@ done
   一个段落，160 字 / 75 词上限必超；`Ultimate Gray` 专名命中 `ultimate`。这些页面不在 seo.test 覆盖范围。
   改这类页面时的通过标准是「不比 `main` 差」：`git show main:<file> > /tmp/gate-base/<file>` 后两边各跑一次，
   `grep -v paragraph` 对比非段落类违规，新增为 0、em dash 不增即可；把对比结论写进 PR。
+- **`--window-size=390` 截出来的移动端是假溢出**（2026-09-18）：macOS headless Chrome 有最小窗宽，直接 390 截图会把页面渲染在 ~470px 再裁掉，首页 / about 一样「溢出」。先用 iframe 探针确认 `scrollWidth == clientWidth`，再用 600 宽窗口 + 390 宽 iframe 截图。命令在 `ui-screenshot-headless`。
+- **裸 `nav {}` 规则会命中页内 `<nav>`**（2026-09-18）：`_main.scss` 的 header 样式已收窄为 `header nav`；新加的 `<nav>` 若又出现左对齐 + 圆点，先查是否有人把选择器改回去了。
 - **首页快照只存标题列表**：`diff index.snap _site/index.html` 会显示整页 HTML，那是对比对象不对；
   直接跑 `UPDATE_SNAPSHOTS=1` 后 `git diff test/build/__snapshots__` 看真实变化（应只有那一两行标题）。
