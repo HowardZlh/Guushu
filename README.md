@@ -144,7 +144,9 @@ UPDATE_SNAPSHOTS=1 node -e "require('./test/test-runner').runTests(['./test/buil
 
 The site is automatically built (Python + dart-sass) and deployed to GitHub Pages via GitHub Actions on every push to `main`. Public repository builds are free with unlimited Actions minutes.
 
-Production URL: **https://fashion.guushu.com** (custom domain set in the repo's Pages settings; the `CNAME` file and `SITE["url"]` in `build.py` must match). DNS for `guushu.com` is managed on Cloudflare; the `fashion` CNAME points to `howardzlh.github.io` and is DNS-only so GitHub can issue the TLS certificate. The legacy `www.guushu.com` is 301-redirected to this host.
+Production URL: **https://fashion.guushu.com** (custom domain set in the repo's Pages settings; the `CNAME` file and `SITE["url"]` in `build.py` must match). DNS for `guushu.com` is managed on Cloudflare; the `fashion` CNAME points to `howardzlh.github.io` and is proxied (orange cloud), so the zone's WAF sits in front and visitors get a Cloudflare edge certificate. GitHub's own certificate for the host still has to renew behind the proxy (current one expires 2026-12-09); if Pages settings show a certificate error, switch the record to DNS-only until GitHub re-issues, then turn the proxy back on. The legacy `www.guushu.com` is 301-redirected to this host.
+
+Search engines: Google via the `guushu.com` domain property plus a URL-prefix property with `sitemap.xml` submitted; Bing ownership via `BingSiteAuth.xml` at the site root. After every deploy the `indexnow` job pushes the sitemap URLs to IndexNow (`scripts/indexnow.mjs`; key file `a186e7….txt` at the root, copied by `build.py`).
 
 See `.github/workflows/deploy.yml` for the workflow configuration.
 

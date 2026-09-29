@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "python3 build.py",
-    "test": "node test/run-all.js",
+    "test": "node test/run-all.js && node --test test/indexnow.test.mjs",
+    "indexnow:dry": "node scripts/indexnow.mjs --dry-run",
     "test:build": "python3 build.py && node test/run-build.js"
   },
   "devDependencies": {

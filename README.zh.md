@@ -139,7 +139,9 @@ UPDATE_SNAPSHOTS=1 node -e "require('./test/test-runner').runTests(['./test/buil
 
 每次推送到 `main` 分支时，GitHub Actions 自动构建（Python + dart-sass）并部署到 GitHub Pages。公开仓库的 Actions 免费且无分钟限制。
 
-生产地址：**https://fashion.guushu.com**（自定义域名在仓库 Pages 设置中配置；`CNAME` 文件与 `build.py` 的 `SITE["url"]` 必须与之一致）。`guushu.com` 的 DNS 托管在 Cloudflare：`fashion` 为指向 `howardzlh.github.io` 的 CNAME，且为 DNS-only（不代理），以便 GitHub 签发 TLS 证书；旧地址 `www.guushu.com` 301 跳转到本站。
+生产地址：**https://fashion.guushu.com**（自定义域名在仓库 Pages 设置中配置；`CNAME` 文件与 `build.py` 的 `SITE["url"]` 必须与之一致）。`guushu.com` 的 DNS 托管在 Cloudflare：`fashion` 为指向 `howardzlh.github.io` 的 CNAME，走 Cloudflare 代理（橙云），访客看到的是 Cloudflare 边缘证书，Zone WAF 在前面。GitHub 自己给该主机签的证书仍需在代理后续期（当前证书 2026-12-09 到期）；若 Pages 设置里出现证书错误，先把记录切回 DNS-only 等 GitHub 重签，签完再开代理。旧地址 `www.guushu.com` 301 跳转到本站。
+
+搜索引擎：Google 由 `guushu.com` 域名属性验证，另建网址前缀属性并提交 `sitemap.xml`；Bing 用站点根目录的 `BingSiteAuth.xml` 验证所有权。每次部署后 `indexnow` job 把 sitemap 里的 URL 推给 IndexNow（`scripts/indexnow.mjs`；key 文件 `a186e7….txt` 在根目录，由 `build.py` 复制）。
 
 工作流配置见 `.github/workflows/deploy.yml`。
 
