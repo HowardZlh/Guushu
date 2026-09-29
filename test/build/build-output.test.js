@@ -29,11 +29,11 @@ const EXPECTED_PAGES = [
     'about/index.html',
     'fashion-news/index.html',
     'blog/index.html',
-    '404/index.html',
+    '404.html',
     'en/index.html',
     'en/about/index.html',
     'en/fashion-news/index.html',
-    'en/404/index.html',
+    'en/404.html',
     '2025/01/15/boho-chic-revival/index.html',
     '2025/01/20/yellow-trends/index.html',
     '2025/01/25/elevated-sportswear/index.html',
@@ -41,6 +41,10 @@ const EXPECTED_PAGES = [
     'en/2025/01/20/yellow-trends/index.html',
     'en/2025/01/25/elevated-sportswear/index.html',
     'feed.xml',
+    'sitemap.xml',
+    'robots.txt',
+    'BingSiteAuth.xml',
+    'a186e762669a42dd38d3b506035e3ccc.txt',
     'assets/css/style.css'
 ];
 
@@ -167,6 +171,113 @@ describe('Build output: SEO & metadata', () => {
         const html = read('fashion-news/index.html');
         assertIncludes(html, "var isRoot = path === '/' || path === '/index.html';");
         assertTrue(!html.includes("window.location.href = '/en' + currentPath"), 'old deep-link redirect must be gone');
+    });
+});
+
+// Every generated HTML page, relative to SITE_DIR ('/'-separated).
+function htmlPages() {
+    return fs.readdirSync(SITE_DIR, { recursive: true })
+        .map(p => p.toString().split(path.sep).join('/'))
+        .filter(p => p.endsWith('.html'));
+}
+
+function jsonLd(html) {
+    return [...html.matchAll(/<script type="application\/ld\+json">\s*([\s\S]*?)\s*<\/script>/g)]
+        .map(m => JSON.parse(m[1]));
+}
+
+function ldTypes(html) {
+    return jsonLd(html).flatMap(ld => (ld['@graph'] || [ld]).map(n => n['@type']));
+}
+
+describe('Build output: search-engine SEO (Google / Bing)', () => {
+    it('404 lives at the artifact root so GitHub Pages serves it, and is noindex', () => {
+        for (const rel of ['404.html', 'en/404.html']) {
+            const html = read(rel);
+            assertIncludes(html, '<meta name="robots" content="noindex" />', `${rel}: noindex`);
+            assertTrue(!html.includes('rel="canonical"'), `${rel}: 404 must not declare canonical`);
+            assertTrue(!html.includes('hreflang="x-default"'), `${rel}: 404 must not declare hreflang`);
+        }
+        assertTrue(!exists('404/index.html'), 'old 404/index.html path must be gone');
+    });
+
+    it('only 404 pages are noindex', () => {
+        const noindex = htmlPages().filter(rel => read(rel).includes('name="robots" content="noindex"'));
+        assertEqual(noindex.sort().join(','), '404.html,en/404.html');
+    });
+
+    it('every page carries parseable JSON-LD', () => {
+        for (const rel of htmlPages()) {
+            assertTrue(jsonLd(read(rel)).length > 0 || rel.endsWith('404.html'), `${rel}: no JSON-LD`);
+        }
+    });
+
+    it('home pages declare Organization + WebSite tied to Guushu Studio', () => {
+        for (const [rel, url, lang] of [['index.html', '/', 'zh'], ['en/index.html', '/en/', 'en']]) {
+            const graph = jsonLd(read(rel)).find(ld => ld['@graph'])['@graph'];
+            const org = graph.find(n => n['@type'] === 'Organization');
+            const site = graph.find(n => n['@type'] === 'WebSite');
+            assertEqual(org['@id'], 'https://fashion.guushu.com/#organization');
+            assertEqual(org.parentOrganization.name, 'Guushu Studio');
+            assertEqual(org.parentOrganization.url, 'https://guushu.com/');
+            assertEqual(site.url, `https://fashion.guushu.com${url}`);
+            assertEqual(site.inLanguage, lang);
+            assertEqual(site.publisher['@id'], org['@id']);
+            assertTrue(!ldTypes(read(rel)).includes('BreadcrumbList'), `${rel}: home has no breadcrumb`);
+        }
+    });
+
+    it('sections and posts have a BreadcrumbList that starts at the same-language home', () => {
+        const cases = [
+            ['about/index.html', ['首页', '关于我们']],
+            ['en/fashion-news/index.html', ['Home', 'Fashion News']],
+            ['blog/index.html', ['首页', '所有文章']],
+            ['en/2025/01/15/boho-chic-revival/index.html', ['Home', 'All Posts', null]],
+        ];
+        for (const [rel, names] of cases) {
+            const html = read(rel);
+            const bc = jsonLd(html).find(ld => ld['@type'] === 'BreadcrumbList');
+            assertTrue(bc !== undefined, `${rel}: BreadcrumbList missing`);
+            const items = bc.itemListElement;
+            assertEqual(items.length, names.length, `${rel}: crumb count`);
+            items.forEach((it, i) => {
+                assertEqual(it.position, i + 1);
+                if (names[i]) assertEqual(it.name, names[i], `${rel}: crumb ${i + 1}`);
+            });
+            const home = rel.startsWith('en/') ? 'https://fashion.guushu.com/en/' : 'https://fashion.guushu.com/';
+            assertEqual(items[0].item, home);
+            const canonical = html.match(/rel="canonical" href="([^"]+)"/)[1];
+            assertEqual(items[items.length - 1].item, canonical, `${rel}: last crumb = canonical`);
+        }
+        // Posts keep Article as the first JSON-LD block (seo.test.js reads it).
+        assertEqual(jsonLd(read('2025/01/15/boho-chic-revival/index.html'))[0]['@type'], 'Article');
+    });
+
+    it('internal links use canonical URLs (no index.html, directories end with /)', () => {
+        const bad = [];
+        for (const rel of htmlPages()) {
+            for (const m of read(rel).matchAll(/<a [^>]*href="(\/[^"#?]*)"/g)) {
+                const href = m[1];
+                if (href.startsWith('/cdn-cgi/') || href.startsWith('/assets/')) continue;
+                if (href.endsWith('index.html') || !/(\/|\.[a-z]+)$/.test(href)) bad.push(`${rel} -> ${href}`);
+            }
+        }
+        assertTrue(bad.length === 0, bad.slice(0, 10).join('\n  '));
+    });
+
+    it('nav highlights the current section', () => {
+        assertMatch(read('about/index.html'), /<a href="\/about\/" class="active">/);
+        assertMatch(read('en/fashion-news/index.html'), /<a href="\/en\/fashion-news\/" class="active">/);
+    });
+
+    it('English home links to the English post listing', () => {
+        const html = read('en/index.html');
+        assertTrue(!/href="\/blog\/"/.test(html), 'en home must not link to the zh listing');
+    });
+
+    it('ships the Bing ownership file and the IndexNow key file', () => {
+        assertIncludes(read('BingSiteAuth.xml'), '<user>A653F3D4867CCD7EAB62DA269181DCC2</user>');
+        assertEqual(read('a186e762669a42dd38d3b506035e3ccc.txt').trim(), 'a186e762669a42dd38d3b506035e3ccc');
     });
 });
 

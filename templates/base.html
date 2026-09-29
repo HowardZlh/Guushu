@@ -45,10 +45,15 @@
     <meta name="twitter:image" content="{{ og_image }}" />
     <meta name="twitter:image:alt" content="{{ image_alt | e }}" />
     {%- endif %}
+    {%- if page.noindex %}
+    {#- 404 pages: never indexed, so no canonical / hreflang pointing at them. #}
+    <meta name="robots" content="noindex" />
+    {%- else %}
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ zh_url }}" />
     <link rel="alternate" hreflang="en" href="{{ site.url }}{{ en_url }}" />
     <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ zh_url }}" />
+    {%- endif %}
 
     <link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed.xml" title="{{ site.title }}" />
     {%- if page.slug %}
@@ -67,6 +72,46 @@
         "publisher": {"@type": "Organization", "name": site.title, "url": site.url},
         "mainEntityOfPage": {"@type": "WebPage", "@id": site.url ~ page.url}
     } | tojson(indent=2) }}
+    </script>
+    {%- endif %}
+    {%- if page.url in ['/', '/en/'] %}
+
+    {#- Home pages: who publishes the site. parentOrganization name/url must
+        match STUDIO in the guushu.com studio site (my-open-project
+        packages/core/src/seo/jsonld.ts). #}
+    <script type="application/ld+json">
+    {{ {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": site.url ~ "/#organization",
+                "name": site.title,
+                "url": site.url ~ "/",
+                "logo": site.url ~ "/assets/favicon_io/android-chrome-512x512.png",
+                "email": "support@guushu.com",
+                "parentOrganization": {"@type": "Organization", "name": "Guushu Studio", "url": "https://guushu.com/"}
+            },
+            {
+                "@type": "WebSite",
+                "@id": site.url ~ "/#website",
+                "name": site.title,
+                "url": site.url ~ page.url,
+                "inLanguage": page_lang,
+                "publisher": {"@id": site.url ~ "/#organization"}
+            }
+        ]
+    } | tojson(indent=2) }}
+    </script>
+    {%- endif %}
+    {%- if page.breadcrumbs %}
+
+    <script type="application/ld+json">
+    {%- set crumbs = [] %}
+    {%- for c in page.breadcrumbs %}
+    {%- set _ = crumbs.append({"@type": "ListItem", "position": loop.index, "name": c.name, "item": c.url}) %}
+    {%- endfor %}
+    {{ {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": crumbs} | tojson(indent=2) }}
     </script>
     {%- endif %}
 

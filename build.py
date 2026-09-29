@@ -266,12 +266,45 @@ HTML_PAGES = [
     ("index.html",         "index.html",                 "zh", True,  "/"),
     ("about.html",         "about/index.html",           "zh", False, "/about/"),
     ("fashion-news.html",  "fashion-news/index.html",    "zh", False, "/fashion-news/"),
-    ("404.html",           "404/index.html",             "zh", False, "/404.html"),
+    # GitHub Pages serves the root 404.html for every missing path, so the zh
+    # 404 must sit at the artifact root (it used to be 404/index.html, which
+    # left the default "Page not found · GitHub Pages" page in production).
+    ("404.html",           "404.html",                   "zh", False, "/404.html"),
     ("en/index.html",      "en/index.html",              "en", True,  "/en/"),
     ("en/about.html",      "en/about/index.html",        "en", False, "/en/about/"),
     ("en/fashion-news.html","en/fashion-news/index.html","en", False, "/en/fashion-news/"),
-    ("en/404.html",        "en/404/index.html",          "en", False, "/en/404.html"),
+    ("en/404.html",        "en/404.html",                "en", False, "/en/404.html"),
 ]
+
+
+def is_404(url):
+    return url.rstrip("/").endswith("404.html")
+
+
+def breadcrumbs(url, lang, translations, title=None):
+    """Breadcrumb trail for JSON-LD BreadcrumbList: [{name, url}, ...].
+
+    Home pages and 404 pages get none. Section pages are Home -> section;
+    posts are Home -> blog listing -> post title. Labels reuse the nav
+    translations so the trail matches what the header shows."""
+    zh_url = url[3:] if url.startswith("/en/") else url
+    if zh_url == "/" or is_404(url):
+        return []
+    prefix = "/en" if lang == "en" else ""
+    nav = (translations.get("nav", {}) or {}).get(lang, {})
+    blog_heading = next(h for (lg, _o, _u, h) in BLOG_VARIANTS if lg == lang)
+    sections = {
+        "/fashion-news/": nav.get("fashion_news", "Fashion News"),
+        "/about/": nav.get("about", "About"),
+        "/blog/": blog_heading,
+    }
+    trail = [(nav.get("home", "Home"), prefix + "/")]
+    if zh_url in sections:
+        trail.append((sections[zh_url], url))
+    else:
+        trail.append((blog_heading, prefix + "/blog/"))
+        trail.append((title or url, url))
+    return [{"name": name, "url": SITE["url"] + u} for name, u in trail]
 
 
 def build_html_pages(env, translations, posts):
@@ -292,6 +325,8 @@ def build_html_pages(env, translations, posts):
             "url": url,
             **image_meta(meta.get("image", OG_DEFAULT_IMAGE)),
             "image_alt": meta.get("image_alt", SITE["title"]),
+            "noindex": is_404(url),
+            "breadcrumbs": breadcrumbs(url, meta.get("lang", lang), translations),
         }
         # Render the page body first (it may reference site/translations/posts)
         body_tpl = env.from_string("{% extends 'page.html' %}{% block content %}" + body + "{% endblock %}")
@@ -361,6 +396,7 @@ def build_posts(env, translations, posts):
         page = dict(p)
         page["lang_explicit"] = True
         page["tags"] = localize_tags(p["tags"], p["lang"], translations)
+        page["breadcrumbs"] = breadcrumbs(p["url"], p["lang"], translations, p["title"])
         out_rel = p["url"].strip("/") + "/index.html"
         html = tpl.render(site=SITE, page=page)
         write_page(out_rel, html)
@@ -406,7 +442,8 @@ def build_blog(env, translations, posts):
         # base.html so the manual language switch (English/中文) is not undone.
         page = {"title": "Blog", "description": SITE["description"],
                 "lang": lang, "lang_explicit": True, "url": url,
-                **image_meta(OG_DEFAULT_IMAGE), "image_alt": SITE["title"]}
+                **image_meta(OG_DEFAULT_IMAGE), "image_alt": SITE["title"],
+                "breadcrumbs": breadcrumbs(url, lang, translations)}
         html = tpl.render(site=SITE, page=page, posts=lang_posts,
                           heading=heading, learn_more=learn_more,
                           strip_html=strip_html, truncate_words=truncate_words)
@@ -526,7 +563,10 @@ def compile_scss():
 
 
 ASSET_DIRS = ["assets/js", "assets/img", "assets/audio", "assets/favicon_io"]
-ASSET_FILES = ["CNAME", "favicon.ico"]
+# Root files copied verbatim. BingSiteAuth.xml = Bing Webmaster Tools
+# ownership file; the 32-hex .txt = IndexNow key file (the key itself lives in
+# scripts/indexnow.mjs, test/indexnow.test.js pins file name == content == key).
+ASSET_FILES = ["CNAME", "favicon.ico", "BingSiteAuth.xml", "a186e762669a42dd38d3b506035e3ccc.txt"]
 
 
 def copy_assets():
